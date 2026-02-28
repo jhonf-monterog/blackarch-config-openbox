@@ -1,26 +1,31 @@
+# BlackArch Linux Openbox Configuration
+
 ## Description
 
-BlackArch Linux configuration files for the openbox window manager.
+BlackArch Linux configuration files for the openbox window manager
 
 ## Installation
 
-`pacman -S blackarch-config-openbox`
+In a clean installation of Arch Linux, run the following instructions:
 
-## Configuration
+```shell
+# Install git
+$ sudo pacman --sync --needed --noconfirm git
 
-Copy the following files:
+# Clone the repository
+$ cd /tmp
+$ git clone https://github.com/jhonf-monterog/blackarch-config-openbox.git
+$ cd blackarch-config-openbox
 
-1. `cp -a /usr/share/blackarch/config/openbox/etc/xdg/openbox-blackarch/* /etc/xdg/openbox`
-2. `cp -a /usr/share/blackarch/config/openbox/usr/share/themes/blackarch/openbox-3-blackarch/* /usr/share/themes/blackarch/openbox-3/`
+# Run the installation script
+$ sh install.sh
+```
 
-## Get Involved
+## How to use?
 
-You can get in touch with the BlackArch Linux team. Just check out the following:
+Once the installation is complete, run the following instruction:
 
-**Please, send us pull requests!**
-
-**Web:** https://www.blackarch.org/
-
-**Mail:** team@blackarch.org
-
-**IRC:** [irc://irc.freenode.net/blackarch](irc://irc.freenode.net/blackarch)
+```shell
+# Start the graphical environment
+$ startx
+```
