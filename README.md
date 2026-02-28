@@ -1,10 +1,10 @@
 # BlackArch Linux Openbox Configuration
 
-## Description
+## 1. Description
 
 BlackArch Linux configuration files for the openbox window manager
 
-## Installation
+## 2. Installation
 
 In a clean installation of Arch Linux, run the following instructions:
 
@@ -21,7 +21,7 @@ $ cd blackarch-config-openbox
 $ sh install.sh
 ```
 
-## How to use?
+## 3. How to use?
 
 Once the installation is complete, run the following instruction:
 
@@ -30,7 +30,7 @@ Once the installation is complete, run the following instruction:
 $ startx
 ```
 
-# Additional steps on VirtualBox
+## 4. Additional steps on VirtualBox
 
 Run the following instructions:
 
