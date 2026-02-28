@@ -1,10 +1,15 @@
 #!/usr/bin/env bash
 
 # ----------------------------------------------------------------------------------------------------
+# Sync package databases and upgrade system
+# ----------------------------------------------------------------------------------------------------
+
+sudo pacman --sync --refresh --sysupgrade --noconfirm
+
+# ----------------------------------------------------------------------------------------------------
 # Install required packages
 # ----------------------------------------------------------------------------------------------------
 
-sudo pacman --sync --needed --noconfirm base-devel
 sudo pacman --sync --needed --noconfirm feh
 sudo pacman --sync --needed --noconfirm openbox
 sudo pacman --sync --needed --noconfirm python
