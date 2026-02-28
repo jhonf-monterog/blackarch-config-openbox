@@ -29,3 +29,18 @@ Once the installation is complete, run the following instruction:
 # Start the graphical environment
 $ startx
 ```
+
+# Additional steps on VirtualBox
+
+Run the following instructions:
+
+```shell
+# Install virtualbox guest utils
+$ sudo pacman --sync --needed --noconfirm virtualbox-guest-utils
+
+# Enable virtualbox service
+$ sudo systemctl enable --now vboxservice.service
+
+# Reboot
+$ reboot
+```
