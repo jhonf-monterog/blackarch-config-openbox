@@ -46203,6 +46203,21 @@
   </item>
 </menu>
 
+<menu id="system-menu" label="system">
+    <item label="openbox configuration manager">
+        <action name="Execute">
+            <command>obconf</command>
+            <startupnotify>
+                <enabled>yes</enabled>
+            </startupnotify>
+        </action>
+    </item>
+    <separator/>
+    <item label="reconfigure openbox">
+        <action name="reconfigure" />
+    </item>
+</menu>
+
 <menu id="root-menu" label="Openbox 3">
   <separator label="applications" />
   <menu id="terminals-menu"/>
@@ -46265,21 +46280,6 @@
       <prompt>yes</prompt>
   </action>
   </item>
-</menu>
-
-<menu id="system-menu" label="system">
-    <item label="openbox configuration manager">
-        <action name="Execute">
-            <command>obconf</command>
-            <startupnotify>
-                <enabled>yes</enabled>
-            </startupnotify>
-        </action>
-    </item>
-    <separator />
-    <item label="reconfigure openbox">
-        <action name="reconfigure" />
-    </item>
 </menu>
 
 </openbox_menu>
