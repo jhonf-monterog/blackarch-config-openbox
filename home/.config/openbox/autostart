@@ -16,6 +16,8 @@
 #
 #xfce-mcs-manager &
 
-
 ### blackarch related ###
 feh --bg-scale /usr/share/blackarch/wallpaper.jpg &
+
+# Load Xresources with override priority
+xrdb -override ~/.Xresources &

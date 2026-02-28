@@ -1,0 +1,5 @@
+! Set terminal font size
+URxvt.font: xft:*:size=12
+
+! Set terminal window size (columns x rows)
+URxvt.geometry: 140x30
