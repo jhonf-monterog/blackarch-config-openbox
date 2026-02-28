@@ -6,3 +6,5 @@ tags
 .MTREE
 .PKGINFO
 
+# Jetbrains IDEs
+.idea
