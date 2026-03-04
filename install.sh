@@ -15,7 +15,7 @@ sudo pacman --sync --needed --noconfirm openbox
 sudo pacman --sync --needed --noconfirm python
 sudo pacman --sync --needed --noconfirm python-pyxdg
 sudo pacman --sync --needed --noconfirm rxvt-unicode
-sudo pacman --sync --needed --noconfirm ttf-meslo-nerd
+sudo pacman --sync --needed --noconfirm terminus-font
 sudo pacman --sync --needed --noconfirm xorg-server
 sudo pacman --sync --needed --noconfirm xorg-xinit
 
