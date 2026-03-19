@@ -46275,11 +46275,20 @@
   <separator label="system" />
   <menu id="system-menu" />
   <separator />
-  <item label="log out">
-  <action name="exit">
+  <item label="logout">
+    <action name="exit">
       <prompt>yes</prompt>
-  </action>
+    </action>
+  </item>
+  <item label="reboot">
+    <action name="Execute">
+      <command>reboot</command>
+    </action>
+  </item>
+  <item label="shutdown">
+    <action name="Execute">
+      <command>shutdown -h now</command>
+    </action>
   </item>
 </menu>
-
 </openbox_menu>
