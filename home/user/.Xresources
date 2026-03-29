@@ -1,3 +1,6 @@
+! Set terminal bold font color
+URxvt.colorBD: cyan
+
 ! Set terminal font size
 URxvt.font: xft:Terminus:size=14
 
