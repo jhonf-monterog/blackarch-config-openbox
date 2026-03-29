@@ -1,3 +1,6 @@
+! Set cursor size
+Xcursor.size: 14
+
 ! Set terminal font size
 URxvt.font: xft:Terminus:size=14
 
