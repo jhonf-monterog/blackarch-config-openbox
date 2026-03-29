@@ -1,8 +1,78 @@
-! Set terminal bold font color
-URxvt.colorBD: cyan
+! --------------------------------------------------------------------------------------------------------------
+! Generic
+! --------------------------------------------------------------------------------------------------------------
 
-! Set terminal font size
-URxvt.font: xft:Terminus:size=14
+*foreground:                  #cccccc
+*background:                  #000000
 
-! Set terminal window size (columns x rows)
-URxvt.geometry: 140x30
+! --------------------------------------------------------------------------------------------------------------
+! URxvt
+! --------------------------------------------------------------------------------------------------------------
+
+URxvt.colorBD:                cyan
+URxvt.buffered:               true
+URxvt.clipboard.autocopy:     true
+URxvt.color12:                RoyalBlue
+URxvt.cursorBlink:            false
+URxvt.cursorColor:            #5f8fff
+URxvt.font:                   xft:xos4 Terminus:size=14:antialias=true:hinting=true
+URxvt.geometry:               140x40
+URxvt.inheritPixmap:          true
+URxvt.iso14755:               false
+URxvt.iso14755_52:            false
+URxvt.jumpScroll:             false
+URxvt.keysym.M-u:             perl:url-select:select_next
+URxvt.mapAlert:               true
+URxvt.matcher.button:         1
+URxvt.matcher.pattern.0:      \\b([a-zA-Z]+:\/\/\\w[\\w-.@:]*|www\\.\\w[\\w-]*\\.\\w[\\w-.]*)(\/[^"' ()]*)?
+URxvt.matcher.rend.0:         Bold fg6
+URxvt.perl-ext-common:        default,selection-to-clipboard,pasta,matcher,keyboard-select,resize-font,font
+URxvt.pointerBlank:           true
+URxvt.resource:               value
+URxvt.saveLines:              10000
+URxvt.scrollBar:              false
+URxvt.scrollstyle:            plain
+URxvt.scrollTtyKeypress:      true
+URxvt.scrollTtyOutput:        false
+URxvt.scrollWithBuffer:       false
+URxvt.secondaryScroll:        false
+URxvt.shading:                20
+URxvt.termName:               xterm-256color
+URxvt.transparent:            true
+URxvt.url-launcher:           /usr/bin/xdg-open
+URxvt.xftAntialias:           true
+
+! --------------------------------------------------------------------------------------------------------------
+! Xcursor
+! --------------------------------------------------------------------------------------------------------------
+
+Xcursor.size:                 14
+Xcursor.theme:                Adwaita
+
+! --------------------------------------------------------------------------------------------------------------
+! xft
+! --------------------------------------------------------------------------------------------------------------
+
+xft.antialias:                true
+
+! --------------------------------------------------------------------------------------------------------------
+! XTerm
+! --------------------------------------------------------------------------------------------------------------
+
+XTerm*cursorBlink:            false
+XTerm*cursorColor:            #5f5faf
+XTerm*cutNewline:             false
+XTerm*faceName:               xft:xos4 Terminus:size=14:antialias=true
+XTerm*faceSize:               14
+XTerm*highlightSelection:     true
+XTerm*locale:                 true
+XTerm*renderFont:             true
+XTerm*SaveLines:              10000
+XTerm*selectToClipboard:      true
+XTerm*transparent:            true
+XTerm*trimSelection:          true
+XTerm*utf8:                   always
+XTerm*utf8Title:              true
+XTerm*VT100*geometry:         140x40
+
+! --------------------------------------------------------------------------------------------------------------
