@@ -1537,11 +1537,6 @@
               <command>urxvt -e sh -c 'evil-winrm -h ; bash'</command>
           </action>
       </item>
-      <item label="evil-winrm">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'evil-winrm -h ; bash'</command>
-          </action>
-      </item>
       <item label="evilpdf">
           <action name="Execute">
               <command>urxvt -e sh -c 'evilpdf -h ; bash'</command>
