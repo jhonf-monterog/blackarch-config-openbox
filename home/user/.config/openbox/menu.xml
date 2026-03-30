@@ -12379,11 +12379,6 @@
               <command>urxvt -e sh -c 'evil-winrm -h ; bash'</command>
           </action>
       </item>
-      <item label="evil-winrm">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'evil-winrm -h ; bash'</command>
-          </action>
-      </item>
       <item label="eyepwn">
           <action name="Execute">
               <command>urxvt -e sh -c 'eyepwn ; bash'</command>
@@ -12517,11 +12512,6 @@
       <item label="incept">
           <action name="Execute">
               <command>urxvt -e sh -c 'incept ; bash'</command>
-          </action>
-      </item>
-      <item label="inguma">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'inguma -h ; bash'</command>
           </action>
       </item>
       <item label="inguma">
@@ -12904,11 +12894,6 @@
               <command>urxvt -e sh -c 'mdk4 --help ; bash'</command>
           </action>
       </item>
-      <item label="mdk4">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'mdk4 --help ; bash'</command>
-          </action>
-      </item>
       <item label="merlin-server">
           <action name="Execute">
               <command>urxvt -e sh -c 'merlin-server -h ; bash'</command>
@@ -12949,16 +12934,6 @@
               <command>urxvt -e sh -c 'msfvenom -h ; bash'</command>
           </action>
       </item>
-      <item label="msfconsole">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'msfconsole -h ; bash'</command>
-          </action>
-      </item>
-      <item label="msfd">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'msfd -h ; bash'</command>
-          </action>
-      </item>
       <item label="msfelfscan">
           <action name="Execute">
               <command>urxvt -e sh -c 'msfelfscan -h ; bash'</command>
@@ -12979,24 +12954,9 @@
               <command>urxvt -e sh -c 'msfrop -h ; bash'</command>
           </action>
       </item>
-      <item label="msfrpc">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'msfrpc -h ; bash'</command>
-          </action>
-      </item>
-      <item label="msfrpcd">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'msfrpcd -h ; bash'</command>
-          </action>
-      </item>
       <item label="msfupdate">
           <action name="Execute">
               <command>urxvt -e sh -c 'msfupdate -h ; bash'</command>
-          </action>
-      </item>
-      <item label="msfvenom">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'msfvenom -h ; bash'</command>
           </action>
       </item>
       <item label="expressInstall.swf">
@@ -13027,16 +12987,6 @@
       <item label="mitmf">
           <action name="Execute">
               <command>urxvt -e sh -c 'mitmf -h ; bash'</command>
-          </action>
-      </item>
-      <item label="mitmproxy">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'mitmproxy -h ; bash'</command>
-          </action>
-      </item>
-      <item label="mitmweb">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'mitmweb ; bash'</command>
           </action>
       </item>
       <item label="mitmproxy">
@@ -13329,16 +13279,6 @@
               <command>urxvt -e sh -c 'ROPgadget ; bash'</command>
           </action>
       </item>
-      <item label="ROPgadget">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ROPgadget ; bash'</command>
-          </action>
-      </item>
-      <item label="ropper">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ropper ; bash'</command>
-          </action>
-      </item>
       <item label="ropper">
           <action name="Execute">
               <command>urxvt -e sh -c 'ropper ; bash'</command>
@@ -13347,11 +13287,6 @@
       <item label="roputils">
           <action name="Execute">
               <command>urxvt -e sh -c 'roputils ; bash'</command>
-          </action>
-      </item>
-      <item label="rsf">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'rsf ; bash'</command>
           </action>
       </item>
       <item label="rsf">
@@ -13614,16 +13549,6 @@
               <command>urxvt -e sh -c 'sqlmapapi ; bash'</command>
           </action>
       </item>
-      <item label="sqlmap">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'sqlmap -hh ; bash'</command>
-          </action>
-      </item>
-      <item label="sqlmapapi">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'sqlmapapi ; bash'</command>
-          </action>
-      </item>
       <item label="sqlninja">
           <action name="Execute">
               <command>urxvt -e sh -c 'sqlninja -h ; bash'</command>
@@ -13767,11 +13692,6 @@
       <item label="witchxtool">
           <action name="Execute">
               <command>urxvt -e sh -c 'witchxtool -h ; bash'</command>
-          </action>
-      </item>
-      <item label="wpxf">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'wpxf ; bash'</command>
           </action>
       </item>
       <item label="wpxf">
