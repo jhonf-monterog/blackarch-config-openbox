@@ -39077,11 +39077,6 @@
               <command>urxvt -e sh -c 'evilginx -h ; bash'</command>
           </action>
       </item>
-      <item label="evilginx">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'evilginx -h ; bash'</command>
-          </action>
-      </item>
       <item label="facebookosint">
           <action name="Execute">
               <command>urxvt -e sh -c 'facebookosint ; bash'</command>
@@ -39242,84 +39237,9 @@
               <command>urxvt -e sh -c 'python3 ; bash'</command>
           </action>
       </item>
-      <item label="ngrok">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ngrok ; bash'</command>
-          </action>
-      </item>
       <item label="hiddeneye-legacy">
           <action name="Execute">
               <command>urxvt -e sh -c 'hiddeneye-legacy ; bash'</command>
-          </action>
-      </item>
-      <item label="activate">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'activate ; bash'</command>
-          </action>
-      </item>
-      <item label="chardetect">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'chardetect ; bash'</command>
-          </action>
-      </item>
-      <item label="easy_install">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'easy_install ; bash'</command>
-          </action>
-      </item>
-      <item label="easy_install-3.8">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'easy_install-3.8 ; bash'</command>
-          </action>
-      </item>
-      <item label="futurize">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'futurize ; bash'</command>
-          </action>
-      </item>
-      <item label="ngrok">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ngrok ; bash'</command>
-          </action>
-      </item>
-      <item label="pasteurize">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'pasteurize ; bash'</command>
-          </action>
-      </item>
-      <item label="pip">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'pip ; bash'</command>
-          </action>
-      </item>
-      <item label="pip3">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'pip3 ; bash'</command>
-          </action>
-      </item>
-      <item label="pip3.8">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'pip3.8 ; bash'</command>
-          </action>
-      </item>
-      <item label="pyngrok">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'pyngrok ; bash'</command>
-          </action>
-      </item>
-      <item label="python">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'python ; bash'</command>
-          </action>
-      </item>
-      <item label="python3">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'python3 ; bash'</command>
-          </action>
-      </item>
-      <item label="ngrok">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ngrok ; bash'</command>
           </action>
       </item>
       <item label="holehe">
@@ -39445,11 +39365,6 @@
       <item label="phoneinfoga">
           <action name="Execute">
               <command>urxvt -e sh -c 'phoneinfoga -h ; bash'</command>
-          </action>
-      </item>
-      <item label="phonia">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'phonia -h ; bash'</command>
           </action>
       </item>
       <item label="phonia">
