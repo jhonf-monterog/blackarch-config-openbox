@@ -40871,11 +40871,6 @@
               <command>urxvt -e sh -c 'corkscrew ; bash'</command>
           </action>
       </item>
-      <item label="corkscrew">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'corkscrew ; bash'</command>
-          </action>
-      </item>
       <item label="ctunnel">
           <action name="Execute">
               <command>urxvt -e sh -c 'ctunnel -h ; bash'</command>
@@ -40911,16 +40906,6 @@
               <command>urxvt -e sh -c 'hts --help ; bash'</command>
           </action>
       </item>
-      <item label="htc">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'htc --help ; bash'</command>
-          </action>
-      </item>
-      <item label="hts">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'hts --help ; bash'</command>
-          </action>
-      </item>
       <item label="icmptx">
           <action name="Execute">
               <command>urxvt -e sh -c 'icmptx ; bash'</command>
@@ -40934,26 +40919,6 @@
       <item label="iodined">
           <action name="Execute">
               <command>urxvt -e sh -c 'iodined ; bash'</command>
-          </action>
-      </item>
-      <item label="iodine">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'iodine ; bash'</command>
-          </action>
-      </item>
-      <item label="iodined">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'iodined ; bash'</command>
-          </action>
-      </item>
-      <item label="kcptun-client">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'kcptun-client -h ; bash'</command>
-          </action>
-      </item>
-      <item label="kcptun-server">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'kcptun-server -h ; bash'</command>
           </action>
       </item>
       <item label="kcptun-client">
@@ -41011,24 +40976,9 @@
               <command>urxvt -e sh -c 'proxytunnel -h ; bash'</command>
           </action>
       </item>
-      <item label="proxytunnel">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'proxytunnel -h ; bash'</command>
-          </action>
-      </item>
       <item label="ptunnel">
           <action name="Execute">
               <command>urxvt -e sh -c 'ptunnel -h ; bash'</command>
-          </action>
-      </item>
-      <item label="ptunnel">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ptunnel -h ; bash'</command>
-          </action>
-      </item>
-      <item label="rathole">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'rathole -h ; bash'</command>
           </action>
       </item>
       <item label="rathole">
@@ -41066,11 +41016,6 @@
               <command>urxvt -e sh -c 'setup ; bash'</command>
           </action>
       </item>
-      <item label="ssrf-proxy">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ssrf-proxy -h ; bash'</command>
-          </action>
-      </item>
       <item label="stegosip">
           <action name="Execute">
               <command>urxvt -e sh -c 'stegosip ; bash'</command>
@@ -41084,41 +41029,6 @@
       <item label="stunnel3">
           <action name="Execute">
               <command>urxvt -e sh -c 'stunnel3 ; bash'</command>
-          </action>
-      </item>
-      <item label="stunnel">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'stunnel ; bash'</command>
-          </action>
-      </item>
-      <item label="stunnel3">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'stunnel3 ; bash'</command>
-          </action>
-      </item>
-      <item label="tor">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'tor -h ; bash'</command>
-          </action>
-      </item>
-      <item label="tor-gencert">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'tor-gencert ; bash'</command>
-          </action>
-      </item>
-      <item label="tor-print-ed-signing-cert">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'tor-print-ed-signing-cert ; bash'</command>
-          </action>
-      </item>
-      <item label="tor-resolve">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'tor-resolve ; bash'</command>
-          </action>
-      </item>
-      <item label="torify">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'torify -h ; bash'</command>
           </action>
       </item>
       <item label="tor">
@@ -41159,16 +41069,6 @@
       <item label="turner">
           <action name="Execute">
               <command>urxvt -e sh -c 'turner -h ; bash'</command>
-          </action>
-      </item>
-      <item label="udp2raw">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'udp2raw ; bash'</command>
-          </action>
-      </item>
-      <item label="udp2raw">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'udp2raw ; bash'</command>
           </action>
       </item>
       <item label="udp2raw">
