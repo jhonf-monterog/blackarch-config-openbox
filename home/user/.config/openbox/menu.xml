@@ -26777,36 +26777,6 @@
               <command>urxvt -e sh -c 'hackrf_transfer ; bash'</command>
           </action>
       </item>
-      <item label="hackrf_clock">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'hackrf_clock ; bash'</command>
-          </action>
-      </item>
-      <item label="hackrf_debug">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'hackrf_debug ; bash'</command>
-          </action>
-      </item>
-      <item label="hackrf_info">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'hackrf_info ; bash'</command>
-          </action>
-      </item>
-      <item label="hackrf_operacake">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'hackrf_operacake ; bash'</command>
-          </action>
-      </item>
-      <item label="hackrf_sweep">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'hackrf_sweep ; bash'</command>
-          </action>
-      </item>
-      <item label="hackrf_transfer">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'hackrf_transfer ; bash'</command>
-          </action>
-      </item>
       <item label="osmo-aka-verify">
           <action name="Execute">
               <command>urxvt -e sh -c 'osmo-aka-verify ; bash'</command>
@@ -26827,11 +26797,6 @@
               <command>urxvt -e sh -c 'multimon-ng ; bash'</command>
           </action>
       </item>
-      <item label="multimon-ng">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'multimon-ng ; bash'</command>
-          </action>
-      </item>
       <item label="proxmark">
           <action name="Execute">
               <command>urxvt -e sh -c 'proxmark ; bash'</command>
@@ -26840,36 +26805,6 @@
       <item label="proxmark-fpga-compress">
           <action name="Execute">
               <command>urxvt -e sh -c 'proxmark-fpga-compress ; bash'</command>
-          </action>
-      </item>
-      <item label="mf_nonce_brute">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'mf_nonce_brute ; bash'</command>
-          </action>
-      </item>
-      <item label="mf_trace_brute">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'mf_trace_brute ; bash'</command>
-          </action>
-      </item>
-      <item label="mfd_aes_brute">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'mfd_aes_brute ; bash'</command>
-          </action>
-      </item>
-      <item label="mfd_multi_brute">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'mfd_multi_brute ; bash'</command>
-          </action>
-      </item>
-      <item label="pm3">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'pm3 -h ; bash'</command>
-          </action>
-      </item>
-      <item label="proxmark3">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'proxmark3 -h ; bash'</command>
           </action>
       </item>
       <item label="mf_nonce_brute">
@@ -26930,16 +26865,6 @@
       <item label="simtrace2-tool">
           <action name="Execute">
               <command>urxvt -e sh -c 'simtrace2-tool ; bash'</command>
-          </action>
-      </item>
-      <item label="urh">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'urh ; bash'</command>
-          </action>
-      </item>
-      <item label="urh_cli">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'urh_cli ; bash'</command>
           </action>
       </item>
       <item label="urh">
