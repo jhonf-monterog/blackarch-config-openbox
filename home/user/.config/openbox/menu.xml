@@ -3821,46 +3821,6 @@
               <command>urxvt -e sh -c 'tsserver ; bash'</command>
           </action>
       </item>
-      <item label="java">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'java ; bash'</command>
-          </action>
-      </item>
-      <item label="javac">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'javac ; bash'</command>
-          </action>
-      </item>
-      <item label="keytool">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'keytool ; bash'</command>
-          </action>
-      </item>
-      <item label="rmiregistry">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'rmiregistry ; bash'</command>
-          </action>
-      </item>
-      <item label="serialver">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'serialver ; bash'</command>
-          </action>
-      </item>
-      <item label="cppcheck">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'cppcheck -h ; bash'</command>
-          </action>
-      </item>
-      <item label="cppcheck-gui">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'cppcheck-gui ; bash'</command>
-          </action>
-      </item>
-      <item label="cppcheck-htmlreport">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'cppcheck-htmlreport -h ; bash'</command>
-          </action>
-      </item>
       <item label="cppcheck">
           <action name="Execute">
               <command>urxvt -e sh -c 'cppcheck -h ; bash'</command>
@@ -3889,11 +3849,6 @@
       <item label="devaudit">
           <action name="Execute">
               <command>urxvt -e sh -c 'devaudit -h ; bash'</command>
-          </action>
-      </item>
-      <item label="dscanner">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'dscanner -h ; bash'</command>
           </action>
       </item>
       <item label="dscanner">
@@ -3946,24 +3901,9 @@
               <command>urxvt -e sh -c 'which ; bash'</command>
           </action>
       </item>
-      <item label="acorn">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'acorn ; bash'</command>
-          </action>
-      </item>
       <item label="test262.whitelist">
           <action name="Execute">
               <command>urxvt -e sh -c 'test262.whitelist ; bash'</command>
-          </action>
-      </item>
-      <item label="acorn">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'acorn ; bash'</command>
-          </action>
-      </item>
-      <item label="acorn">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'acorn ; bash'</command>
           </action>
       </item>
       <item label="jsesc">
@@ -3976,19 +3916,9 @@
               <command>urxvt -e sh -c 'ncp ; bash'</command>
           </action>
       </item>
-      <item label="which">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'which ; bash'</command>
-          </action>
-      </item>
       <item label="parser">
           <action name="Execute">
               <command>urxvt -e sh -c 'parser ; bash'</command>
-          </action>
-      </item>
-      <item label="jsesc">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'jsesc ; bash'</command>
           </action>
       </item>
       <item label="semver">
@@ -3999,171 +3929,6 @@
       <item label="uuid">
           <action name="Execute">
               <command>urxvt -e sh -c 'uuid ; bash'</command>
-          </action>
-      </item>
-      <item label="which">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'which ; bash'</command>
-          </action>
-      </item>
-      <item label="acorn">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'acorn ; bash'</command>
-          </action>
-      </item>
-      <item label="compress">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'compress ; bash'</command>
-          </action>
-      </item>
-      <item label="lint">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'lint ; bash'</command>
-          </action>
-      </item>
-      <item label="release">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'release ; bash'</command>
-          </action>
-      </item>
-      <item label="source-highlight">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'source-highlight ; bash'</command>
-          </action>
-      </item>
-      <item label=".coverrc">
-          <action name="Execute">
-              <command>urxvt -e sh -c '.coverrc ; bash'</command>
-          </action>
-      </item>
-      <item label="cover">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'cover ; bash'</command>
-          </action>
-      </item>
-      <item label="which">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'which ; bash'</command>
-          </action>
-      </item>
-      <item label="acorn">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'acorn ; bash'</command>
-          </action>
-      </item>
-      <item label="test262.whitelist">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'test262.whitelist ; bash'</command>
-          </action>
-      </item>
-      <item label="acorn">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'acorn ; bash'</command>
-          </action>
-      </item>
-      <item label="acorn">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'acorn ; bash'</command>
-          </action>
-      </item>
-      <item label="jsesc">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'jsesc ; bash'</command>
-          </action>
-      </item>
-      <item label="ncp">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ncp ; bash'</command>
-          </action>
-      </item>
-      <item label="which">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'which ; bash'</command>
-          </action>
-      </item>
-      <item label="parser">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'parser ; bash'</command>
-          </action>
-      </item>
-      <item label="jsesc">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'jsesc ; bash'</command>
-          </action>
-      </item>
-      <item label="semver">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'semver ; bash'</command>
-          </action>
-      </item>
-      <item label="uuid">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'uuid ; bash'</command>
-          </action>
-      </item>
-      <item label="which">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'which ; bash'</command>
-          </action>
-      </item>
-      <item label="semver">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'semver ; bash'</command>
-          </action>
-      </item>
-      <item label="uuid">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'uuid ; bash'</command>
-          </action>
-      </item>
-      <item label="jsesc">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'jsesc ; bash'</command>
-          </action>
-      </item>
-      <item label="parser">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'parser ; bash'</command>
-          </action>
-      </item>
-      <item label="jsesc">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'jsesc ; bash'</command>
-          </action>
-      </item>
-      <item label="acorn">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'acorn ; bash'</command>
-          </action>
-      </item>
-      <item label="jsesc">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'jsesc ; bash'</command>
-          </action>
-      </item>
-      <item label="parser">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'parser ; bash'</command>
-          </action>
-      </item>
-      <item label="jsesc">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'jsesc ; bash'</command>
-          </action>
-      </item>
-      <item label="semver">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'semver ; bash'</command>
-          </action>
-      </item>
-      <item label="which">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'which ; bash'</command>
-          </action>
-      </item>
-      <item label="flawfinder">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'flawfinder -h ; bash'</command>
           </action>
       </item>
       <item label="flawfinder">
@@ -4186,16 +3951,6 @@
               <command>urxvt -e sh -c 'leena ; bash'</command>
           </action>
       </item>
-      <item label="leena">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'leena ; bash'</command>
-          </action>
-      </item>
-      <item label="acorn">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'acorn ; bash'</command>
-          </action>
-      </item>
       <item label="cake">
           <action name="Execute">
               <command>urxvt -e sh -c 'cake ; bash'</command>
@@ -4211,31 +3966,6 @@
               <command>urxvt -e sh -c 'grunt ; bash'</command>
           </action>
       </item>
-      <item label="which">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'which ; bash'</command>
-          </action>
-      </item>
-      <item label="ncp">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ncp ; bash'</command>
-          </action>
-      </item>
-      <item label="tsc">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'tsc ; bash'</command>
-          </action>
-      </item>
-      <item label="tsserver">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'tsserver ; bash'</command>
-          </action>
-      </item>
-      <item label="which">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'which ; bash'</command>
-          </action>
-      </item>
       <item label="handlebars">
           <action name="Execute">
               <command>urxvt -e sh -c 'handlebars ; bash'</command>
@@ -4244,36 +3974,6 @@
       <item label="client">
           <action name="Execute">
               <command>urxvt -e sh -c 'client ; bash'</command>
-          </action>
-      </item>
-      <item label="ncp">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ncp ; bash'</command>
-          </action>
-      </item>
-      <item label="semver">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'semver ; bash'</command>
-          </action>
-      </item>
-      <item label="tsc">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'tsc ; bash'</command>
-          </action>
-      </item>
-      <item label="tsserver">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'tsserver ; bash'</command>
-          </action>
-      </item>
-      <item label="which">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'which ; bash'</command>
-          </action>
-      </item>
-      <item label="acorn">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'acorn ; bash'</command>
           </action>
       </item>
       <item label="without_eval">
@@ -4381,11 +4081,6 @@
               <command>urxvt -e sh -c 'shellcheck ; bash'</command>
           </action>
       </item>
-      <item label="shellcheck">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'shellcheck ; bash'</command>
-          </action>
-      </item>
       <item label="slither">
           <action name="Execute">
               <command>urxvt -e sh -c 'slither -h ; bash'</command>
@@ -4466,11 +4161,6 @@
               <command>urxvt -e sh -c 'genflagcodes ; bash'</command>
           </action>
       </item>
-      <item label="genflagcodes">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'genflagcodes ; bash'</command>
-          </action>
-      </item>
       <item label="spotbugs">
           <action name="Execute">
               <command>urxvt -e sh -c 'spotbugs -h ; bash'</command>
@@ -4539,11 +4229,6 @@
       <item label="setBugDatabaseInfo">
           <action name="Execute">
               <command>urxvt -e sh -c 'setBugDatabaseInfo ; bash'</command>
-          </action>
-      </item>
-      <item label="spotbugs">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'spotbugs -h ; bash'</command>
           </action>
       </item>
       <item label="spotbugs.ico">
@@ -4646,56 +4331,6 @@
               <command>urxvt -e sh -c 'vgdb ; bash'</command>
           </action>
       </item>
-      <item label="callgrind_annotate">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'callgrind_annotate ; bash'</command>
-          </action>
-      </item>
-      <item label="callgrind_control">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'callgrind_control ; bash'</command>
-          </action>
-      </item>
-      <item label="cg_annotate">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'cg_annotate ; bash'</command>
-          </action>
-      </item>
-      <item label="cg_diff">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'cg_diff ; bash'</command>
-          </action>
-      </item>
-      <item label="cg_merge">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'cg_merge ; bash'</command>
-          </action>
-      </item>
-      <item label="ms_print">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ms_print ; bash'</command>
-          </action>
-      </item>
-      <item label="valgrind">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'valgrind ; bash'</command>
-          </action>
-      </item>
-      <item label="valgrind-di-server">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'valgrind-di-server ; bash'</command>
-          </action>
-      </item>
-      <item label="valgrind-listener">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'valgrind-listener ; bash'</command>
-          </action>
-      </item>
-      <item label="vgdb">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'vgdb ; bash'</command>
-          </action>
-      </item>
       <item label="whispers">
           <action name="Execute">
               <command>urxvt -e sh -c 'whispers -h ; bash'</command>
@@ -4716,11 +4351,6 @@
               <command>urxvt -e sh -c 'acorn ; bash'</command>
           </action>
       </item>
-      <item label="handlebars">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'handlebars ; bash'</command>
-          </action>
-      </item>
       <item label="he">
           <action name="Execute">
               <command>urxvt -e sh -c 'he ; bash'</command>
@@ -4734,16 +4364,6 @@
       <item label="mocha">
           <action name="Execute">
               <command>urxvt -e sh -c 'mocha ; bash'</command>
-          </action>
-      </item>
-      <item label="uuid">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'uuid ; bash'</command>
-          </action>
-      </item>
-      <item label="which">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'which ; bash'</command>
           </action>
       </item>
       <item label="yasca">
