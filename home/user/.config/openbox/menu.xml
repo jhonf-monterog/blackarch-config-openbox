@@ -7590,11 +7590,6 @@
               <command>urxvt -e sh -c 'argon2 -h ; bash'</command>
           </action>
       </item>
-      <item label="argon2">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'argon2 -h ; bash'</command>
-          </action>
-      </item>
       <item label="armor">
           <action name="Execute">
               <command>urxvt -e sh -c 'armor ; bash'</command>
@@ -7658,11 +7653,6 @@
       <item label="ciphertest">
           <action name="Execute">
               <command>urxvt -e sh -c 'ciphertest ; bash'</command>
-          </action>
-      </item>
-      <item label="ciphr">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ciphr -h ; bash'</command>
           </action>
       </item>
       <item label="ciphr">
@@ -7838,41 +7828,6 @@
       <item label="whirlpooldeep">
           <action name="Execute">
               <command>urxvt -e sh -c 'whirlpooldeep -h ; bash'</command>
-          </action>
-      </item>
-      <item label="md5deep">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'md5deep -h ; bash'</command>
-          </action>
-      </item>
-      <item label="sha1deep">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'sha1deep -h ; bash'</command>
-          </action>
-      </item>
-      <item label="sha256deep">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'sha256deep -h ; bash'</command>
-          </action>
-      </item>
-      <item label="tigerdeep">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'tigerdeep -h ; bash'</command>
-          </action>
-      </item>
-      <item label="whirlpooldeep">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'whirlpooldeep -h ; bash'</command>
-          </action>
-      </item>
-      <item label="wlangenpmk">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'wlangenpmk -h ; bash'</command>
-          </action>
-      </item>
-      <item label="wlangenpmkocl">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'wlangenpmkocl -h ; bash'</command>
           </action>
       </item>
       <item label="wlangenpmk">
@@ -8070,21 +8025,6 @@
               <command>urxvt -e sh -c 'spiped ; bash'</command>
           </action>
       </item>
-      <item label="spipe">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'spipe ; bash'</command>
-          </action>
-      </item>
-      <item label="spiped">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'spiped ; bash'</command>
-          </action>
-      </item>
-      <item label="ssdeep">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ssdeep ; bash'</command>
-          </action>
-      </item>
       <item label="ssdeep">
           <action name="Execute">
               <command>urxvt -e sh -c 'ssdeep ; bash'</command>
@@ -8110,11 +8050,6 @@
               <command>urxvt -e sh -c 'sslscan ; bash'</command>
           </action>
       </item>
-      <item label="sslscan">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'sslscan ; bash'</command>
-          </action>
-      </item>
       <item label="sslyze">
           <action name="Execute">
               <command>urxvt -e sh -c 'sslyze -h ; bash'</command>
@@ -8123,11 +8058,6 @@
       <item label="tchunt-ng">
           <action name="Execute">
               <command>urxvt -e sh -c 'tchunt-ng -h ; bash'</command>
-          </action>
-      </item>
-      <item label="testssl">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'testssl ; bash'</command>
           </action>
       </item>
       <item label="testssl">
@@ -8185,19 +8115,9 @@
               <command>urxvt -e sh -c 'tlspretense ; bash'</command>
           </action>
       </item>
-      <item label="tlspretense">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'tlspretense ; bash'</command>
-          </action>
-      </item>
       <item label="untwister">
           <action name="Execute">
               <command>urxvt -e sh -c 'untwister -h ; bash'</command>
-          </action>
-      </item>
-      <item label="veracrypt">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'veracrypt ; bash'</command>
           </action>
       </item>
       <item label="veracrypt">
@@ -8218,16 +8138,6 @@
       <item label="xorsearch">
           <action name="Execute">
               <command>urxvt -e sh -c 'xorsearch ; bash'</command>
-          </action>
-      </item>
-      <item label="xortool">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'xortool -h ; bash'</command>
-          </action>
-      </item>
-      <item label="xortool-xor">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'xortool-xor ; bash'</command>
           </action>
       </item>
       <item label="xortool">
