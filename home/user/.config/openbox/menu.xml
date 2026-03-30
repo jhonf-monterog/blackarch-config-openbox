@@ -8689,44 +8689,9 @@
               <command>urxvt -e sh -c 'iaito ; bash'</command>
           </action>
       </item>
-      <item label="iaito">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'iaito ; bash'</command>
-          </action>
-      </item>
       <item label="ida64">
           <action name="Execute">
               <command>urxvt -e sh -c 'ida64 ; bash'</command>
-          </action>
-      </item>
-      <item label="jadx">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'jadx -h ; bash'</command>
-          </action>
-      </item>
-      <item label="jadx-gui">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'jadx-gui ; bash'</command>
-          </action>
-      </item>
-      <item label="jadx">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'jadx -h ; bash'</command>
-          </action>
-      </item>
-      <item label="jadx-gui">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'jadx-gui ; bash'</command>
-          </action>
-      </item>
-      <item label="jadx">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'jadx -h ; bash'</command>
-          </action>
-      </item>
-      <item label="jadx-gui">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'jadx-gui ; bash'</command>
           </action>
       </item>
       <item label="jadx">
@@ -8777,76 +8742,6 @@
       <item label="sleighc">
           <action name="Execute">
               <command>urxvt -e sh -c 'sleighc ; bash'</command>
-          </action>
-      </item>
-      <item label="sleighc">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'sleighc ; bash'</command>
-          </action>
-      </item>
-      <item label="r2">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'r2 -h ; bash'</command>
-          </action>
-      </item>
-      <item label="r2agent">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'r2agent -h ; bash'</command>
-          </action>
-      </item>
-      <item label="r2pm">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'r2pm ; bash'</command>
-          </action>
-      </item>
-      <item label="r2r">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'r2r ; bash'</command>
-          </action>
-      </item>
-      <item label="radare2">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'radare2 -h ; bash'</command>
-          </action>
-      </item>
-      <item label="radiff2">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'radiff2 -h ; bash'</command>
-          </action>
-      </item>
-      <item label="rafind2">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'rafind2 -h ; bash'</command>
-          </action>
-      </item>
-      <item label="ragg2">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ragg2 -h ; bash'</command>
-          </action>
-      </item>
-      <item label="rarun2">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'rarun2 -h ; bash'</command>
-          </action>
-      </item>
-      <item label="rasign2">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'rasign2 ; bash'</command>
-          </action>
-      </item>
-      <item label="rasm2">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'rasm2 -h ; bash'</command>
-          </action>
-      </item>
-      <item label="ravc2">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ravc2 ; bash'</command>
-          </action>
-      </item>
-      <item label="rax2">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'rax2 ; bash'</command>
           </action>
       </item>
       <item label="r2">
@@ -8992,11 +8887,6 @@
       <item label="retdec-yarac">
           <action name="Execute">
               <command>urxvt -e sh -c 'retdec-yarac ; bash'</command>
-          </action>
-      </item>
-      <item label="cutter">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'cutter ; bash'</command>
           </action>
       </item>
       <item label="cutter">
