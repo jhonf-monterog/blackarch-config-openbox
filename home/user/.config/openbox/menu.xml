@@ -18511,11 +18511,6 @@
               <command>urxvt -e sh -c 'acorn ; bash'</command>
           </action>
       </item>
-      <item label="acorn">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'acorn ; bash'</command>
-          </action>
-      </item>
       <item label="test262.whitelist">
           <action name="Execute">
               <command>urxvt -e sh -c 'test262.whitelist ; bash'</command>
@@ -18526,11 +18521,6 @@
               <command>urxvt -e sh -c 'he ; bash'</command>
           </action>
       </item>
-      <item label="acorn">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'acorn ; bash'</command>
-          </action>
-      </item>
       <item label="uuid">
           <action name="Execute">
               <command>urxvt -e sh -c 'uuid ; bash'</command>
@@ -18539,11 +18529,6 @@
       <item label="vm2">
           <action name="Execute">
               <command>urxvt -e sh -c 'vm2 ; bash'</command>
-          </action>
-      </item>
-      <item label="acorn">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'acorn ; bash'</command>
           </action>
       </item>
       <item label="captipper">
@@ -18814,16 +18799,6 @@
       <item label="vmcloak-vboxnet0">
           <action name="Execute">
               <command>urxvt -e sh -c 'vmcloak-vboxnet0 -h ; bash'</command>
-          </action>
-      </item>
-      <item label="yara">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'yara -h ; bash'</command>
-          </action>
-      </item>
-      <item label="yarac">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'yarac -h ; bash'</command>
           </action>
       </item>
       <item label="yara">
