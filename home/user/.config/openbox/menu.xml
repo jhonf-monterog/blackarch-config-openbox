@@ -13907,26 +13907,6 @@
               <command>urxvt -e sh -c 'get-oui -h ; bash'</command>
           </action>
       </item>
-      <item label="arp-fingerprint">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'arp-fingerprint -h ; bash'</command>
-          </action>
-      </item>
-      <item label="arp-scan">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'arp-scan -h ; bash'</command>
-          </action>
-      </item>
-      <item label="get-iab">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'get-iab -h ; bash'</command>
-          </action>
-      </item>
-      <item label="get-oui">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'get-oui -h ; bash'</command>
-          </action>
-      </item>
       <item label="asp-audit">
           <action name="Execute">
               <command>urxvt -e sh -c 'asp-audit ; bash'</command>
@@ -13965,11 +13945,6 @@
       <item label="cmsscanner">
           <action name="Execute">
               <command>urxvt -e sh -c 'cmsscanner -h ; bash'</command>
-          </action>
-      </item>
-      <item label="cmsscan">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'cmsscan -h ; bash'</command>
           </action>
       </item>
       <item label="letdown">
@@ -14125,26 +14100,6 @@
       <item label="operative">
           <action name="Execute">
               <command>urxvt -e sh -c 'operative -h ; bash'</command>
-          </action>
-      </item>
-      <item label="p0f">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'p0f -h ; bash'</command>
-          </action>
-      </item>
-      <item label="p0f-client">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'p0f-client -h ; bash'</command>
-          </action>
-      </item>
-      <item label="p0f-sendsyn">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'p0f-sendsyn -h ; bash'</command>
-          </action>
-      </item>
-      <item label="p0f-sendsyn6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'p0f-sendsyn6 ; bash'</command>
           </action>
       </item>
       <item label="p0f">
