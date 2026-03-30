@@ -16071,11 +16071,6 @@
               <command>urxvt -e sh -c 'cantoolz -h ; bash'</command>
           </action>
       </item>
-      <item label="cantoolz">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'cantoolz -h ; bash'</command>
-          </action>
-      </item>
       <item label="capfuzz">
           <action name="Execute">
               <command>urxvt -e sh -c 'capfuzz -h ; bash'</command>
@@ -16436,11 +16431,6 @@
               <command>urxvt -e sh -c 'inguma -h ; bash'</command>
           </action>
       </item>
-      <item label="inguma">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'inguma -h ; bash'</command>
-          </action>
-      </item>
       <item label="ingumagui">
           <action name="Execute">
               <command>urxvt -e sh -c 'ingumagui ; bash'</command>
@@ -16581,11 +16571,6 @@
               <command>urxvt -e sh -c 'mdk4 --help ; bash'</command>
           </action>
       </item>
-      <item label="mdk4">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'mdk4 --help ; bash'</command>
-          </action>
-      </item>
       <item label="melkor">
           <action name="Execute">
               <command>urxvt -e sh -c 'melkor -h ; bash'</command>
@@ -16626,16 +16611,6 @@
               <command>urxvt -e sh -c 'msfvenom -h ; bash'</command>
           </action>
       </item>
-      <item label="msfconsole">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'msfconsole -h ; bash'</command>
-          </action>
-      </item>
-      <item label="msfd">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'msfd -h ; bash'</command>
-          </action>
-      </item>
       <item label="msfelfscan">
           <action name="Execute">
               <command>urxvt -e sh -c 'msfelfscan -h ; bash'</command>
@@ -16656,24 +16631,9 @@
               <command>urxvt -e sh -c 'msfrop -h ; bash'</command>
           </action>
       </item>
-      <item label="msfrpc">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'msfrpc -h ; bash'</command>
-          </action>
-      </item>
-      <item label="msfrpcd">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'msfrpcd -h ; bash'</command>
-          </action>
-      </item>
       <item label="msfupdate">
           <action name="Execute">
               <command>urxvt -e sh -c 'msfupdate -h ; bash'</command>
-          </action>
-      </item>
-      <item label="msfvenom">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'msfvenom -h ; bash'</command>
           </action>
       </item>
       <item label="expressInstall.swf">
@@ -16699,11 +16659,6 @@
       <item label="netzob">
           <action name="Execute">
               <command>urxvt -e sh -c 'netzob -h ; bash'</command>
-          </action>
-      </item>
-      <item label="nikto">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'nikto -H ; bash'</command>
           </action>
       </item>
       <item label="nikto">
@@ -16776,11 +16731,6 @@
               <command>urxvt -e sh -c 'owtf ; bash'</command>
           </action>
       </item>
-      <item label="owtf">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'owtf ; bash'</command>
-          </action>
-      </item>
       <item label="parampampam">
           <action name="Execute">
               <command>urxvt -e sh -c 'parampampam -h ; bash'</command>
@@ -16794,16 +16744,6 @@
       <item label="xed">
           <action name="Execute">
               <command>urxvt -e sh -c 'xed ; bash'</command>
-          </action>
-      </item>
-      <item label="xed">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'xed ; bash'</command>
-          </action>
-      </item>
-      <item label="pindb">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'pindb ; bash'</command>
           </action>
       </item>
       <item label="pindb">
@@ -16874,11 +16814,6 @@
       <item label="qark">
           <action name="Execute">
               <command>urxvt -e sh -c 'qark ; bash'</command>
-          </action>
-      </item>
-      <item label="radamsa">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'radamsa -h ; bash'</command>
           </action>
       </item>
       <item label="radamsa">
@@ -17406,16 +17341,6 @@
               <command>urxvt -e sh -c 'sqlmapapi ; bash'</command>
           </action>
       </item>
-      <item label="sqlmap">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'sqlmap -hh ; bash'</command>
-          </action>
-      </item>
-      <item label="sqlmapapi">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'sqlmapapi ; bash'</command>
-          </action>
-      </item>
       <item label="sqlninja">
           <action name="Execute">
               <command>urxvt -e sh -c 'sqlninja -h ; bash'</command>
@@ -17649,21 +17574,6 @@
       <item label="zaproxy">
           <action name="Execute">
               <command>urxvt -e sh -c 'zaproxy ; bash'</command>
-          </action>
-      </item>
-      <item label="zaproxy">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'zaproxy ; bash'</command>
-          </action>
-      </item>
-      <item label="zzat">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'zzat ; bash'</command>
-          </action>
-      </item>
-      <item label="zzuf">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'zzuf -h ; bash'</command>
           </action>
       </item>
       <item label="zzat">
