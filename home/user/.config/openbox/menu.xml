@@ -41935,11 +41935,6 @@
               <command>urxvt -e sh -c 'arachni-script ; bash'</command>
           </action>
       </item>
-      <item label="arachni">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'arachni -h ; bash'</command>
-          </action>
-      </item>
       <item label="arachni_console">
           <action name="Execute">
               <command>urxvt -e sh -c 'arachni_console -h ; bash'</command>
@@ -42168,11 +42163,6 @@
       <item label="cmsscanner">
           <action name="Execute">
               <command>urxvt -e sh -c 'cmsscanner -h ; bash'</command>
-          </action>
-      </item>
-      <item label="cmsscan">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'cmsscan -h ; bash'</command>
           </action>
       </item>
       <item label="comission">
@@ -43005,11 +42995,6 @@
               <command>urxvt -e sh -c 'nikto -H ; bash'</command>
           </action>
       </item>
-      <item label="nikto">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'nikto -H ; bash'</command>
-          </action>
-      </item>
       <item label="nosqli">
           <action name="Execute">
               <command>urxvt -e sh -c 'nosqli -h ; bash'</command>
@@ -43058,11 +43043,6 @@
       <item label="owasp-bywaf">
           <action name="Execute">
               <command>urxvt -e sh -c 'owasp-bywaf -h ; bash'</command>
-          </action>
-      </item>
-      <item label="owtf">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'owtf ; bash'</command>
           </action>
       </item>
       <item label="owtf">
@@ -43203,11 +43183,6 @@
       <item label="arsenic-check-ie11">
           <action name="Execute">
               <command>urxvt -e sh -c 'arsenic-check-ie11 ; bash'</command>
-          </action>
-      </item>
-      <item label="js-beautify">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'js-beautify -h ; bash'</command>
           </action>
       </item>
       <item label="js-beautify">
@@ -43443,16 +43418,6 @@
       <item label="sqlivulscan">
           <action name="Execute">
               <command>urxvt -e sh -c 'sqlivulscan ; bash'</command>
-          </action>
-      </item>
-      <item label="sqlmap">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'sqlmap -hh ; bash'</command>
-          </action>
-      </item>
-      <item label="sqlmapapi">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'sqlmapapi ; bash'</command>
           </action>
       </item>
       <item label="sqlmap">
@@ -43905,11 +43870,6 @@
               <command>urxvt -e sh -c 'wpxf ; bash'</command>
           </action>
       </item>
-      <item label="wpxf">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'wpxf ; bash'</command>
-          </action>
-      </item>
       <item label="wordpresscan">
           <action name="Execute">
               <command>urxvt -e sh -c 'wordpresscan -h ; bash'</command>
@@ -44055,11 +44015,6 @@
               <command>urxvt -e sh -c 'xxeinjector -h ; bash'</command>
           </action>
       </item>
-      <item label="acorn">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'acorn ; bash'</command>
-          </action>
-      </item>
       <item label="he">
           <action name="Execute">
               <command>urxvt -e sh -c 'he ; bash'</command>
@@ -44138,11 +44093,6 @@
       <item label="ysoserial">
           <action name="Execute">
               <command>urxvt -e sh -c 'ysoserial ; bash'</command>
-          </action>
-      </item>
-      <item label="zaproxy">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'zaproxy ; bash'</command>
           </action>
       </item>
       <item label="zaproxy">
