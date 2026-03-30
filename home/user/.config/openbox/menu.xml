@@ -9237,11 +9237,6 @@
               <command>urxvt -e sh -c 'argon2 -h ; bash'</command>
           </action>
       </item>
-      <item label="argon2">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'argon2 -h ; bash'</command>
-          </action>
-      </item>
       <item label="argus-extip">
           <action name="Execute">
               <command>urxvt -e sh -c 'argus-extip ; bash'</command>
@@ -9547,11 +9542,6 @@
               <command>urxvt -e sh -c 'jhead -h ; bash'</command>
           </action>
       </item>
-      <item label="jhead">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'jhead -h ; bash'</command>
-          </action>
-      </item>
       <item label="lorg">
           <action name="Execute">
               <command>urxvt -e sh -c 'lorg -h ; bash'</command>
@@ -9600,11 +9590,6 @@
       <item label="mat-gui">
           <action name="Execute">
               <command>urxvt -e sh -c 'mat-gui ; bash'</command>
-          </action>
-      </item>
-      <item label="mat2">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'mat2 -h ; bash'</command>
           </action>
       </item>
       <item label="mat2">
@@ -9770,11 +9755,6 @@
       <item label="quicksand">
           <action name="Execute">
               <command>urxvt -e sh -c 'quicksand ; bash'</command>
-          </action>
-      </item>
-      <item label="rkhunter">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'rkhunter -h ; bash'</command>
           </action>
       </item>
       <item label="rkhunter">
@@ -9970,11 +9950,6 @@
       <item label="usb-canary">
           <action name="Execute">
               <command>urxvt -e sh -c 'usb-canary -h ; bash'</command>
-          </action>
-      </item>
-      <item label="veracrypt">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'veracrypt ; bash'</command>
           </action>
       </item>
       <item label="veracrypt">
