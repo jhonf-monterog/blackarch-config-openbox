@@ -266,11 +266,6 @@
               <command>urxvt -e sh -c 'checksec --help ; bash'</command>
           </action>
       </item>
-      <item label="checksec">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'checksec --help ; bash'</command>
-          </action>
-      </item>
       <item label="cisco-snmp-enumeration">
           <action name="Execute">
               <command>urxvt -e sh -c 'cisco-snmp-enumeration ; bash'</command>
@@ -279,11 +274,6 @@
       <item label="acorn">
           <action name="Execute">
               <command>urxvt -e sh -c 'acorn ; bash'</command>
-          </action>
-      </item>
-      <item label="uuid">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'uuid ; bash'</command>
           </action>
       </item>
       <item label="uuid">
@@ -316,16 +306,6 @@
               <command>urxvt -e sh -c 'jsesc ; bash'</command>
           </action>
       </item>
-      <item label="semver">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'semver ; bash'</command>
-          </action>
-      </item>
-      <item label="semver">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'semver ; bash'</command>
-          </action>
-      </item>
       <item label="_mocha">
           <action name="Execute">
               <command>urxvt -e sh -c '_mocha ; bash'</command>
@@ -336,59 +316,9 @@
               <command>urxvt -e sh -c 'mocha ; bash'</command>
           </action>
       </item>
-      <item label="uuid">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'uuid ; bash'</command>
-          </action>
-      </item>
-      <item label="uuid">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'uuid ; bash'</command>
-          </action>
-      </item>
-      <item label="semver">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'semver ; bash'</command>
-          </action>
-      </item>
-      <item label="semver">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'semver ; bash'</command>
-          </action>
-      </item>
-      <item label="semver">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'semver ; bash'</command>
-          </action>
-      </item>
-      <item label="uuid">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'uuid ; bash'</command>
-          </action>
-      </item>
-      <item label="semver">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'semver ; bash'</command>
-          </action>
-      </item>
-      <item label="uuid">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'uuid ; bash'</command>
-          </action>
-      </item>
       <item label="resolve">
           <action name="Execute">
               <command>urxvt -e sh -c 'resolve ; bash'</command>
-          </action>
-      </item>
-      <item label="semver">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'semver ; bash'</command>
-          </action>
-      </item>
-      <item label="uuid">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'uuid ; bash'</command>
           </action>
       </item>
       <item label="vm2">
@@ -396,19 +326,9 @@
               <command>urxvt -e sh -c 'vm2 ; bash'</command>
           </action>
       </item>
-      <item label="acorn">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'acorn ; bash'</command>
-          </action>
-      </item>
       <item label="which">
           <action name="Execute">
               <command>urxvt -e sh -c 'which ; bash'</command>
-          </action>
-      </item>
-      <item label="semver">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'semver ; bash'</command>
           </action>
       </item>
       <item label="clusterd">
@@ -464,31 +384,6 @@
       <item label="tsserver">
           <action name="Execute">
               <command>urxvt -e sh -c 'tsserver ; bash'</command>
-          </action>
-      </item>
-      <item label="java">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'java ; bash'</command>
-          </action>
-      </item>
-      <item label="javac">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'javac ; bash'</command>
-          </action>
-      </item>
-      <item label="keytool">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'keytool ; bash'</command>
-          </action>
-      </item>
-      <item label="rmiregistry">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'rmiregistry ; bash'</command>
-          </action>
-      </item>
-      <item label="serialver">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'serialver ; bash'</command>
           </action>
       </item>
       <item label="commix">
@@ -604,11 +499,6 @@
       <item label="githubcloner">
           <action name="Execute">
               <command>urxvt -e sh -c 'githubcloner -h ; bash'</command>
-          </action>
-      </item>
-      <item label="glue">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'glue -h ; bash'</command>
           </action>
       </item>
       <item label="glue">
@@ -966,11 +856,6 @@
               <command>urxvt -e sh -c 'owtf ; bash'</command>
           </action>
       </item>
-      <item label="owtf">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'owtf ; bash'</command>
-          </action>
-      </item>
       <item label="panoptic">
           <action name="Execute">
               <command>urxvt -e sh -c 'panoptic -h ; bash'</command>
@@ -1026,16 +911,6 @@
               <command>urxvt -e sh -c 'pindb.sig ; bash'</command>
           </action>
       </item>
-      <item label="pindb">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'pindb ; bash'</command>
-          </action>
-      </item>
-      <item label="pindb.sig">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'pindb.sig ; bash'</command>
-          </action>
-      </item>
       <item label="pmcma">
           <action name="Execute">
               <command>urxvt -e sh -c 'pmcma ; bash'</command>
@@ -1069,11 +944,6 @@
       <item label="arsenic-check-ie11">
           <action name="Execute">
               <command>urxvt -e sh -c 'arsenic-check-ie11 ; bash'</command>
-          </action>
-      </item>
-      <item label="shodan">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'shodan ; bash'</command>
           </action>
       </item>
       <item label="shodan">
