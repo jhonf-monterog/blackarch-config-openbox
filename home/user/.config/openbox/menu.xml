@@ -1469,11 +1469,6 @@
               <command>urxvt -e sh -c 'cantoolz -h ; bash'</command>
           </action>
       </item>
-      <item label="cantoolz">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'cantoolz -h ; bash'</command>
-          </action>
-      </item>
       <item label="udsim">
           <action name="Execute">
               <command>urxvt -e sh -c 'udsim -h ; bash'</command>
