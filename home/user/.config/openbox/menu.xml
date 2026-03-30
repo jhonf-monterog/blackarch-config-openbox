@@ -26184,11 +26184,6 @@
               <command>urxvt -e sh -c 'binproxy --help ; bash'</command>
           </action>
       </item>
-      <item label="binproxy">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'binproxy --help ; bash'</command>
-          </action>
-      </item>
       <item label="chiron-attacks">
           <action name="Execute">
               <command>urxvt -e sh -c 'chiron-attacks ; bash'</command>
@@ -26222,11 +26217,6 @@
       <item label="cntlm">
           <action name="Execute">
               <command>urxvt -e sh -c 'cntlm -h ; bash'</command>
-          </action>
-      </item>
-      <item label="corkscrew">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'corkscrew ; bash'</command>
           </action>
       </item>
       <item label="corkscrew">
@@ -26309,16 +26299,6 @@
               <command>urxvt -e sh -c 'mitmweb ; bash'</command>
           </action>
       </item>
-      <item label="mitmproxy">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'mitmproxy -h ; bash'</command>
-          </action>
-      </item>
-      <item label="mitmweb">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'mitmweb ; bash'</command>
-          </action>
-      </item>
       <item label="mubeng">
           <action name="Execute">
               <command>urxvt -e sh -c 'mubeng -h ; bash'</command>
@@ -26389,21 +26369,6 @@
               <command>urxvt -e sh -c 'proxychains4-daemon ; bash'</command>
           </action>
       </item>
-      <item label="proxychains">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'proxychains ; bash'</command>
-          </action>
-      </item>
-      <item label="proxychains4">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'proxychains4 ; bash'</command>
-          </action>
-      </item>
-      <item label="proxychains4-daemon">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'proxychains4-daemon ; bash'</command>
-          </action>
-      </item>
       <item label="proxycheck">
           <action name="Execute">
               <command>urxvt -e sh -c 'proxycheck -h ; bash'</command>
@@ -26419,19 +26384,9 @@
               <command>urxvt -e sh -c 'proxytunnel -h ; bash'</command>
           </action>
       </item>
-      <item label="proxytunnel">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'proxytunnel -h ; bash'</command>
-          </action>
-      </item>
       <item label="pwncat">
           <action name="Execute">
               <command>urxvt -e sh -c 'pwncat cd /usr/share/windows/pwncat ; ls ; bash'</command>
-          </action>
-      </item>
-      <item label="rathole">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'rathole -h ; bash'</command>
           </action>
       </item>
       <item label="rathole">
@@ -26529,11 +26484,6 @@
               <command>urxvt -e sh -c 'setup ; bash'</command>
           </action>
       </item>
-      <item label="ssrf-proxy">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ssrf-proxy -h ; bash'</command>
-          </action>
-      </item>
       <item label="mitm_listener">
           <action name="Execute">
               <command>urxvt -e sh -c 'mitm_listener ; bash'</command>
@@ -26564,11 +26514,6 @@
               <command>urxvt -e sh -c 'tinyproxy -h ; bash'</command>
           </action>
       </item>
-      <item label="tinyproxy">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'tinyproxy -h ; bash'</command>
-          </action>
-      </item>
       <item label="tor">
           <action name="Execute">
               <command>urxvt -e sh -c 'tor -h ; bash'</command>
@@ -26592,36 +26537,6 @@
       <item label="torify">
           <action name="Execute">
               <command>urxvt -e sh -c 'torify -h ; bash'</command>
-          </action>
-      </item>
-      <item label="tor">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'tor -h ; bash'</command>
-          </action>
-      </item>
-      <item label="tor-gencert">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'tor-gencert ; bash'</command>
-          </action>
-      </item>
-      <item label="tor-print-ed-signing-cert">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'tor-print-ed-signing-cert ; bash'</command>
-          </action>
-      </item>
-      <item label="tor-resolve">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'tor-resolve ; bash'</command>
-          </action>
-      </item>
-      <item label="torify">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'torify -h ; bash'</command>
-          </action>
-      </item>
-      <item label="torsocks">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'torsocks -h ; bash'</command>
           </action>
       </item>
       <item label="torsocks">
@@ -26682,11 +26597,6 @@
       <item label="ycrawler">
           <action name="Execute">
               <command>urxvt -e sh -c 'ycrawler -h ; bash'</command>
-          </action>
-      </item>
-      <item label="zaproxy">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'zaproxy ; bash'</command>
           </action>
       </item>
       <item label="zaproxy">
