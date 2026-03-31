@@ -131,11 +131,6 @@
     </menu>
 
     <menu id="blackarch-automation-menu" label="automation">
-      <item label="_mocha">
-          <action name="Execute">
-              <command>urxvt -e sh -c '_mocha ; bash'</command>
-          </action>
-      </item>
       <item label="acorn">
           <action name="Execute">
               <command>urxvt -e sh -c 'acorn ; bash'</command>
@@ -679,6 +674,11 @@
       <item label="mitmap-old">
           <action name="Execute">
               <command>urxvt -e sh -c 'mitmap-old -h ; bash'</command>
+          </action>
+      </item>
+      <item label="_mocha">
+          <action name="Execute">
+              <command>urxvt -e sh -c '_mocha ; bash'</command>
           </action>
       </item>
       <item label="mocha">
@@ -3301,11 +3301,6 @@
               <command>urxvt -e sh -c '.coverrc ; bash'</command>
           </action>
       </item>
-      <item label="_mocha">
-          <action name="Execute">
-              <command>urxvt -e sh -c '_mocha ; bash'</command>
-          </action>
-      </item>
       <item label="acorn">
           <action name="Execute">
               <command>urxvt -e sh -c 'acorn ; bash'</command>
@@ -3569,6 +3564,11 @@
       <item label="mineBugHistory">
           <action name="Execute">
               <command>urxvt -e sh -c 'mineBugHistory ; bash'</command>
+          </action>
+      </item>
+      <item label="_mocha">
+          <action name="Execute">
+              <command>urxvt -e sh -c '_mocha ; bash'</command>
           </action>
       </item>
       <item label="mocha">
@@ -9474,11 +9474,6 @@
     </menu>
 
     <menu id="blackarch-exploitation-menu" label="exploitation">
-      <item label="_mocha">
-          <action name="Execute">
-              <command>urxvt -e sh -c '_mocha ; bash'</command>
-          </action>
-      </item>
       <item label="aclpwn">
           <action name="Execute">
               <command>urxvt -e sh -c 'aclpwn -h ; bash'</command>
@@ -10462,6 +10457,11 @@
       <item label="mitmweb">
           <action name="Execute">
               <command>urxvt -e sh -c 'mitmweb ; bash'</command>
+          </action>
+      </item>
+      <item label="_mocha">
+          <action name="Execute">
+              <command>urxvt -e sh -c '_mocha ; bash'</command>
           </action>
       </item>
       <item label="mosquito">
@@ -27141,11 +27141,6 @@
     </menu>
 
     <menu id="blackarch-scanner-menu" label="scanner">
-      <item label="_mocha">
-          <action name="Execute">
-              <command>urxvt -e sh -c '_mocha ; bash'</command>
-          </action>
-      </item>
       <item label="0d1n">
           <action name="Execute">
               <command>urxvt -e sh -c '0d1n ; bash'</command>
@@ -29549,6 +29544,11 @@
       <item label="mldq6">
           <action name="Execute">
               <command>urxvt -e sh -c 'mldq6 ; bash'</command>
+          </action>
+      </item>
+      <item label="_mocha">
+          <action name="Execute">
+              <command>urxvt -e sh -c '_mocha ; bash'</command>
           </action>
       </item>
       <item label="mocha">
@@ -35185,11 +35185,6 @@
     </menu>
 
     <menu id="blackarch-webapp-menu" label="webapp">
-      <item label="_mocha">
-          <action name="Execute">
-              <command>urxvt -e sh -c '_mocha ; bash'</command>
-          </action>
-      </item>
       <item label="0d1n">
           <action name="Execute">
               <command>urxvt -e sh -c '0d1n ; bash'</command>
@@ -36338,6 +36333,11 @@
       <item label="metoscan">
           <action name="Execute">
               <command>urxvt -e sh -c 'metoscan ; bash'</command>
+          </action>
+      </item>
+      <item label="_mocha">
+          <action name="Execute">
+              <command>urxvt -e sh -c '_mocha ; bash'</command>
           </action>
       </item>
       <item label="monsoon">
