@@ -18495,31 +18495,6 @@
               <command>urxvt -e sh -c 'mount_afp ; bash'</command>
           </action>
       </item>
-      <item label="afp_client">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'afp_client ; bash'</command>
-          </action>
-      </item>
-      <item label="afpfs">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'afpfs ; bash'</command>
-          </action>
-      </item>
-      <item label="afpfsd">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'afpfsd -h ; bash'</command>
-          </action>
-      </item>
-      <item label="afpgetstatus">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'afpgetstatus ; bash'</command>
-          </action>
-      </item>
-      <item label="mount_afp">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'mount_afp ; bash'</command>
-          </action>
-      </item>
       <item label="aiengine">
           <action name="Execute">
               <command>urxvt -e sh -c 'aiengine -h ; bash'</command>
@@ -18720,26 +18695,6 @@
               <command>urxvt -e sh -c 'get-oui -h ; bash'</command>
           </action>
       </item>
-      <item label="arp-fingerprint">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'arp-fingerprint -h ; bash'</command>
-          </action>
-      </item>
-      <item label="arp-scan">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'arp-scan -h ; bash'</command>
-          </action>
-      </item>
-      <item label="get-iab">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'get-iab -h ; bash'</command>
-          </action>
-      </item>
-      <item label="get-oui">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'get-oui -h ; bash'</command>
-          </action>
-      </item>
       <item label="arpalert">
           <action name="Execute">
               <command>urxvt -e sh -c 'arpalert -h ; bash'</command>
@@ -18758,16 +18713,6 @@
       <item label="asnmap">
           <action name="Execute">
               <command>urxvt -e sh -c 'asnmap -h ; bash'</command>
-          </action>
-      </item>
-      <item label="atftp">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'atftp ; bash'</command>
-          </action>
-      </item>
-      <item label="atftpd">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'atftpd ; bash'</command>
           </action>
       </item>
       <item label="atftp">
@@ -18800,11 +18745,6 @@
               <command>urxvt -e sh -c 'bettercap -h ; bash'</command>
           </action>
       </item>
-      <item label="bettercap">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'bettercap -h ; bash'</command>
-          </action>
-      </item>
       <item label="arpaname">
           <action name="Execute">
               <command>urxvt -e sh -c 'arpaname ; bash'</command>
@@ -18898,106 +18838,6 @@
       <item label="rndc">
           <action name="Execute">
               <command>urxvt -e sh -c 'rndc ; bash'</command>
-          </action>
-      </item>
-      <item label="arpaname">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'arpaname ; bash'</command>
-          </action>
-      </item>
-      <item label="delv">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'delv ; bash'</command>
-          </action>
-      </item>
-      <item label="dig">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'dig -h ; bash'</command>
-          </action>
-      </item>
-      <item label="dnssec-cds">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'dnssec-cds ; bash'</command>
-          </action>
-      </item>
-      <item label="dnssec-revoke">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'dnssec-revoke ; bash'</command>
-          </action>
-      </item>
-      <item label="dnssec-settime">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'dnssec-settime ; bash'</command>
-          </action>
-      </item>
-      <item label="dnssec-signzone">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'dnssec-signzone ; bash'</command>
-          </action>
-      </item>
-      <item label="dnssec-verify">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'dnssec-verify ; bash'</command>
-          </action>
-      </item>
-      <item label="host">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'host ; bash'</command>
-          </action>
-      </item>
-      <item label="mdig">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'mdig ; bash'</command>
-          </action>
-      </item>
-      <item label="named">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'named ; bash'</command>
-          </action>
-      </item>
-      <item label="named-checkzone">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'named-checkzone ; bash'</command>
-          </action>
-      </item>
-      <item label="named-compilezone">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'named-compilezone ; bash'</command>
-          </action>
-      </item>
-      <item label="named-journalprint">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'named-journalprint ; bash'</command>
-          </action>
-      </item>
-      <item label="named-nzd2nzf">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'named-nzd2nzf ; bash'</command>
-          </action>
-      </item>
-      <item label="named-rrchecker">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'named-rrchecker ; bash'</command>
-          </action>
-      </item>
-      <item label="nslookup">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'nslookup ; bash'</command>
-          </action>
-      </item>
-      <item label="nsupdate">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'nsupdate ; bash'</command>
-          </action>
-      </item>
-      <item label="rndc">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'rndc ; bash'</command>
-          </action>
-      </item>
-      <item label="binproxy">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'binproxy --help ; bash'</command>
           </action>
       </item>
       <item label="binproxy">
@@ -19043,11 +18883,6 @@
       <item label="bypass-firewall-dns-history">
           <action name="Execute">
               <command>urxvt -e sh -c 'bypass-firewall-dns-history -h ; bash'</command>
-          </action>
-      </item>
-      <item label="cadaver">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'cadaver -h ; bash'</command>
           </action>
       </item>
       <item label="cadaver">
@@ -19125,11 +18960,6 @@
               <command>urxvt -e sh -c 'corkscrew ; bash'</command>
           </action>
       </item>
-      <item label="corkscrew">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'corkscrew ; bash'</command>
-          </action>
-      </item>
       <item label="creak">
           <action name="Execute">
               <command>urxvt -e sh -c 'creak -h ; bash'</command>
@@ -19138,11 +18968,6 @@
       <item label="cyberscan">
           <action name="Execute">
               <command>urxvt -e sh -c 'cyberscan -h ; bash'</command>
-          </action>
-      </item>
-      <item label="darkstat">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'darkstat -h ; bash'</command>
           </action>
       </item>
       <item label="darkstat">
@@ -19295,56 +19120,6 @@
               <command>urxvt -e sh -c 'webmitm -h ; bash'</command>
           </action>
       </item>
-      <item label="dnsspoof">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'dnsspoof -h ; bash'</command>
-          </action>
-      </item>
-      <item label="dsniff">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'dsniff -h ; bash'</command>
-          </action>
-      </item>
-      <item label="filesnarf">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'filesnarf -h ; bash'</command>
-          </action>
-      </item>
-      <item label="macof">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'macof -h ; bash'</command>
-          </action>
-      </item>
-      <item label="mailsnarf">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'mailsnarf -h ; bash'</command>
-          </action>
-      </item>
-      <item label="msgsnarf">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'msgsnarf -h ; bash'</command>
-          </action>
-      </item>
-      <item label="tcpkill">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'tcpkill -h ; bash'</command>
-          </action>
-      </item>
-      <item label="tcpnice">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'tcpnice -h ; bash'</command>
-          </action>
-      </item>
-      <item label="urlsnarf">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'urlsnarf -h ; bash'</command>
-          </action>
-      </item>
-      <item label="webmitm">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'webmitm -h ; bash'</command>
-          </action>
-      </item>
       <item label="dtp-spoof">
           <action name="Execute">
               <command>urxvt -e sh -c 'dtp-spoof -h ; bash'</command>
@@ -19378,26 +19153,6 @@
       <item label="etherape">
           <action name="Execute">
               <command>urxvt -e sh -c 'etherape ; bash'</command>
-          </action>
-      </item>
-      <item label="etherape">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'etherape ; bash'</command>
-          </action>
-      </item>
-      <item label="ettercap">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ettercap -h ; bash'</command>
-          </action>
-      </item>
-      <item label="etterfilter">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'etterfilter -h ; bash'</command>
-          </action>
-      </item>
-      <item label="etterlog">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'etterlog -h ; bash'</command>
           </action>
       </item>
       <item label="ettercap">
@@ -19470,139 +19225,9 @@
               <command>urxvt -e sh -c 'fping -h ; bash'</command>
           </action>
       </item>
-      <item label="fping">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'fping -h ; bash'</command>
-          </action>
-      </item>
       <item label="fraud-bridge">
           <action name="Execute">
               <command>urxvt -e sh -c 'fraud-bridge -h ; bash'</command>
-          </action>
-      </item>
-      <item label="bmc-device">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'bmc-device ; bash'</command>
-          </action>
-      </item>
-      <item label="bmc-info">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'bmc-info ; bash'</command>
-          </action>
-      </item>
-      <item label="bmc-watchdog">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'bmc-watchdog ; bash'</command>
-          </action>
-      </item>
-      <item label="ipmi-chassis">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ipmi-chassis ; bash'</command>
-          </action>
-      </item>
-      <item label="ipmi-console">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ipmi-console ; bash'</command>
-          </action>
-      </item>
-      <item label="ipmi-dcmi">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ipmi-dcmi ; bash'</command>
-          </action>
-      </item>
-      <item label="ipmi-detect">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ipmi-detect ; bash'</command>
-          </action>
-      </item>
-      <item label="ipmi-fru">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ipmi-fru ; bash'</command>
-          </action>
-      </item>
-      <item label="ipmi-locate">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ipmi-locate ; bash'</command>
-          </action>
-      </item>
-      <item label="ipmi-oem">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ipmi-oem ; bash'</command>
-          </action>
-      </item>
-      <item label="ipmi-pet">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ipmi-pet ; bash'</command>
-          </action>
-      </item>
-      <item label="ipmi-ping">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ipmi-ping ; bash'</command>
-          </action>
-      </item>
-      <item label="ipmi-power">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ipmi-power ; bash'</command>
-          </action>
-      </item>
-      <item label="ipmi-raw">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ipmi-raw ; bash'</command>
-          </action>
-      </item>
-      <item label="ipmi-sel">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ipmi-sel ; bash'</command>
-          </action>
-      </item>
-      <item label="ipmi-sensors">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ipmi-sensors ; bash'</command>
-          </action>
-      </item>
-      <item label="ipmiconsole">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ipmiconsole ; bash'</command>
-          </action>
-      </item>
-      <item label="ipmidetect">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ipmidetect ; bash'</command>
-          </action>
-      </item>
-      <item label="ipmidetectd">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ipmidetectd ; bash'</command>
-          </action>
-      </item>
-      <item label="ipmimonitoring">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ipmimonitoring ; bash'</command>
-          </action>
-      </item>
-      <item label="ipmiping">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ipmiping ; bash'</command>
-          </action>
-      </item>
-      <item label="ipmipower">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ipmipower ; bash'</command>
-          </action>
-      </item>
-      <item label="ipmiseld">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ipmiseld ; bash'</command>
-          </action>
-      </item>
-      <item label="rmcp-ping">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'rmcp-ping ; bash'</command>
-          </action>
-      </item>
-      <item label="rmcpping">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'rmcpping ; bash'</command>
           </action>
       </item>
       <item label="bmc-device">
@@ -19770,31 +19395,6 @@
               <command>urxvt -e sh -c 'gsocket ; bash'</command>
           </action>
       </item>
-      <item label="blitz">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'blitz -h ; bash'</command>
-          </action>
-      </item>
-      <item label="gs-mount">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'gs-mount -h ; bash'</command>
-          </action>
-      </item>
-      <item label="gs-netcat">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'gs-netcat -h ; bash'</command>
-          </action>
-      </item>
-      <item label="gs-sftp">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'gs-sftp -h ; bash'</command>
-          </action>
-      </item>
-      <item label="gsocket">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'gsocket ; bash'</command>
-          </action>
-      </item>
       <item label="gspoof">
           <action name="Execute">
               <command>urxvt -e sh -c 'gspoof -h ; bash'</command>
@@ -19860,29 +19460,9 @@
               <command>urxvt -e sh -c 'hping3 --help ; bash'</command>
           </action>
       </item>
-      <item label="hping">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'hping --help ; bash'</command>
-          </action>
-      </item>
-      <item label="hping2">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'hping2 --help ; bash'</command>
-          </action>
-      </item>
-      <item label="hping3">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'hping3 --help ; bash'</command>
-          </action>
-      </item>
       <item label="http-traceroute">
           <action name="Execute">
               <command>urxvt -e sh -c 'http-traceroute -h ; bash'</command>
-          </action>
-      </item>
-      <item label="httping">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'httping --help ; bash'</command>
           </action>
       </item>
       <item label="httping">
@@ -19908,11 +19488,6 @@
       <item label="hyperfox">
           <action name="Execute">
               <command>urxvt -e sh -c 'hyperfox -h ; bash'</command>
-          </action>
-      </item>
-      <item label="i2pd">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'i2pd --help ; bash'</command>
           </action>
       </item>
       <item label="i2pd">
@@ -19968,36 +19543,6 @@
       <item label="ipmitool">
           <action name="Execute">
               <command>urxvt -e sh -c 'ipmitool -h ; bash'</command>
-          </action>
-      </item>
-      <item label="ipmievd">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ipmievd -h ; bash'</command>
-          </action>
-      </item>
-      <item label="ipmitool">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ipmitool -h ; bash'</command>
-          </action>
-      </item>
-      <item label="arping">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'arping -h ; bash'</command>
-          </action>
-      </item>
-      <item label="clockdiff">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'clockdiff ; bash'</command>
-          </action>
-      </item>
-      <item label="ping">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ping ; bash'</command>
-          </action>
-      </item>
-      <item label="tracepath">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'tracepath -h ; bash'</command>
           </action>
       </item>
       <item label="arping">
@@ -20230,11 +19775,6 @@
               <command>urxvt -e sh -c 'macchanger --help ; bash'</command>
           </action>
       </item>
-      <item label="macchanger">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'macchanger --help ; bash'</command>
-          </action>
-      </item>
       <item label="maclookup">
           <action name="Execute">
               <command>urxvt -e sh -c 'maclookup -h ; bash'</command>
@@ -20315,16 +19855,6 @@
               <command>urxvt -e sh -c 'msfvenom -h ; bash'</command>
           </action>
       </item>
-      <item label="msfconsole">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'msfconsole -h ; bash'</command>
-          </action>
-      </item>
-      <item label="msfd">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'msfd -h ; bash'</command>
-          </action>
-      </item>
       <item label="msfelfscan">
           <action name="Execute">
               <command>urxvt -e sh -c 'msfelfscan -h ; bash'</command>
@@ -20345,24 +19875,9 @@
               <command>urxvt -e sh -c 'msfrop -h ; bash'</command>
           </action>
       </item>
-      <item label="msfrpc">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'msfrpc -h ; bash'</command>
-          </action>
-      </item>
-      <item label="msfrpcd">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'msfrpcd -h ; bash'</command>
-          </action>
-      </item>
       <item label="msfupdate">
           <action name="Execute">
               <command>urxvt -e sh -c 'msfupdate -h ; bash'</command>
-          </action>
-      </item>
-      <item label="msfvenom">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'msfvenom -h ; bash'</command>
           </action>
       </item>
       <item label="expressInstall.swf">
@@ -20458,16 +19973,6 @@
       <item label="mptcp-scanner">
           <action name="Execute">
               <command>urxvt -e sh -c 'mptcp-scanner ; bash'</command>
-          </action>
-      </item>
-      <item label="mtr">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'mtr -h ; bash'</command>
-          </action>
-      </item>
-      <item label="mtr-packet">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'mtr-packet ; bash'</command>
           </action>
       </item>
       <item label="mtr">
@@ -20815,11 +20320,6 @@
               <command>urxvt -e sh -c 'ngrep -h ; bash'</command>
           </action>
       </item>
-      <item label="ngrep">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ngrep -h ; bash'</command>
-          </action>
-      </item>
       <item label="ngrok">
           <action name="Execute">
               <command>urxvt -e sh -c 'ngrok ; bash'</command>
@@ -20888,11 +20388,6 @@
       <item label="packet-o-matic">
           <action name="Execute">
               <command>urxvt -e sh -c 'packet-o-matic -h ; bash'</command>
-          </action>
-      </item>
-      <item label="packETH">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'packETH ; bash'</command>
           </action>
       </item>
       <item label="packETH">
@@ -21080,11 +20575,6 @@
               <command>urxvt -e sh -c 'ptunnel -h ; bash'</command>
           </action>
       </item>
-      <item label="ptunnel">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ptunnel -h ; bash'</command>
-          </action>
-      </item>
       <item label="pwnat">
           <action name="Execute">
               <command>urxvt -e sh -c 'pwnat -h ; bash'</command>
@@ -21143,11 +20633,6 @@
       <item label="ldd2pretty2">
           <action name="Execute">
               <command>urxvt -e sh -c 'ldd2pretty2 ; bash'</command>
-          </action>
-      </item>
-      <item label="rathole">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'rathole -h ; bash'</command>
           </action>
       </item>
       <item label="rathole">
@@ -21835,21 +21320,6 @@
               <command>urxvt -e sh -c 'socat -h ; bash'</command>
           </action>
       </item>
-      <item label="filan">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'filan -h ; bash'</command>
-          </action>
-      </item>
-      <item label="procan">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'procan -h ; bash'</command>
-          </action>
-      </item>
-      <item label="socat">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'socat -h ; bash'</command>
-          </action>
-      </item>
       <item label="sockstat">
           <action name="Execute">
               <command>urxvt -e sh -c 'sockstat -h ; bash'</command>
@@ -21870,16 +21340,6 @@
               <command>urxvt -e sh -c 'spiped ; bash'</command>
           </action>
       </item>
-      <item label="spipe">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'spipe ; bash'</command>
-          </action>
-      </item>
-      <item label="spiped">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'spiped ; bash'</command>
-          </action>
-      </item>
       <item label="ssdp-scanner">
           <action name="Execute">
               <command>urxvt -e sh -c 'ssdp-scanner ; bash'</command>
@@ -21888,21 +21348,6 @@
       <item label="ssl-phuck3r">
           <action name="Execute">
               <command>urxvt -e sh -c 'ssl-phuck3r -h ; bash'</command>
-          </action>
-      </item>
-      <item label="sslh">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'sslh -h ; bash'</command>
-          </action>
-      </item>
-      <item label="sslh-fork">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'sslh-fork -h ; bash'</command>
-          </action>
-      </item>
-      <item label="sslh-select">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'sslh-select -h ; bash'</command>
           </action>
       </item>
       <item label="sslh">
@@ -21950,21 +21395,6 @@
               <command>urxvt -e sh -c 'stunnel3 ; bash'</command>
           </action>
       </item>
-      <item label="stunnel">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'stunnel ; bash'</command>
-          </action>
-      </item>
-      <item label="stunnel3">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'stunnel3 ; bash'</command>
-          </action>
-      </item>
-      <item label="swaks">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'swaks --help ; bash'</command>
-          </action>
-      </item>
       <item label="swaks">
           <action name="Execute">
               <command>urxvt -e sh -c 'swaks --help ; bash'</command>
@@ -22000,11 +21430,6 @@
               <command>urxvt -e sh -c 'tcpdump -h ; bash'</command>
           </action>
       </item>
-      <item label="tcpdump">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'tcpdump -h ; bash'</command>
-          </action>
-      </item>
       <item label="tcpextract">
           <action name="Execute">
               <command>urxvt -e sh -c 'tcpextract -h ; bash'</command>
@@ -22013,31 +21438,6 @@
       <item label="tcpflow">
           <action name="Execute">
               <command>urxvt -e sh -c 'tcpflow -h ; bash'</command>
-          </action>
-      </item>
-      <item label="tcpflow">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'tcpflow -h ; bash'</command>
-          </action>
-      </item>
-      <item label="tcpbridge">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'tcpbridge -h ; bash'</command>
-          </action>
-      </item>
-      <item label="tcpcapinfo">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'tcpcapinfo ; bash'</command>
-          </action>
-      </item>
-      <item label="tcpprep">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'tcpprep -h ; bash'</command>
-          </action>
-      </item>
-      <item label="tcprewrite">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'tcprewrite -h ; bash'</command>
           </action>
       </item>
       <item label="tcpbridge">
@@ -22395,321 +21795,6 @@
               <command>urxvt -e sh -c 'trace6 ; bash'</command>
           </action>
       </item>
-      <item label="address6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'address6 ; bash'</command>
-          </action>
-      </item>
-      <item label="alive6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'alive6 ; bash'</command>
-          </action>
-      </item>
-      <item label="connect6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'connect6 ; bash'</command>
-          </action>
-      </item>
-      <item label="covert_send6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'covert_send6 ; bash'</command>
-          </action>
-      </item>
-      <item label="covert_send6d">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'covert_send6d ; bash'</command>
-          </action>
-      </item>
-      <item label="denial6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'denial6 ; bash'</command>
-          </action>
-      </item>
-      <item label="detect-new-ip6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'detect-new-ip6 ; bash'</command>
-          </action>
-      </item>
-      <item label="detect_sniffer6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'detect_sniffer6 ; bash'</command>
-          </action>
-      </item>
-      <item label="dnsdict6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'dnsdict6 ; bash'</command>
-          </action>
-      </item>
-      <item label="dnsrevenum6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'dnsrevenum6 ; bash'</command>
-          </action>
-      </item>
-      <item label="dnssecwalk">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'dnssecwalk ; bash'</command>
-          </action>
-      </item>
-      <item label="dos-new-ip6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'dos-new-ip6 ; bash'</command>
-          </action>
-      </item>
-      <item label="dump_dhcp6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'dump_dhcp6 -h ; bash'</command>
-          </action>
-      </item>
-      <item label="dump_router6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'dump_router6 ; bash'</command>
-          </action>
-      </item>
-      <item label="fake_advertise6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'fake_advertise6 ; bash'</command>
-          </action>
-      </item>
-      <item label="fake_dns6d">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'fake_dns6d ; bash'</command>
-          </action>
-      </item>
-      <item label="fake_dnsupdate6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'fake_dnsupdate6 ; bash'</command>
-          </action>
-      </item>
-      <item label="fake_mipv6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'fake_mipv6 ; bash'</command>
-          </action>
-      </item>
-      <item label="fake_mld26">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'fake_mld26 ; bash'</command>
-          </action>
-      </item>
-      <item label="fake_mld6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'fake_mld6 ; bash'</command>
-          </action>
-      </item>
-      <item label="fake_mldrouter6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'fake_mldrouter6 ; bash'</command>
-          </action>
-      </item>
-      <item label="fake_pim6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'fake_pim6 ; bash'</command>
-          </action>
-      </item>
-      <item label="fake_router26">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'fake_router26 ; bash'</command>
-          </action>
-      </item>
-      <item label="fake_router6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'fake_router6 ; bash'</command>
-          </action>
-      </item>
-      <item label="fake_solicitate6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'fake_solicitate6 ; bash'</command>
-          </action>
-      </item>
-      <item label="firewall6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'firewall6 ; bash'</command>
-          </action>
-      </item>
-      <item label="flood_advertise6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'flood_advertise6 ; bash'</command>
-          </action>
-      </item>
-      <item label="flood_dhcpc6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'flood_dhcpc6 ; bash'</command>
-          </action>
-      </item>
-      <item label="flood_mld26">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'flood_mld26 ; bash'</command>
-          </action>
-      </item>
-      <item label="flood_mld6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'flood_mld6 ; bash'</command>
-          </action>
-      </item>
-      <item label="flood_mldrouter6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'flood_mldrouter6 ; bash'</command>
-          </action>
-      </item>
-      <item label="flood_redir6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'flood_redir6 ; bash'</command>
-          </action>
-      </item>
-      <item label="flood_router26">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'flood_router26 ; bash'</command>
-          </action>
-      </item>
-      <item label="flood_router6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'flood_router6 ; bash'</command>
-          </action>
-      </item>
-      <item label="flood_rs6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'flood_rs6 ; bash'</command>
-          </action>
-      </item>
-      <item label="flood_solicitate6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'flood_solicitate6 ; bash'</command>
-          </action>
-      </item>
-      <item label="flood_unreach6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'flood_unreach6 ; bash'</command>
-          </action>
-      </item>
-      <item label="four2six">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'four2six ; bash'</command>
-          </action>
-      </item>
-      <item label="fragmentation6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'fragmentation6 ; bash'</command>
-          </action>
-      </item>
-      <item label="fragrouter6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'fragrouter6 ; bash'</command>
-          </action>
-      </item>
-      <item label="fuzz_dhcpc6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'fuzz_dhcpc6 ; bash'</command>
-          </action>
-      </item>
-      <item label="fuzz_ip6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'fuzz_ip6 ; bash'</command>
-          </action>
-      </item>
-      <item label="inject_alive6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'inject_alive6 ; bash'</command>
-          </action>
-      </item>
-      <item label="inverse_lookup6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'inverse_lookup6 ; bash'</command>
-          </action>
-      </item>
-      <item label="kill_router6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'kill_router6 ; bash'</command>
-          </action>
-      </item>
-      <item label="ndpexhaust26">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ndpexhaust26 ; bash'</command>
-          </action>
-      </item>
-      <item label="ndpexhaust6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ndpexhaust6 ; bash'</command>
-          </action>
-      </item>
-      <item label="node_query6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'node_query6 ; bash'</command>
-          </action>
-      </item>
-      <item label="parasite6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'parasite6 ; bash'</command>
-          </action>
-      </item>
-      <item label="passive_discovery6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'passive_discovery6 ; bash'</command>
-          </action>
-      </item>
-      <item label="randicmp6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'randicmp6 ; bash'</command>
-          </action>
-      </item>
-      <item label="redir6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'redir6 ; bash'</command>
-          </action>
-      </item>
-      <item label="redirsniff6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'redirsniff6 ; bash'</command>
-          </action>
-      </item>
-      <item label="rsmurf6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'rsmurf6 ; bash'</command>
-          </action>
-      </item>
-      <item label="sendpees6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'sendpees6 ; bash'</command>
-          </action>
-      </item>
-      <item label="sendpeesmp6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'sendpeesmp6 ; bash'</command>
-          </action>
-      </item>
-      <item label="smurf6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'smurf6 ; bash'</command>
-          </action>
-      </item>
-      <item label="thcping6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'thcping6 ; bash'</command>
-          </action>
-      </item>
-      <item label="thcsyn6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'thcsyn6 ; bash'</command>
-          </action>
-      </item>
-      <item label="toobig6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'toobig6 ; bash'</command>
-          </action>
-      </item>
-      <item label="toobigsniff6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'toobigsniff6 ; bash'</command>
-          </action>
-      </item>
-      <item label="trace6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'trace6 ; bash'</command>
-          </action>
-      </item>
-      <item label="tincd">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'tincd ; bash'</command>
-          </action>
-      </item>
       <item label="tincd">
           <action name="Execute">
               <command>urxvt -e sh -c 'tincd ; bash'</command>
@@ -22718,31 +21803,6 @@
       <item label="topera">
           <action name="Execute">
               <command>urxvt -e sh -c 'topera -h ; bash'</command>
-          </action>
-      </item>
-      <item label="tor">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'tor -h ; bash'</command>
-          </action>
-      </item>
-      <item label="tor-gencert">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'tor-gencert ; bash'</command>
-          </action>
-      </item>
-      <item label="tor-print-ed-signing-cert">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'tor-print-ed-signing-cert ; bash'</command>
-          </action>
-      </item>
-      <item label="tor-resolve">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'tor-resolve ; bash'</command>
-          </action>
-      </item>
-      <item label="torify">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'torify -h ; bash'</command>
           </action>
       </item>
       <item label="tor">
@@ -22783,16 +21843,6 @@
       <item label="turner">
           <action name="Execute">
               <command>urxvt -e sh -c 'turner -h ; bash'</command>
-          </action>
-      </item>
-      <item label="udp2raw">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'udp2raw ; bash'</command>
-          </action>
-      </item>
-      <item label="udp2raw">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'udp2raw ; bash'</command>
           </action>
       </item>
       <item label="udp2raw">
@@ -22843,56 +21893,6 @@
       <item label="websockify">
           <action name="Execute">
               <command>urxvt -e sh -c 'websockify -h ; bash'</command>
-          </action>
-      </item>
-      <item label="capinfos">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'capinfos -h ; bash'</command>
-          </action>
-      </item>
-      <item label="captype">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'captype ; bash'</command>
-          </action>
-      </item>
-      <item label="dumpcap">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'dumpcap ; bash'</command>
-          </action>
-      </item>
-      <item label="editcap">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'editcap ; bash'</command>
-          </action>
-      </item>
-      <item label="idl2wrs">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'idl2wrs ; bash'</command>
-          </action>
-      </item>
-      <item label="mergecap">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'mergecap -h ; bash'</command>
-          </action>
-      </item>
-      <item label="randpkt">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'randpkt ; bash'</command>
-          </action>
-      </item>
-      <item label="reordercap">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'reordercap ; bash'</command>
-          </action>
-      </item>
-      <item label="sharkd">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'sharkd ; bash'</command>
-          </action>
-      </item>
-      <item label="text2pcap">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'text2pcap ; bash'</command>
           </action>
       </item>
       <item label="capinfos">
@@ -23208,11 +22208,6 @@
       <item label="rst">
           <action name="Execute">
               <command>urxvt -e sh -c 'rst ; bash'</command>
-          </action>
-      </item>
-      <item label="ztelnet">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ztelnet ; bash'</command>
           </action>
       </item>
       <item label="ztelnet">
