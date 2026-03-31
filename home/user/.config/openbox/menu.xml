@@ -23145,101 +23145,6 @@
               <command>urxvt -e sh -c 'rndc ; bash'</command>
           </action>
       </item>
-      <item label="arpaname">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'arpaname ; bash'</command>
-          </action>
-      </item>
-      <item label="delv">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'delv ; bash'</command>
-          </action>
-      </item>
-      <item label="dig">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'dig -h ; bash'</command>
-          </action>
-      </item>
-      <item label="dnssec-cds">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'dnssec-cds ; bash'</command>
-          </action>
-      </item>
-      <item label="dnssec-revoke">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'dnssec-revoke ; bash'</command>
-          </action>
-      </item>
-      <item label="dnssec-settime">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'dnssec-settime ; bash'</command>
-          </action>
-      </item>
-      <item label="dnssec-signzone">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'dnssec-signzone ; bash'</command>
-          </action>
-      </item>
-      <item label="dnssec-verify">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'dnssec-verify ; bash'</command>
-          </action>
-      </item>
-      <item label="host">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'host ; bash'</command>
-          </action>
-      </item>
-      <item label="mdig">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'mdig ; bash'</command>
-          </action>
-      </item>
-      <item label="named">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'named ; bash'</command>
-          </action>
-      </item>
-      <item label="named-checkzone">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'named-checkzone ; bash'</command>
-          </action>
-      </item>
-      <item label="named-compilezone">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'named-compilezone ; bash'</command>
-          </action>
-      </item>
-      <item label="named-journalprint">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'named-journalprint ; bash'</command>
-          </action>
-      </item>
-      <item label="named-nzd2nzf">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'named-nzd2nzf ; bash'</command>
-          </action>
-      </item>
-      <item label="named-rrchecker">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'named-rrchecker ; bash'</command>
-          </action>
-      </item>
-      <item label="nslookup">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'nslookup ; bash'</command>
-          </action>
-      </item>
-      <item label="nsupdate">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'nsupdate ; bash'</command>
-          </action>
-      </item>
-      <item label="rndc">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'rndc ; bash'</command>
-          </action>
-      </item>
       <item label="bing-ip2hosts">
           <action name="Execute">
               <command>urxvt -e sh -c 'bing-ip2hosts ; bash'</command>
@@ -23308,11 +23213,6 @@
       <item label="pysudo">
           <action name="Execute">
               <command>urxvt -e sh -c 'pysudo -h ; bash'</command>
-          </action>
-      </item>
-      <item label="cantoolz">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'cantoolz -h ; bash'</command>
           </action>
       </item>
       <item label="cantoolz">
@@ -23413,11 +23313,6 @@
       <item label="cmsscanner">
           <action name="Execute">
               <command>urxvt -e sh -c 'cmsscanner -h ; bash'</command>
-          </action>
-      </item>
-      <item label="cmsscan">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'cmsscan -h ; bash'</command>
           </action>
       </item>
       <item label="cnamulator">
@@ -23725,11 +23620,6 @@
               <command>urxvt -e sh -c 'exitmap -h ; bash'</command>
           </action>
       </item>
-      <item label="exitmap">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'exitmap -h ; bash'</command>
-          </action>
-      </item>
       <item label="expimp-lookup">
           <action name="Execute">
               <command>urxvt -e sh -c 'expimp-lookup ; bash'</command>
@@ -23805,19 +23695,9 @@
               <command>urxvt -e sh -c 'findomain ; bash'</command>
           </action>
       </item>
-      <item label="findomain">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'findomain ; bash'</command>
-          </action>
-      </item>
       <item label="forager">
           <action name="Execute">
               <command>urxvt -e sh -c 'forager -h ; bash'</command>
-          </action>
-      </item>
-      <item label="fping">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'fping -h ; bash'</command>
           </action>
       </item>
       <item label="fping">
@@ -24035,26 +23915,6 @@
               <command>urxvt -e sh -c 'bundle ; bash'</command>
           </action>
       </item>
-      <item label="rails">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'rails ; bash'</command>
-          </action>
-      </item>
-      <item label="rake">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'rake ; bash'</command>
-          </action>
-      </item>
-      <item label="setup">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'setup ; bash'</command>
-          </action>
-      </item>
-      <item label="spring">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'spring ; bash'</command>
-          </action>
-      </item>
       <item label="holehe">
           <action name="Execute">
               <command>urxvt -e sh -c 'holehe -h ; bash'</command>
@@ -24073,11 +23933,6 @@
       <item label="console">
           <action name="Execute">
               <command>urxvt -e sh -c 'console ; bash'</command>
-          </action>
-      </item>
-      <item label="setup">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'setup ; bash'</command>
           </action>
       </item>
       <item label="hosthunter">
@@ -24103,11 +23958,6 @@
       <item label="httpforge">
           <action name="Execute">
               <command>urxvt -e sh -c 'httpforge -h ; bash'</command>
-          </action>
-      </item>
-      <item label="httping">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'httping --help ; bash'</command>
           </action>
       </item>
       <item label="httping">
@@ -24450,21 +24300,6 @@
               <command>urxvt -e sh -c 'mail-crawl -h ; bash'</command>
           </action>
       </item>
-      <item label="maltego">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'maltego -h ; bash'</command>
-          </action>
-      </item>
-      <item label="maltego">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'maltego -h ; bash'</command>
-          </action>
-      </item>
-      <item label="maltego.ico">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'maltego.ico ; bash'</command>
-          </action>
-      </item>
       <item label="manspider">
           <action name="Execute">
               <command>urxvt -e sh -c 'manspider -h ; bash'</command>
@@ -24535,16 +24370,6 @@
               <command>urxvt -e sh -c 'msfvenom -h ; bash'</command>
           </action>
       </item>
-      <item label="msfconsole">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'msfconsole -h ; bash'</command>
-          </action>
-      </item>
-      <item label="msfd">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'msfd -h ; bash'</command>
-          </action>
-      </item>
       <item label="msfelfscan">
           <action name="Execute">
               <command>urxvt -e sh -c 'msfelfscan -h ; bash'</command>
@@ -24565,24 +24390,9 @@
               <command>urxvt -e sh -c 'msfrop -h ; bash'</command>
           </action>
       </item>
-      <item label="msfrpc">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'msfrpc -h ; bash'</command>
-          </action>
-      </item>
-      <item label="msfrpcd">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'msfrpcd -h ; bash'</command>
-          </action>
-      </item>
       <item label="msfupdate">
           <action name="Execute">
               <command>urxvt -e sh -c 'msfupdate -h ; bash'</command>
-          </action>
-      </item>
-      <item label="msfvenom">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'msfvenom -h ; bash'</command>
           </action>
       </item>
       <item label="expressInstall.swf">
@@ -25025,36 +24835,6 @@
               <command>urxvt -e sh -c 'proxmark3 -h ; bash'</command>
           </action>
       </item>
-      <item label="mf_nonce_brute">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'mf_nonce_brute ; bash'</command>
-          </action>
-      </item>
-      <item label="mf_trace_brute">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'mf_trace_brute ; bash'</command>
-          </action>
-      </item>
-      <item label="mfd_aes_brute">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'mfd_aes_brute ; bash'</command>
-          </action>
-      </item>
-      <item label="mfd_multi_brute">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'mfd_multi_brute ; bash'</command>
-          </action>
-      </item>
-      <item label="pm3">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'pm3 -h ; bash'</command>
-          </action>
-      </item>
-      <item label="proxmark3">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'proxmark3 -h ; bash'</command>
-          </action>
-      </item>
       <item label="ptf">
           <action name="Execute">
               <command>urxvt -e sh -c 'ptf ; bash'</command>
@@ -25093,11 +24873,6 @@
       <item label="pythem">
           <action name="Execute">
               <command>urxvt -e sh -c 'pythem ; bash'</command>
-          </action>
-      </item>
-      <item label="shodan">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'shodan ; bash'</command>
           </action>
       </item>
       <item label="shodan">
@@ -25990,316 +25765,6 @@
               <command>urxvt -e sh -c 'trace6 ; bash'</command>
           </action>
       </item>
-      <item label="address6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'address6 ; bash'</command>
-          </action>
-      </item>
-      <item label="alive6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'alive6 ; bash'</command>
-          </action>
-      </item>
-      <item label="connect6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'connect6 ; bash'</command>
-          </action>
-      </item>
-      <item label="covert_send6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'covert_send6 ; bash'</command>
-          </action>
-      </item>
-      <item label="covert_send6d">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'covert_send6d ; bash'</command>
-          </action>
-      </item>
-      <item label="denial6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'denial6 ; bash'</command>
-          </action>
-      </item>
-      <item label="detect-new-ip6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'detect-new-ip6 ; bash'</command>
-          </action>
-      </item>
-      <item label="detect_sniffer6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'detect_sniffer6 ; bash'</command>
-          </action>
-      </item>
-      <item label="dnsdict6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'dnsdict6 ; bash'</command>
-          </action>
-      </item>
-      <item label="dnsrevenum6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'dnsrevenum6 ; bash'</command>
-          </action>
-      </item>
-      <item label="dnssecwalk">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'dnssecwalk ; bash'</command>
-          </action>
-      </item>
-      <item label="dos-new-ip6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'dos-new-ip6 ; bash'</command>
-          </action>
-      </item>
-      <item label="dump_dhcp6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'dump_dhcp6 -h ; bash'</command>
-          </action>
-      </item>
-      <item label="dump_router6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'dump_router6 ; bash'</command>
-          </action>
-      </item>
-      <item label="fake_advertise6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'fake_advertise6 ; bash'</command>
-          </action>
-      </item>
-      <item label="fake_dns6d">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'fake_dns6d ; bash'</command>
-          </action>
-      </item>
-      <item label="fake_dnsupdate6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'fake_dnsupdate6 ; bash'</command>
-          </action>
-      </item>
-      <item label="fake_mipv6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'fake_mipv6 ; bash'</command>
-          </action>
-      </item>
-      <item label="fake_mld26">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'fake_mld26 ; bash'</command>
-          </action>
-      </item>
-      <item label="fake_mld6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'fake_mld6 ; bash'</command>
-          </action>
-      </item>
-      <item label="fake_mldrouter6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'fake_mldrouter6 ; bash'</command>
-          </action>
-      </item>
-      <item label="fake_pim6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'fake_pim6 ; bash'</command>
-          </action>
-      </item>
-      <item label="fake_router26">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'fake_router26 ; bash'</command>
-          </action>
-      </item>
-      <item label="fake_router6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'fake_router6 ; bash'</command>
-          </action>
-      </item>
-      <item label="fake_solicitate6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'fake_solicitate6 ; bash'</command>
-          </action>
-      </item>
-      <item label="firewall6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'firewall6 ; bash'</command>
-          </action>
-      </item>
-      <item label="flood_advertise6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'flood_advertise6 ; bash'</command>
-          </action>
-      </item>
-      <item label="flood_dhcpc6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'flood_dhcpc6 ; bash'</command>
-          </action>
-      </item>
-      <item label="flood_mld26">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'flood_mld26 ; bash'</command>
-          </action>
-      </item>
-      <item label="flood_mld6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'flood_mld6 ; bash'</command>
-          </action>
-      </item>
-      <item label="flood_mldrouter6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'flood_mldrouter6 ; bash'</command>
-          </action>
-      </item>
-      <item label="flood_redir6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'flood_redir6 ; bash'</command>
-          </action>
-      </item>
-      <item label="flood_router26">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'flood_router26 ; bash'</command>
-          </action>
-      </item>
-      <item label="flood_router6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'flood_router6 ; bash'</command>
-          </action>
-      </item>
-      <item label="flood_rs6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'flood_rs6 ; bash'</command>
-          </action>
-      </item>
-      <item label="flood_solicitate6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'flood_solicitate6 ; bash'</command>
-          </action>
-      </item>
-      <item label="flood_unreach6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'flood_unreach6 ; bash'</command>
-          </action>
-      </item>
-      <item label="four2six">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'four2six ; bash'</command>
-          </action>
-      </item>
-      <item label="fragmentation6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'fragmentation6 ; bash'</command>
-          </action>
-      </item>
-      <item label="fragrouter6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'fragrouter6 ; bash'</command>
-          </action>
-      </item>
-      <item label="fuzz_dhcpc6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'fuzz_dhcpc6 ; bash'</command>
-          </action>
-      </item>
-      <item label="fuzz_ip6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'fuzz_ip6 ; bash'</command>
-          </action>
-      </item>
-      <item label="inject_alive6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'inject_alive6 ; bash'</command>
-          </action>
-      </item>
-      <item label="inverse_lookup6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'inverse_lookup6 ; bash'</command>
-          </action>
-      </item>
-      <item label="kill_router6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'kill_router6 ; bash'</command>
-          </action>
-      </item>
-      <item label="ndpexhaust26">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ndpexhaust26 ; bash'</command>
-          </action>
-      </item>
-      <item label="ndpexhaust6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ndpexhaust6 ; bash'</command>
-          </action>
-      </item>
-      <item label="node_query6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'node_query6 ; bash'</command>
-          </action>
-      </item>
-      <item label="parasite6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'parasite6 ; bash'</command>
-          </action>
-      </item>
-      <item label="passive_discovery6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'passive_discovery6 ; bash'</command>
-          </action>
-      </item>
-      <item label="randicmp6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'randicmp6 ; bash'</command>
-          </action>
-      </item>
-      <item label="redir6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'redir6 ; bash'</command>
-          </action>
-      </item>
-      <item label="redirsniff6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'redirsniff6 ; bash'</command>
-          </action>
-      </item>
-      <item label="rsmurf6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'rsmurf6 ; bash'</command>
-          </action>
-      </item>
-      <item label="sendpees6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'sendpees6 ; bash'</command>
-          </action>
-      </item>
-      <item label="sendpeesmp6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'sendpeesmp6 ; bash'</command>
-          </action>
-      </item>
-      <item label="smurf6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'smurf6 ; bash'</command>
-          </action>
-      </item>
-      <item label="thcping6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'thcping6 ; bash'</command>
-          </action>
-      </item>
-      <item label="thcsyn6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'thcsyn6 ; bash'</command>
-          </action>
-      </item>
-      <item label="toobig6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'toobig6 ; bash'</command>
-          </action>
-      </item>
-      <item label="toobigsniff6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'toobigsniff6 ; bash'</command>
-          </action>
-      </item>
-      <item label="trace6">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'trace6 ; bash'</command>
-          </action>
-      </item>
       <item label="thcrut">
           <action name="Execute">
               <command>urxvt -e sh -c 'thcrut -h ; bash'</command>
@@ -26333,11 +25798,6 @@
       <item label="token-hunter">
           <action name="Execute">
               <command>urxvt -e sh -c 'token-hunter -h ; bash'</command>
-          </action>
-      </item>
-      <item label="traceroute">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'traceroute --help ; bash'</command>
           </action>
       </item>
       <item label="traceroute">
