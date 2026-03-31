@@ -37986,131 +37986,6 @@
               <command>urxvt -e sh -c 'wpaclean ; bash'</command>
           </action>
       </item>
-      <item label="aircrack-ng">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'aircrack-ng --help ; bash'</command>
-          </action>
-      </item>
-      <item label="airdecap-ng">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'airdecap-ng --help ; bash'</command>
-          </action>
-      </item>
-      <item label="airdecloak-ng">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'airdecloak-ng --help ; bash'</command>
-          </action>
-      </item>
-      <item label="airdrop-ng">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'airdrop-ng ; bash'</command>
-          </action>
-      </item>
-      <item label="airgraph-ng">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'airgraph-ng -h ; bash'</command>
-          </action>
-      </item>
-      <item label="airmon-ng">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'airmon-ng --help ; bash'</command>
-          </action>
-      </item>
-      <item label="airodump-join">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'airodump-join ; bash'</command>
-          </action>
-      </item>
-      <item label="airodump-ng">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'airodump-ng --help ; bash'</command>
-          </action>
-      </item>
-      <item label="airodump-ng-oui-update">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'airodump-ng-oui-update ; bash'</command>
-          </action>
-      </item>
-      <item label="airolib-ng">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'airolib-ng --help ; bash'</command>
-          </action>
-      </item>
-      <item label="airserv-ng">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'airserv-ng --help ; bash'</command>
-          </action>
-      </item>
-      <item label="airtun-ng">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'airtun-ng --help ; bash'</command>
-          </action>
-      </item>
-      <item label="airventriloquist-ng">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'airventriloquist-ng ; bash'</command>
-          </action>
-      </item>
-      <item label="besside-ng">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'besside-ng --help ; bash'</command>
-          </action>
-      </item>
-      <item label="besside-ng-crawler">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'besside-ng-crawler ; bash'</command>
-          </action>
-      </item>
-      <item label="buddy-ng">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'buddy-ng --help ; bash'</command>
-          </action>
-      </item>
-      <item label="easside-ng">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'easside-ng --help ; bash'</command>
-          </action>
-      </item>
-      <item label="ivstools">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ivstools ; bash'</command>
-          </action>
-      </item>
-      <item label="kstats">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'kstats ; bash'</command>
-          </action>
-      </item>
-      <item label="makeivs-ng">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'makeivs-ng -h ; bash'</command>
-          </action>
-      </item>
-      <item label="packetforge-ng">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'packetforge-ng --help ; bash'</command>
-          </action>
-      </item>
-      <item label="tkiptun-ng">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'tkiptun-ng --help ; bash'</command>
-          </action>
-      </item>
-      <item label="versuck-ng">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'versuck-ng ; bash'</command>
-          </action>
-      </item>
-      <item label="wesside-ng">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'wesside-ng --help ; bash'</command>
-          </action>
-      </item>
-      <item label="wpaclean">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'wpaclean ; bash'</command>
-          </action>
-      </item>
       <item label="airflood">
           <action name="Execute">
               <command>urxvt -e sh -c 'airflood -h ; bash'</command>
@@ -38166,11 +38041,6 @@
               <command>urxvt -e sh -c 'batctl ; bash'</command>
           </action>
       </item>
-      <item label="batctl">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'batctl ; bash'</command>
-          </action>
-      </item>
       <item label="alfred">
           <action name="Execute">
               <command>urxvt -e sh -c 'alfred -h ; bash'</command>
@@ -38199,21 +38069,6 @@
       <item label="bully">
           <action name="Execute">
               <command>urxvt -e sh -c 'bully -h ; bash'</command>
-          </action>
-      </item>
-      <item label="bully">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'bully -h ; bash'</command>
-          </action>
-      </item>
-      <item label="cowpatty">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'cowpatty -h ; bash'</command>
-          </action>
-      </item>
-      <item label="genpmk">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'genpmk -h ; bash'</command>
           </action>
       </item>
       <item label="cowpatty">
@@ -38259,106 +38114,6 @@
       <item label="fluxion">
           <action name="Execute">
               <command>urxvt -e sh -c 'fluxion ; bash'</command>
-          </action>
-      </item>
-      <item label="checkrad">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'checkrad -h ; bash'</command>
-          </action>
-      </item>
-      <item label="dhcpclient">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'dhcpclient -h ; bash'</command>
-          </action>
-      </item>
-      <item label="rad_counter">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'rad_counter ; bash'</command>
-          </action>
-      </item>
-      <item label="radattr">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'radattr -h ; bash'</command>
-          </action>
-      </item>
-      <item label="radclient">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'radclient -h ; bash'</command>
-          </action>
-      </item>
-      <item label="radcrypt">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'radcrypt -h ; bash'</command>
-          </action>
-      </item>
-      <item label="raddebug">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'raddebug -h ; bash'</command>
-          </action>
-      </item>
-      <item label="radeapclient">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'radeapclient ; bash'</command>
-          </action>
-      </item>
-      <item label="radiusd">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'radiusd -h ; bash'</command>
-          </action>
-      </item>
-      <item label="radlast">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'radlast -h ; bash'</command>
-          </action>
-      </item>
-      <item label="radmin">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'radmin -h ; bash'</command>
-          </action>
-      </item>
-      <item label="radsniff">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'radsniff -h ; bash'</command>
-          </action>
-      </item>
-      <item label="radsqlrelay">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'radsqlrelay ; bash'</command>
-          </action>
-      </item>
-      <item label="radtest">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'radtest ; bash'</command>
-          </action>
-      </item>
-      <item label="radwho">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'radwho -h ; bash'</command>
-          </action>
-      </item>
-      <item label="radzap">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'radzap -h ; bash'</command>
-          </action>
-      </item>
-      <item label="rc.radiusd">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'rc.radiusd ; bash'</command>
-          </action>
-      </item>
-      <item label="rlm_ippool_tool">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'rlm_ippool_tool ; bash'</command>
-          </action>
-      </item>
-      <item label="rlm_sqlippool_tool">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'rlm_sqlippool_tool ; bash'</command>
-          </action>
-      </item>
-      <item label="smbencrypt">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'smbencrypt ; bash'</command>
           </action>
       </item>
       <item label="checkrad">
@@ -38551,76 +38306,6 @@
               <command>urxvt -e sh -c 'uhd_siggen_gui ; bash'</command>
           </action>
       </item>
-      <item label="gnuradio-companion">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'gnuradio-companion -h ; bash'</command>
-          </action>
-      </item>
-      <item label="gr-ctrlport-monitor">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'gr-ctrlport-monitor ; bash'</command>
-          </action>
-      </item>
-      <item label="gr-perf-monitorx">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'gr-perf-monitorx ; bash'</command>
-          </action>
-      </item>
-      <item label="gr_filter_design">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'gr_filter_design ; bash'</command>
-          </action>
-      </item>
-      <item label="gr_modtool">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'gr_modtool ; bash'</command>
-          </action>
-      </item>
-      <item label="gr_read_file_metadata">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'gr_read_file_metadata ; bash'</command>
-          </action>
-      </item>
-      <item label="grcc">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'grcc ; bash'</command>
-          </action>
-      </item>
-      <item label="polar_channel_construction">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'polar_channel_construction ; bash'</command>
-          </action>
-      </item>
-      <item label="uhd_fft">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'uhd_fft ; bash'</command>
-          </action>
-      </item>
-      <item label="uhd_rx_cfile">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'uhd_rx_cfile ; bash'</command>
-          </action>
-      </item>
-      <item label="uhd_rx_nogui">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'uhd_rx_nogui ; bash'</command>
-          </action>
-      </item>
-      <item label="uhd_siggen">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'uhd_siggen ; bash'</command>
-          </action>
-      </item>
-      <item label="uhd_siggen_gui">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'uhd_siggen_gui ; bash'</command>
-          </action>
-      </item>
-      <item label="gqrx">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'gqrx ; bash'</command>
-          </action>
-      </item>
       <item label="gqrx">
           <action name="Execute">
               <command>urxvt -e sh -c 'gqrx ; bash'</command>
@@ -38634,56 +38319,6 @@
       <item label="hcxpioff">
           <action name="Execute">
               <command>urxvt -e sh -c 'hcxpioff -h ; bash'</command>
-          </action>
-      </item>
-      <item label="hcxdumptool">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'hcxdumptool -h ; bash'</command>
-          </action>
-      </item>
-      <item label="hcxpioff">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'hcxpioff -h ; bash'</command>
-          </action>
-      </item>
-      <item label="hcxeiutool">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'hcxeiutool ; bash'</command>
-          </action>
-      </item>
-      <item label="hcxessidtool">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'hcxessidtool ; bash'</command>
-          </action>
-      </item>
-      <item label="hcxmactool">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'hcxmactool ; bash'</command>
-          </action>
-      </item>
-      <item label="hcxpmkidtool">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'hcxpmkidtool ; bash'</command>
-          </action>
-      </item>
-      <item label="hcxpmktool">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'hcxpmktool ; bash'</command>
-          </action>
-      </item>
-      <item label="hcxwltool">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'hcxwltool ; bash'</command>
-          </action>
-      </item>
-      <item label="whoismac">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'whoismac -h ; bash'</command>
-          </action>
-      </item>
-      <item label="wlancap2wpasec">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'wlancap2wpasec ; bash'</command>
           </action>
       </item>
       <item label="hcxeiutool">
@@ -38896,61 +38531,6 @@
               <command>urxvt -e sh -c 'kismetdb_to_wiglecsv ; bash'</command>
           </action>
       </item>
-      <item label="kismet">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'kismet -h ; bash'</command>
-          </action>
-      </item>
-      <item label="kismet_discovery">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'kismet_discovery ; bash'</command>
-          </action>
-      </item>
-      <item label="kismet_server">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'kismet_server -h ; bash'</command>
-          </action>
-      </item>
-      <item label="kismetdb_clean">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'kismetdb_clean ; bash'</command>
-          </action>
-      </item>
-      <item label="kismetdb_dump_devices">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'kismetdb_dump_devices ; bash'</command>
-          </action>
-      </item>
-      <item label="kismetdb_statistics">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'kismetdb_statistics ; bash'</command>
-          </action>
-      </item>
-      <item label="kismetdb_strip_packets">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'kismetdb_strip_packets ; bash'</command>
-          </action>
-      </item>
-      <item label="kismetdb_to_gpx">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'kismetdb_to_gpx ; bash'</command>
-          </action>
-      </item>
-      <item label="kismetdb_to_kml">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'kismetdb_to_kml ; bash'</command>
-          </action>
-      </item>
-      <item label="kismetdb_to_pcap">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'kismetdb_to_pcap ; bash'</command>
-          </action>
-      </item>
-      <item label="kismetdb_to_wiglecsv">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'kismetdb_to_wiglecsv ; bash'</command>
-          </action>
-      </item>
       <item label="db2ge">
           <action name="Execute">
               <command>urxvt -e sh -c 'db2ge -h ; bash'</command>
@@ -38991,19 +38571,9 @@
               <command>urxvt -e sh -c 'mdk4 --help ; bash'</command>
           </action>
       </item>
-      <item label="mdk4">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'mdk4 --help ; bash'</command>
-          </action>
-      </item>
       <item label="mfcuk">
           <action name="Execute">
               <command>urxvt -e sh -c 'mfcuk ; bash'</command>
-          </action>
-      </item>
-      <item label="mfoc">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'mfoc -h ; bash'</command>
           </action>
       </item>
       <item label="mfoc">
@@ -39064,16 +38634,6 @@
       <item label="reaver">
           <action name="Execute">
               <command>urxvt -e sh -c 'reaver ; bash'</command>
-          </action>
-      </item>
-      <item label="reaver">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'reaver ; bash'</command>
-          </action>
-      </item>
-      <item label="rfdump">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'rfdump ; bash'</command>
           </action>
       </item>
       <item label="rfdump">
@@ -39296,11 +38856,6 @@
               <command>urxvt -e sh -c 'wavemon -h ; bash'</command>
           </action>
       </item>
-      <item label="wavemon">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'wavemon -h ; bash'</command>
-          </action>
-      </item>
       <item label="wepbuster">
           <action name="Execute">
               <command>urxvt -e sh -c 'wepbuster --help ; bash'</command>
@@ -39374,11 +38929,6 @@
       <item label="wifitap">
           <action name="Execute">
               <command>urxvt -e sh -c 'wifitap ; bash'</command>
-          </action>
-      </item>
-      <item label="wifite">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'wifite ; bash'</command>
           </action>
       </item>
       <item label="wifite">
