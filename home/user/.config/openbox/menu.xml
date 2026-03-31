@@ -12013,21 +12013,6 @@
               <command>urxvt -e sh -c 'reged ; bash'</command>
           </action>
       </item>
-      <item label="chntpw">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'chntpw ; bash'</command>
-          </action>
-      </item>
-      <item label="cpnt">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'cpnt ; bash'</command>
-          </action>
-      </item>
-      <item label="reged">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'reged ; bash'</command>
-          </action>
-      </item>
       <item label="chromefreak">
           <action name="Execute">
               <command>urxvt -e sh -c 'chromefreak -h ; bash'</command>
@@ -12041,16 +12026,6 @@
       <item label="dcfldd">
           <action name="Execute">
               <command>urxvt -e sh -c 'dcfldd --help ; bash'</command>
-          </action>
-      </item>
-      <item label="ddrescue">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ddrescue --help ; bash'</command>
-          </action>
-      </item>
-      <item label="ddrescuelog">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ddrescuelog --help ; bash'</command>
           </action>
       </item>
       <item label="ddrescue">
@@ -12098,16 +12073,6 @@
               <command>urxvt -e sh -c 'vfdecrypt ; bash'</command>
           </action>
       </item>
-      <item label="dmg2img">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'dmg2img ; bash'</command>
-          </action>
-      </item>
-      <item label="vfdecrypt">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'vfdecrypt ; bash'</command>
-          </action>
-      </item>
       <item label="dumpzilla">
           <action name="Execute">
               <command>urxvt -e sh -c 'dumpzilla -h ; bash'</command>
@@ -12141,11 +12106,6 @@
       <item label="firefox-decrypt">
           <action name="Execute">
               <command>urxvt -e sh -c 'firefox-decrypt -h ; bash'</command>
-          </action>
-      </item>
-      <item label="foremost">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'foremost -h ; bash'</command>
           </action>
       </item>
       <item label="foremost">
@@ -12336,21 +12296,6 @@
       <item label="malheur">
           <action name="Execute">
               <command>urxvt -e sh -c 'malheur -h ; bash'</command>
-          </action>
-      </item>
-      <item label="maltego">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'maltego -h ; bash'</command>
-          </action>
-      </item>
-      <item label="maltego">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'maltego -h ; bash'</command>
-          </action>
-      </item>
-      <item label="maltego.ico">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'maltego.ico ; bash'</command>
           </action>
       </item>
       <item label="malwaredetect">
@@ -13043,11 +12988,6 @@
               <command>urxvt -e sh -c 'rkhunter -h ; bash'</command>
           </action>
       </item>
-      <item label="rkhunter">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'rkhunter -h ; bash'</command>
-          </action>
-      </item>
       <item label="scalpel">
           <action name="Execute">
               <command>urxvt -e sh -c 'scalpel ; bash'</command>
@@ -13066,171 +13006,6 @@
       <item label="skypefreak">
           <action name="Execute">
               <command>urxvt -e sh -c 'skypefreak -h ; bash'</command>
-          </action>
-      </item>
-      <item label="blkcalc">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'blkcalc ; bash'</command>
-          </action>
-      </item>
-      <item label="blkcat">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'blkcat ; bash'</command>
-          </action>
-      </item>
-      <item label="blkls">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'blkls ; bash'</command>
-          </action>
-      </item>
-      <item label="blkstat">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'blkstat ; bash'</command>
-          </action>
-      </item>
-      <item label="fcat">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'fcat ; bash'</command>
-          </action>
-      </item>
-      <item label="ffind">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ffind ; bash'</command>
-          </action>
-      </item>
-      <item label="fiwalk">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'fiwalk ; bash'</command>
-          </action>
-      </item>
-      <item label="fls">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'fls -h ; bash'</command>
-          </action>
-      </item>
-      <item label="fsstat">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'fsstat ; bash'</command>
-          </action>
-      </item>
-      <item label="hfind">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'hfind ; bash'</command>
-          </action>
-      </item>
-      <item label="icat">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'icat ; bash'</command>
-          </action>
-      </item>
-      <item label="ifind">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ifind ; bash'</command>
-          </action>
-      </item>
-      <item label="ils">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ils ; bash'</command>
-          </action>
-      </item>
-      <item label="img_cat">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'img_cat ; bash'</command>
-          </action>
-      </item>
-      <item label="img_stat">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'img_stat -h ; bash'</command>
-          </action>
-      </item>
-      <item label="istat">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'istat ; bash'</command>
-          </action>
-      </item>
-      <item label="jcat">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'jcat ; bash'</command>
-          </action>
-      </item>
-      <item label="jls">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'jls ; bash'</command>
-          </action>
-      </item>
-      <item label="jpeg_extract">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'jpeg_extract ; bash'</command>
-          </action>
-      </item>
-      <item label="mactime">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'mactime ; bash'</command>
-          </action>
-      </item>
-      <item label="mmcat">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'mmcat -h ; bash'</command>
-          </action>
-      </item>
-      <item label="mmls">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'mmls ; bash'</command>
-          </action>
-      </item>
-      <item label="mmstat">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'mmstat ; bash'</command>
-          </action>
-      </item>
-      <item label="pstat">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'pstat ; bash'</command>
-          </action>
-      </item>
-      <item label="sigfind">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'sigfind ; bash'</command>
-          </action>
-      </item>
-      <item label="sorter">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'sorter ; bash'</command>
-          </action>
-      </item>
-      <item label="srch_strings">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'srch_strings ; bash'</command>
-          </action>
-      </item>
-      <item label="tsk_comparedir">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'tsk_comparedir ; bash'</command>
-          </action>
-      </item>
-      <item label="tsk_gettimes">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'tsk_gettimes ; bash'</command>
-          </action>
-      </item>
-      <item label="tsk_imageinfo">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'tsk_imageinfo ; bash'</command>
-          </action>
-      </item>
-      <item label="tsk_loaddb">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'tsk_loaddb ; bash'</command>
-          </action>
-      </item>
-      <item label="tsk_recover">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'tsk_recover ; bash'</command>
-          </action>
-      </item>
-      <item label="usnjls">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'usnjls ; bash'</command>
           </action>
       </item>
       <item label="blkcalc">
@@ -13488,21 +13263,6 @@
               <command>urxvt -e sh -c 'testdisk ; bash'</command>
           </action>
       </item>
-      <item label="fidentify">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'fidentify ; bash'</command>
-          </action>
-      </item>
-      <item label="photorec">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'photorec ; bash'</command>
-          </action>
-      </item>
-      <item label="testdisk">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'testdisk ; bash'</command>
-          </action>
-      </item>
       <item label="trid">
           <action name="Execute">
               <command>urxvt -e sh -c 'trid -h ; bash'</command>
@@ -13511,26 +13271,6 @@
       <item label="truehunter">
           <action name="Execute">
               <command>urxvt -e sh -c 'truehunter -h ; bash'</command>
-          </action>
-      </item>
-      <item label="unhide">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'unhide -h ; bash'</command>
-          </action>
-      </item>
-      <item label="unhide-linux">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'unhide-linux ; bash'</command>
-          </action>
-      </item>
-      <item label="unhide-posix">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'unhide-posix ; bash'</command>
-          </action>
-      </item>
-      <item label="unhide-tcp">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'unhide-tcp ; bash'</command>
           </action>
       </item>
       <item label="unhide">
@@ -13581,11 +13321,6 @@
       <item label="volatility-extra">
           <action name="Execute">
               <command>urxvt -e sh -c 'volatility-extra -h ; bash'</command>
-          </action>
-      </item>
-      <item label="vol">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'vol ; bash'</command>
           </action>
       </item>
       <item label="vol">
