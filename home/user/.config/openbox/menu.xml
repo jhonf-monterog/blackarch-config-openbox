@@ -4087,11 +4087,6 @@
               <command>urxvt -e sh -c 'bully -h ; bash'</command>
           </action>
       </item>
-      <item label="bully">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'bully -h ; bash'</command>
-          </action>
-      </item>
       <item label="byepass">
           <action name="Execute">
               <command>urxvt -e sh -c 'byepass -h ; bash'</command>
@@ -4115,21 +4110,6 @@
       <item label="chapcrack">
           <action name="Execute">
               <command>urxvt -e sh -c 'chapcrack -h ; bash'</command>
-          </action>
-      </item>
-      <item label="chntpw">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'chntpw ; bash'</command>
-          </action>
-      </item>
-      <item label="cpnt">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'cpnt ; bash'</command>
-          </action>
-      </item>
-      <item label="reged">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'reged ; bash'</command>
           </action>
       </item>
       <item label="chntpw">
@@ -4195,16 +4175,6 @@
       <item label="compp">
           <action name="Execute">
               <command>urxvt -e sh -c 'compp -h ; bash'</command>
-          </action>
-      </item>
-      <item label="cowpatty">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'cowpatty -h ; bash'</command>
-          </action>
-      </item>
-      <item label="genpmk">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'genpmk -h ; bash'</command>
           </action>
       </item>
       <item label="cowpatty">
@@ -4732,16 +4702,6 @@
               <command>urxvt -e sh -c 'pw-inspector -h ; bash'</command>
           </action>
       </item>
-      <item label="hydra">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'hydra -h ; bash'</command>
-          </action>
-      </item>
-      <item label="pw-inspector">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'pw-inspector -h ; bash'</command>
-          </action>
-      </item>
       <item label="iax-scan-hosts">
           <action name="Execute">
               <command>urxvt -e sh -c 'iax-scan-hosts -h ; bash'</command>
@@ -4787,11 +4747,6 @@
               <command>urxvt -e sh -c 'inguma -h ; bash'</command>
           </action>
       </item>
-      <item label="inguma">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'inguma -h ; bash'</command>
-          </action>
-      </item>
       <item label="ingumagui">
           <action name="Execute">
               <command>urxvt -e sh -c 'ingumagui ; bash'</command>
@@ -4820,611 +4775,6 @@
       <item label="jbrute">
           <action name="Execute">
               <command>urxvt -e sh -c 'jbrute --help ; bash'</command>
-          </action>
-      </item>
-      <item label="1password2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c '1password2john ; bash'</command>
-          </action>
-      </item>
-      <item label="7z2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c '7z2john ; bash'</command>
-          </action>
-      </item>
-      <item label="DPAPImk2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'DPAPImk2john ; bash'</command>
-          </action>
-      </item>
-      <item label="SIPdump">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'SIPdump ; bash'</command>
-          </action>
-      </item>
-      <item label="adxcsouf2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'adxcsouf2john ; bash'</command>
-          </action>
-      </item>
-      <item label="aem2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'aem2john ; bash'</command>
-          </action>
-      </item>
-      <item label="aix2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'aix2john ; bash'</command>
-          </action>
-      </item>
-      <item label="andotp2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'andotp2john ; bash'</command>
-          </action>
-      </item>
-      <item label="androidbackup2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'androidbackup2john ; bash'</command>
-          </action>
-      </item>
-      <item label="androidfde2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'androidfde2john ; bash'</command>
-          </action>
-      </item>
-      <item label="ansible2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ansible2john ; bash'</command>
-          </action>
-      </item>
-      <item label="apex2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'apex2john ; bash'</command>
-          </action>
-      </item>
-      <item label="aruba2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'aruba2john ; bash'</command>
-          </action>
-      </item>
-      <item label="axcrypt2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'axcrypt2john ; bash'</command>
-          </action>
-      </item>
-      <item label="base64conv">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'base64conv ; bash'</command>
-          </action>
-      </item>
-      <item label="bestcrypt2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'bestcrypt2john ; bash'</command>
-          </action>
-      </item>
-      <item label="bitcoin2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'bitcoin2john ; bash'</command>
-          </action>
-      </item>
-      <item label="bitlocker2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'bitlocker2john ; bash'</command>
-          </action>
-      </item>
-      <item label="bitwarden2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'bitwarden2john ; bash'</command>
-          </action>
-      </item>
-      <item label="bks2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'bks2john ; bash'</command>
-          </action>
-      </item>
-      <item label="blockchain2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'blockchain2john ; bash'</command>
-          </action>
-      </item>
-      <item label="calc_stat">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'calc_stat ; bash'</command>
-          </action>
-      </item>
-      <item label="cisco2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'cisco2john ; bash'</command>
-          </action>
-      </item>
-      <item label="codepage">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'codepage ; bash'</command>
-          </action>
-      </item>
-      <item label="cprepair">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'cprepair ; bash'</command>
-          </action>
-      </item>
-      <item label="cracf2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'cracf2john ; bash'</command>
-          </action>
-      </item>
-      <item label="diskcryptor2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'diskcryptor2john ; bash'</command>
-          </action>
-      </item>
-      <item label="dmg2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'dmg2john ; bash'</command>
-          </action>
-      </item>
-      <item label="ecryptfs2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ecryptfs2john ; bash'</command>
-          </action>
-      </item>
-      <item label="ejabberd2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ejabberd2john ; bash'</command>
-          </action>
-      </item>
-      <item label="electrum2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'electrum2john ; bash'</command>
-          </action>
-      </item>
-      <item label="encfs2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'encfs2john ; bash'</command>
-          </action>
-      </item>
-      <item label="enpass2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'enpass2john ; bash'</command>
-          </action>
-      </item>
-      <item label="ethereum2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ethereum2john ; bash'</command>
-          </action>
-      </item>
-      <item label="filezilla2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'filezilla2john ; bash'</command>
-          </action>
-      </item>
-      <item label="fuzz_option">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'fuzz_option ; bash'</command>
-          </action>
-      </item>
-      <item label="geli2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'geli2john ; bash'</command>
-          </action>
-      </item>
-      <item label="genincstats">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'genincstats ; bash'</command>
-          </action>
-      </item>
-      <item label="genmkvpwd">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'genmkvpwd ; bash'</command>
-          </action>
-      </item>
-      <item label="gpg2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'gpg2john ; bash'</command>
-          </action>
-      </item>
-      <item label="hccap2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'hccap2john ; bash'</command>
-          </action>
-      </item>
-      <item label="hccapx2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'hccapx2john ; bash'</command>
-          </action>
-      </item>
-      <item label="hextoraw">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'hextoraw ; bash'</command>
-          </action>
-      </item>
-      <item label="htdigest2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'htdigest2john ; bash'</command>
-          </action>
-      </item>
-      <item label="ibmiscanner2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ibmiscanner2john ; bash'</command>
-          </action>
-      </item>
-      <item label="ikescan2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ikescan2john ; bash'</command>
-          </action>
-      </item>
-      <item label="ios7tojohn">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ios7tojohn ; bash'</command>
-          </action>
-      </item>
-      <item label="itunes_backup2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'itunes_backup2john ; bash'</command>
-          </action>
-      </item>
-      <item label="iwork2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'iwork2john ; bash'</command>
-          </action>
-      </item>
-      <item label="john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'john ; bash'</command>
-          </action>
-      </item>
-      <item label="kdcdump2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'kdcdump2john ; bash'</command>
-          </action>
-      </item>
-      <item label="keepass2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'keepass2john ; bash'</command>
-          </action>
-      </item>
-      <item label="keychain2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'keychain2john ; bash'</command>
-          </action>
-      </item>
-      <item label="keyring2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'keyring2john ; bash'</command>
-          </action>
-      </item>
-      <item label="keystore2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'keystore2john ; bash'</command>
-          </action>
-      </item>
-      <item label="known_hosts2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'known_hosts2john ; bash'</command>
-          </action>
-      </item>
-      <item label="kwallet2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'kwallet2john ; bash'</command>
-          </action>
-      </item>
-      <item label="lastpass2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'lastpass2john ; bash'</command>
-          </action>
-      </item>
-      <item label="ldif2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ldif2john ; bash'</command>
-          </action>
-      </item>
-      <item label="leet">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'leet ; bash'</command>
-          </action>
-      </item>
-      <item label="libreoffice2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'libreoffice2john ; bash'</command>
-          </action>
-      </item>
-      <item label="lion2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'lion2john ; bash'</command>
-          </action>
-      </item>
-      <item label="lion2john-alt">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'lion2john-alt ; bash'</command>
-          </action>
-      </item>
-      <item label="lotus2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'lotus2john ; bash'</command>
-          </action>
-      </item>
-      <item label="luks2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'luks2john ; bash'</command>
-          </action>
-      </item>
-      <item label="mac2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'mac2john ; bash'</command>
-          </action>
-      </item>
-      <item label="mac2john-alt">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'mac2john-alt ; bash'</command>
-          </action>
-      </item>
-      <item label="mcafee_epo2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'mcafee_epo2john ; bash'</command>
-          </action>
-      </item>
-      <item label="mkvcalcproba">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'mkvcalcproba ; bash'</command>
-          </action>
-      </item>
-      <item label="monero2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'monero2john ; bash'</command>
-          </action>
-      </item>
-      <item label="money2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'money2john ; bash'</command>
-          </action>
-      </item>
-      <item label="mozilla2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'mozilla2john ; bash'</command>
-          </action>
-      </item>
-      <item label="multibit2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'multibit2john ; bash'</command>
-          </action>
-      </item>
-      <item label="neo2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'neo2john ; bash'</command>
-          </action>
-      </item>
-      <item label="netntlm">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'netntlm ; bash'</command>
-          </action>
-      </item>
-      <item label="netscreen">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'netscreen ; bash'</command>
-          </action>
-      </item>
-      <item label="network2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'network2john ; bash'</command>
-          </action>
-      </item>
-      <item label="office2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'office2john ; bash'</command>
-          </action>
-      </item>
-      <item label="openbsd_softraid2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'openbsd_softraid2john ; bash'</command>
-          </action>
-      </item>
-      <item label="openssl2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'openssl2john ; bash'</command>
-          </action>
-      </item>
-      <item label="padlock2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'padlock2john ; bash'</command>
-          </action>
-      </item>
-      <item label="pass_gen">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'pass_gen ; bash'</command>
-          </action>
-      </item>
-      <item label="pcap2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'pcap2john ; bash'</command>
-          </action>
-      </item>
-      <item label="pdf2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'pdf2john ; bash'</command>
-          </action>
-      </item>
-      <item label="pem2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'pem2john ; bash'</command>
-          </action>
-      </item>
-      <item label="pfx2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'pfx2john ; bash'</command>
-          </action>
-      </item>
-      <item label="pgpdisk2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'pgpdisk2john ; bash'</command>
-          </action>
-      </item>
-      <item label="pgpwde2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'pgpwde2john ; bash'</command>
-          </action>
-      </item>
-      <item label="potcheck">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'potcheck ; bash'</command>
-          </action>
-      </item>
-      <item label="prosody2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'prosody2john ; bash'</command>
-          </action>
-      </item>
-      <item label="ps_token2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ps_token2john ; bash'</command>
-          </action>
-      </item>
-      <item label="pse2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'pse2john ; bash'</command>
-          </action>
-      </item>
-      <item label="putty2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'putty2john ; bash'</command>
-          </action>
-      </item>
-      <item label="pwsafe2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'pwsafe2john ; bash'</command>
-          </action>
-      </item>
-      <item label="racf2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'racf2john ; bash'</command>
-          </action>
-      </item>
-      <item label="radius2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'radius2john ; bash'</command>
-          </action>
-      </item>
-      <item label="rar2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'rar2john ; bash'</command>
-          </action>
-      </item>
-      <item label="raw2dyna">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'raw2dyna ; bash'</command>
-          </action>
-      </item>
-      <item label="rexgen2rules">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'rexgen2rules ; bash'</command>
-          </action>
-      </item>
-      <item label="rulestack">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'rulestack ; bash'</command>
-          </action>
-      </item>
-      <item label="sap2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'sap2john ; bash'</command>
-          </action>
-      </item>
-      <item label="sha-dump">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'sha-dump ; bash'</command>
-          </action>
-      </item>
-      <item label="sha-test">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'sha-test ; bash'</command>
-          </action>
-      </item>
-      <item label="signal2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'signal2john ; bash'</command>
-          </action>
-      </item>
-      <item label="sipdump2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'sipdump2john ; bash'</command>
-          </action>
-      </item>
-      <item label="sspr2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'sspr2john ; bash'</command>
-          </action>
-      </item>
-      <item label="staroffice2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'staroffice2john ; bash'</command>
-          </action>
-      </item>
-      <item label="strip2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'strip2john ; bash'</command>
-          </action>
-      </item>
-      <item label="telegram2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'telegram2john ; bash'</command>
-          </action>
-      </item>
-      <item label="tezos2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'tezos2john ; bash'</command>
-          </action>
-      </item>
-      <item label="truecrypt2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'truecrypt2john ; bash'</command>
-          </action>
-      </item>
-      <item label="uaf2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'uaf2john ; bash'</command>
-          </action>
-      </item>
-      <item label="unafs">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'unafs ; bash'</command>
-          </action>
-      </item>
-      <item label="undrop">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'undrop ; bash'</command>
-          </action>
-      </item>
-      <item label="unique">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'unique ; bash'</command>
-          </action>
-      </item>
-      <item label="unrule">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'unrule ; bash'</command>
-          </action>
-      </item>
-      <item label="vdi2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'vdi2john ; bash'</command>
-          </action>
-      </item>
-      <item label="vmx2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'vmx2john ; bash'</command>
-          </action>
-      </item>
-      <item label="vncpcap2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'vncpcap2john ; bash'</command>
-          </action>
-      </item>
-      <item label="wpapcap2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'wpapcap2john ; bash'</command>
-          </action>
-      </item>
-      <item label="zip2john">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'zip2john ; bash'</command>
           </action>
       </item>
       <item label="1password2john">
@@ -6142,19 +5492,9 @@
               <command>urxvt -e sh -c 'medusa -h ; bash'</command>
           </action>
       </item>
-      <item label="medusa">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'medusa -h ; bash'</command>
-          </action>
-      </item>
       <item label="mentalist">
           <action name="Execute">
               <command>urxvt -e sh -c 'mentalist ; bash'</command>
-          </action>
-      </item>
-      <item label="mfoc">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'mfoc -h ; bash'</command>
           </action>
       </item>
       <item label="mfoc">
@@ -6212,11 +5552,6 @@
               <command>urxvt -e sh -c 'ncrack -h ; bash'</command>
           </action>
       </item>
-      <item label="ncrack">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ncrack -h ; bash'</command>
-          </action>
-      </item>
       <item label="o365enum">
           <action name="Execute">
               <command>urxvt -e sh -c 'o365enum -h ; bash'</command>
@@ -6267,11 +5602,6 @@
               <command>urxvt -e sh -c 'ophcrack -h ; bash'</command>
           </action>
       </item>
-      <item label="ophcrack">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'ophcrack -h ; bash'</command>
-          </action>
-      </item>
       <item label="owabf">
           <action name="Execute">
               <command>urxvt -e sh -c 'owabf -h ; bash'</command>
@@ -6310,11 +5640,6 @@
       <item label="patator">
           <action name="Execute">
               <command>urxvt -e sh -c 'patator --help ; bash'</command>
-          </action>
-      </item>
-      <item label="pdfcrack">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'pdfcrack ; bash'</command>
           </action>
       </item>
       <item label="pdfcrack">
@@ -6440,11 +5765,6 @@
       <item label="rdpassspray">
           <action name="Execute">
               <command>urxvt -e sh -c 'rdpassspray -h ; bash'</command>
-          </action>
-      </item>
-      <item label="reaver">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'reaver ; bash'</command>
           </action>
       </item>
       <item label="reaver">
@@ -6685,11 +6005,6 @@
       <item label="wifibroot">
           <action name="Execute">
               <command>urxvt -e sh -c 'wifibroot -h ; bash'</command>
-          </action>
-      </item>
-      <item label="wifite">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'wifite ; bash'</command>
           </action>
       </item>
       <item label="wifite">
