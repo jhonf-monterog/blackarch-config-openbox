@@ -1,6 +1,43 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 
 <openbox_menu xmlns="http://openbox.org/3.4/menu">
+
+    <!-- #################################################################################################### -->
+    <!-- Applications menu -->
+    <!-- #################################################################################################### -->
+
+    <menu id="browsers-menu" label="browsers">
+        <item label="brave">
+            <action name="Execute">
+                <command>brave &amp; disown &amp;&amp; exit</command>
+                <startupnotify>
+                    <enabled>yes</enabled>
+                    <wmclass>brave</wmclass>
+                </startupnotify>
+            </action>
+        </item>
+    </menu>
+
+    <menu id="network-menu" label="network">
+        <item label="wifi-radar">
+            <action name="Execute">
+                <command>wifi-radar</command>
+                <startupnotify>
+                    <enabled>yes</enabled>
+                    <wmclass>wifi-radar</wmclass>
+              </startupnotify>
+            </action>
+        </item>
+        <item label="wifi-radar-polkit">
+            <action name="Execute">
+                <command>wifi-radar-polkit</command>
+                <startupnotify>
+                    <enabled>yes</enabled>
+                    <wmclass>wifi-radar-polkit</wmclass>
+              </startupnotify>
+            </action>
+        </item>
+    </menu>
 
     <menu id="terminals-menu" label="terminals">
         <item label="terminal (green)">
@@ -30,47 +67,9 @@
         </item>
     </menu>
 
-    <menu id="browsers-menu" label="browsers">
-        <item label="firefox">
-            <action name="Execute">
-                <command>firefox</command>
-                <startupnotify>
-                    <enabled>yes</enabled>
-                    <wmclass>firefox</wmclass>
-                </startupnotify>
-            </action>
-        </item>
-        <item label="chromium">
-            <action name="Execute">
-                <command>chromium --no-sandbox</command>
-                <startupnotify>
-                    <enabled>yes</enabled>
-                    <wmclass>chromium</wmclass>
-              </startupnotify>
-            </action>
-        </item>
-    </menu>
-
-    <menu id="network-menu" label="network">
-        <item label="wifi-radar">
-            <action name="Execute">
-                <command>wifi-radar</command>
-                <startupnotify>
-                    <enabled>yes</enabled>
-                    <wmclass>wifi-radar</wmclass>
-              </startupnotify>
-            </action>
-        </item>
-        <item label="wifi-radar-polkit">
-            <action name="Execute">
-                <command>wifi-radar-polkit</command>
-                <startupnotify>
-                    <enabled>yes</enabled>
-                    <wmclass>wifi-radar-polkit</wmclass>
-              </startupnotify>
-            </action>
-        </item>
-    </menu>
+    <!-- #################################################################################################### -->
+    <!-- BlackArch menu -->
+    <!-- #################################################################################################### -->
 
     <menu id="blackarch-anti-forensic-menu" label="anti-forensic">
       <item label="ropeadope">
@@ -38943,7 +38942,11 @@
       </item>
     </menu>
 
-    <menu id="system-menu" label="system">
+    <!-- #################################################################################################### -->
+    <!-- System menu -->
+    <!-- #################################################################################################### -->
+
+    <menu id="openbox-menu" label="openbox">
         <item label="openbox configuration manager">
             <action name="Execute">
                 <command>obconf</command>
@@ -38954,16 +38957,46 @@
         </item>
         <separator/>
         <item label="reconfigure openbox">
-            <action name="reconfigure" />
+            <action name="reconfigure"/>
         </item>
     </menu>
 
+    <menu id="tools-menu" label="tools">
+        <item label="htop">
+            <action name="Execute">
+                <command>urxvt -e htop</command>
+            </action>
+        </item>
+    </menu>
+
+    <menu id="exit-menu" label="exit">
+        <item label="logout">
+            <action name="exit">
+                <prompt>yes</prompt>
+            </action>
+        </item>
+        <item label="reboot">
+            <action name="Execute">
+                <command>reboot</command>
+            </action>
+        </item>
+        <item label="shutdown">
+            <action name="Execute">
+                <command>shutdown -h now</command>
+            </action>
+        </item>
+    </menu>
+
+    <!-- #################################################################################################### -->
+    <!-- Root menu -->
+    <!-- #################################################################################################### -->
+
     <menu id="root-menu" label="Openbox 3">
         <separator label="applications"/>
-        <menu id="terminals-menu"/>
         <menu id="browsers-menu"/>
-        <menu id="network-menu" />
-        <separator label="blackarch" />
+        <menu id="network-menu"/>
+        <menu id="terminals-menu"/>
+        <separator label="blackarch"/>
         <menu id="blackarch-anti-forensic-menu"/>
         <menu id="blackarch-automation-menu"/>
         <menu id="blackarch-automobile-menu"/>
@@ -39013,23 +39046,11 @@
         <menu id="blackarch-windows-menu"/>
         <menu id="blackarch-wireless-menu"/>
         <separator label="system"/>
-        <menu id="system-menu"/>
-        <separator />
-        <item label="logout">
-            <action name="exit">
-                <prompt>yes</prompt>
-            </action>
-        </item>
-        <item label="reboot">
-            <action name="Execute">
-                <command>reboot</command>
-            </action>
-        </item>
-        <item label="shutdown">
-            <action name="Execute">
-                <command>shutdown -h now</command>
-            </action>
-        </item>
+        <menu id="openbox-menu"/>
+        <menu id="tools-menu"/>
+        <menu id="exit-menu"/>
     </menu>
+
+    <!-- #################################################################################################### -->
 
 </openbox_menu>
