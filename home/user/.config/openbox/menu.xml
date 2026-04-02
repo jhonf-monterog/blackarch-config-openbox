@@ -3,7 +3,7 @@
 <openbox_menu xmlns="http://openbox.org/3.4/menu">
 
     <!-- #################################################################################################### -->
-    <!-- Applications menu -->
+    <!-- Applications menu                                                                                    -->
     <!-- #################################################################################################### -->
 
     <menu id="browsers-menu" label="browsers">
@@ -13,6 +13,18 @@
                 <startupnotify>
                     <enabled>yes</enabled>
                     <wmclass>brave</wmclass>
+                </startupnotify>
+            </action>
+        </item>
+    </menu>
+
+    <menu id="development-menu" label="development">
+        <item label="jetbrains toolbox">
+            <action name="Execute">
+                <command>jetbrains-toolbox</command>
+                <startupnotify>
+                    <enabled>yes</enabled>
+                    <wmclass>jetbrains-toolbox</wmclass>
                 </startupnotify>
             </action>
         </item>
@@ -68,7 +80,7 @@
     </menu>
 
     <!-- #################################################################################################### -->
-    <!-- BlackArch menu -->
+    <!-- BlackArch menu                                                                                       -->
     <!-- #################################################################################################### -->
 
     <menu id="blackarch-anti-forensic-menu" label="anti-forensic">
@@ -38943,7 +38955,7 @@
     </menu>
 
     <!-- #################################################################################################### -->
-    <!-- System menu -->
+    <!-- System menu                                                                                          -->
     <!-- #################################################################################################### -->
 
     <menu id="openbox-menu" label="openbox">
@@ -38988,12 +39000,13 @@
     </menu>
 
     <!-- #################################################################################################### -->
-    <!-- Root menu -->
+    <!-- Root menu                                                                                            -->
     <!-- #################################################################################################### -->
 
     <menu id="root-menu" label="Openbox 3">
         <separator label="applications"/>
         <menu id="browsers-menu"/>
+        <menu id="development-menu"/>
         <menu id="network-menu"/>
         <menu id="terminals-menu"/>
         <separator label="blackarch"/>
