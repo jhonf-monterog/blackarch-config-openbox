@@ -19,7 +19,7 @@
     </menu>
 
     <menu id="development-menu" label="development">
-        <item label="jetbrains toolbox">
+        <item label="jetbrains-toolbox">
             <action name="Execute">
                 <command>jetbrains-toolbox</command>
                 <startupnotify>
