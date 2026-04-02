@@ -9,7 +9,7 @@
     <menu id="browsers-menu" label="browsers">
         <item label="brave">
             <action name="Execute">
-                <command>brave &amp; disown &amp;&amp; exit</command>
+                <command>brave</command>
                 <startupnotify>
                     <enabled>yes</enabled>
                     <wmclass>brave</wmclass>
