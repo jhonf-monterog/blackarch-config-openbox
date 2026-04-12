@@ -83,6 +83,29 @@
     <!-- BlackArch menu                                                                                       -->
     <!-- #################################################################################################### -->
 
+    <menu id="blackarch-ai-menu" label="ai">
+        <item label="adversarial-robustness-toolbox">
+            <action name="Execute">
+                <command>urxvt -e sh -c 'python -i -c "import art; help(art)"'</command>
+            </action>
+        </item>
+        <item label="cai">
+            <action name="Execute">
+                <command>urxvt -e sh -c 'cai ; bash'</command>
+            </action>
+        </item>
+        <item label="cleverhans">
+            <action name="Execute">
+                <command>urxvt -e sh -c 'python -i -c "import cleverhans; help(cleverhans)"'</command>
+            </action>
+        </item>
+        <item label="promptfoo">
+            <action name="Execute">
+                <command>urxvt -e sh -c 'promptfoo -h ; bash'</command>
+            </action>
+        </item>
+    </menu>
+
     <menu id="blackarch-anti-forensic-menu" label="anti-forensic">
       <item label="ropeadope">
           <action name="Execute">
@@ -39010,6 +39033,7 @@
         <menu id="network-menu"/>
         <menu id="terminals-menu"/>
         <separator label="blackarch"/>
+        <menu id="blackarch-ai-menu"/>
         <menu id="blackarch-anti-forensic-menu"/>
         <menu id="blackarch-automation-menu"/>
         <menu id="blackarch-automobile-menu"/>
