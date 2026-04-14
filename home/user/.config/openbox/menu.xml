@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
 <openbox_menu xmlns="http://openbox.org/3.4/menu">
 
@@ -165,11 +165,6 @@
     </menu>
 
     <menu id="blackarch-automation-menu" label="automation">
-      <item label="acorn">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'acorn ; bash'</command>
-          </action>
-      </item>
       <item label="airgeddon">
           <action name="Execute">
               <command>urxvt -e sh -c 'airgeddon ; bash'</command>
@@ -190,14 +185,14 @@
               <command>urxvt -e sh -c 'armscgen -h ; bash'</command>
           </action>
       </item>
-      <item label="arsenic-check-ie11">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'arsenic-check-ie11 ; bash'</command>
-          </action>
-      </item>
       <item label="atscan">
           <action name="Execute">
               <command>urxvt -e sh -c 'atscan ; bash'</command>
+          </action>
+      </item>
+      <item label="attacksurfacemapper">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'attacksurfacemapper -h ; bash'</command>
           </action>
       </item>
       <item label="automato">
@@ -230,6 +225,11 @@
               <command>urxvt -e sh -c 'autorecon -h ; bash'</command>
           </action>
       </item>
+      <item label="autosploit">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'autosploit ; bash'</command>
+          </action>
+      </item>
       <item label="autotailor">
           <action name="Execute">
               <command>urxvt -e sh -c 'autotailor ; bash'</command>
@@ -250,6 +250,11 @@
               <command>urxvt -e sh -c 'awsbucketdump -h ; bash'</command>
           </action>
       </item>
+      <item label="aws-iam-privesc">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'aws-iam-privesc ; bash'</command>
+          </action>
+      </item>
       <item label="backdoorme">
           <action name="Execute">
               <command>urxvt -e sh -c 'backdoorme ; bash'</command>
@@ -260,14 +265,29 @@
               <command>urxvt -e sh -c 'barq -h ; bash'</command>
           </action>
       </item>
+      <item label="bashfuscator">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'bashfuscator -h ; bash'</command>
+          </action>
+      </item>
       <item label="binex">
           <action name="Execute">
               <command>urxvt -e sh -c 'binex -h ; bash'</command>
           </action>
       </item>
+      <item label="blackeye">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'blackeye ; bash'</command>
+          </action>
+      </item>
       <item label="blueranger">
           <action name="Execute">
               <command>urxvt -e sh -c 'blueranger ; bash'</command>
+          </action>
+      </item>
+      <item label="bopscrk">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'bopscrk -h ; bash'</command>
           </action>
       </item>
       <item label="brutespray">
@@ -290,6 +310,11 @@
               <command>urxvt -e sh -c 'byepass -h ; bash'</command>
           </action>
       </item>
+      <item label="cai">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'cai ; bash'</command>
+          </action>
+      </item>
       <item label="cewl">
           <action name="Execute">
               <command>urxvt -e sh -c 'cewl -h ; bash'</command>
@@ -300,14 +325,19 @@
               <command>urxvt -e sh -c 'cewl-fab ; bash'</command>
           </action>
       </item>
-      <item label="checksec">
+      <item label="cheat-sh">
           <action name="Execute">
-              <command>urxvt -e sh -c 'checksec --help ; bash'</command>
+              <command>urxvt -e sh -c 'cheat-sh ; bash'</command>
           </action>
       </item>
       <item label="cisco-snmp-enumeration">
           <action name="Execute">
               <command>urxvt -e sh -c 'cisco-snmp-enumeration ; bash'</command>
+          </action>
+      </item>
+      <item label="cloudsploit">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'cloudsploit ; bash'</command>
           </action>
       </item>
       <item label="clusterd">
@@ -335,9 +365,19 @@
               <command>urxvt -e sh -c 'commonspeak -h ; bash'</command>
           </action>
       </item>
+      <item label="compilesploit">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'compilesploit ; bash'</command>
+          </action>
+      </item>
       <item label="cook">
           <action name="Execute">
               <command>urxvt -e sh -c 'cook -h ; bash'</command>
+          </action>
+      </item>
+      <item label="copysploit">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'copysploit ; bash'</command>
           </action>
       </item>
       <item label="crunch">
@@ -385,11 +425,6 @@
               <command>urxvt -e sh -c 'dumb0 -h ; bash'</command>
           </action>
       </item>
-      <item label="dynwrapx.manifest">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'dynwrapx.manifest ; bash'</command>
-          </action>
-      </item>
       <item label="easy-creds">
           <action name="Execute">
               <command>urxvt -e sh -c 'easy-creds ; bash'</command>
@@ -405,6 +440,11 @@
               <command>urxvt -e sh -c 'emp3r0r -h ; bash'</command>
           </action>
       </item>
+      <item label="empire">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'empire ; bash'</command>
+          </action>
+      </item>
       <item label="empire-client">
           <action name="Execute">
               <command>urxvt -e sh -c 'empire-client ; bash'</command>
@@ -413,11 +453,6 @@
       <item label="empire-server">
           <action name="Execute">
               <command>urxvt -e sh -c 'empire-server ; bash'</command>
-          </action>
-      </item>
-      <item label="etter.dns">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'etter.dns ; bash'</command>
           </action>
       </item>
       <item label="faraday-manage">
@@ -430,14 +465,44 @@
               <command>urxvt -e sh -c 'faraday-server ; bash'</command>
           </action>
       </item>
+      <item label="faraday-start-all">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'faraday-start-all ; bash'</command>
+          </action>
+      </item>
+      <item label="faraday-worker">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'faraday-worker ; bash'</command>
+          </action>
+      </item>
+      <item label="faraday-worker-gevent">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'faraday-worker-gevent ; bash'</command>
+          </action>
+      </item>
+      <item label="findsploit">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'findsploit ; bash'</command>
+          </action>
+      </item>
       <item label="firstorder">
           <action name="Execute">
               <command>urxvt -e sh -c 'firstorder -h ; bash'</command>
           </action>
       </item>
+      <item label="fs-exploit">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'fs-exploit ; bash'</command>
+          </action>
+      </item>
       <item label="fstealer">
           <action name="Execute">
               <command>urxvt -e sh -c 'fstealer -h ; bash'</command>
+          </action>
+      </item>
+      <item label="ghidriff">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'ghidriff -h ; bash'</command>
           </action>
       </item>
       <item label="gitdump">
@@ -455,6 +520,16 @@
               <command>urxvt -e sh -c 'glue -h ; bash'</command>
           </action>
       </item>
+      <item label="go-exploitdb">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'go-exploitdb ; bash'</command>
+          </action>
+      </item>
+      <item label="google-explorer">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'google-explorer ; bash'</command>
+          </action>
+      </item>
       <item label="goohak">
           <action name="Execute">
               <command>urxvt -e sh -c 'goohak ; bash'</command>
@@ -463,6 +538,11 @@
       <item label="gooscan">
           <action name="Execute">
               <command>urxvt -e sh -c 'gooscan -h ; bash'</command>
+          </action>
+      </item>
+      <item label="hackersh">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'hackersh ; bash'</command>
           </action>
       </item>
       <item label="harpoon">
@@ -475,19 +555,9 @@
               <command>urxvt -e sh -c 'hate-crack ; bash'</command>
           </action>
       </item>
-      <item label="he">
+      <item label="havoc-c2">
           <action name="Execute">
-              <command>urxvt -e sh -c 'he ; bash'</command>
-          </action>
-      </item>
-      <item label="http.lua">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'http.lua ; bash'</command>
-          </action>
-      </item>
-      <item label="http-default-accounts-fingerprints-nndefaccts.lua">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'http-default-accounts-fingerprints-nndefaccts.lua ; bash'</command>
+              <command>urxvt -e sh -c 'havoc-c2 ; bash'</command>
           </action>
       </item>
       <item label="iloscan">
@@ -495,19 +565,19 @@
               <command>urxvt -e sh -c 'iloscan ; bash'</command>
           </action>
       </item>
-      <item label="intersect-create">
+      <item label="infection-monkey">
           <action name="Execute">
-              <command>urxvt -e sh -c 'intersect-create ; bash'</command>
+              <command>urxvt -e sh -c 'infection-monkey ; bash'</command>
+          </action>
+      </item>
+      <item label="intersect">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'intersect ; bash'</command>
           </action>
       </item>
       <item label="inurlbr">
           <action name="Execute">
               <command>urxvt -e sh -c 'inurlbr -h ; bash'</command>
-          </action>
-      </item>
-      <item label="inurlbr.php">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'inurlbr.php ; bash'</command>
           </action>
       </item>
       <item label="ipmipwn">
@@ -520,29 +590,9 @@
               <command>urxvt -e sh -c 'jaidam ; bash'</command>
           </action>
       </item>
-      <item label="java">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'java ; bash'</command>
-          </action>
-      </item>
-      <item label="javac">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'javac ; bash'</command>
-          </action>
-      </item>
-      <item label="jsesc">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'jsesc ; bash'</command>
-          </action>
-      </item>
       <item label="kernelpop">
           <action name="Execute">
               <command>urxvt -e sh -c 'kernelpop -h ; bash'</command>
-          </action>
-      </item>
-      <item label="keytool">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'keytool ; bash'</command>
           </action>
       </item>
       <item label="killcast">
@@ -650,6 +700,16 @@
               <command>urxvt -e sh -c 'ldaprenameuser -h ; bash'</command>
           </action>
       </item>
+      <item label="ldapsetpasswd">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'ldapsetpasswd -h ; bash'</command>
+          </action>
+      </item>
+      <item label="ldapsetprimarygroup">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'ldapsetprimarygroup -h ; bash'</command>
+          </action>
+      </item>
       <item label="legion">
           <action name="Execute">
               <command>urxvt -e sh -c 'legion -h ; bash'</command>
@@ -710,14 +770,9 @@
               <command>urxvt -e sh -c 'mitmap-old -h ; bash'</command>
           </action>
       </item>
-      <item label="_mocha">
+      <item label="monkey-island">
           <action name="Execute">
-              <command>urxvt -e sh -c '_mocha ; bash'</command>
-          </action>
-      </item>
-      <item label="mocha">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'mocha ; bash'</command>
+              <command>urxvt -e sh -c 'monkey-island ; bash'</command>
           </action>
       </item>
       <item label="morpheus">
@@ -760,9 +815,19 @@
               <command>urxvt -e sh -c 'nettacker -h ; bash'</command>
           </action>
       </item>
-      <item label="nmap-bootstrap.xsl">
+      <item label="nfspy">
           <action name="Execute">
-              <command>urxvt -e sh -c 'nmap-bootstrap.xsl ; bash'</command>
+              <command>urxvt -e sh -c 'nfspy -h ; bash'</command>
+          </action>
+      </item>
+      <item label="nfspysh">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'nfspysh ; bash'</command>
+          </action>
+      </item>
+      <item label="nfsshell">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'nfsshell ; bash'</command>
           </action>
       </item>
       <item label="nosqlattack">
@@ -773,6 +838,11 @@
       <item label="nullscan">
           <action name="Execute">
               <command>urxvt -e sh -c 'nullscan -H ; bash'</command>
+          </action>
+      </item>
+      <item label="octopwnweb">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'octopwnweb ; bash'</command>
           </action>
       </item>
       <item label="oscap">
@@ -790,19 +860,24 @@
               <command>urxvt -e sh -c 'oscap-docker -h ; bash'</command>
           </action>
       </item>
+      <item label="oscap-im">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'oscap-im ; bash'</command>
+          </action>
+      </item>
       <item label="oscap-podman">
           <action name="Execute">
               <command>urxvt -e sh -c 'oscap-podman -h ; bash'</command>
           </action>
       </item>
-      <item label="oscap-remediate-offline">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'oscap-remediate-offline ; bash'</command>
-          </action>
-      </item>
       <item label="oscap-run-sce-script">
           <action name="Execute">
               <command>urxvt -e sh -c 'oscap-run-sce-script ; bash'</command>
+          </action>
+      </item>
+      <item label="oscap-ssh">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'oscap-ssh -h ; bash'</command>
           </action>
       </item>
       <item label="oscap-vm">
@@ -850,6 +925,11 @@
               <command>urxvt -e sh -c 'penbox ; bash'</command>
           </action>
       </item>
+      <item label="pentestgpt">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'pentestgpt ; bash'</command>
+          </action>
+      </item>
       <item label="pentestly">
           <action name="Execute">
               <command>urxvt -e sh -c 'pentestly -h ; bash'</command>
@@ -870,16 +950,6 @@
               <command>urxvt -e sh -c 'pin ; bash'</command>
           </action>
       </item>
-      <item label="pindb">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'pindb ; bash'</command>
-          </action>
-      </item>
-      <item label="pindb.sig">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'pindb.sig ; bash'</command>
-          </action>
-      </item>
       <item label="pmcma">
           <action name="Execute">
               <command>urxvt -e sh -c 'pmcma ; bash'</command>
@@ -893,6 +963,16 @@
       <item label="ptf">
           <action name="Execute">
               <command>urxvt -e sh -c 'ptf ; bash'</command>
+          </action>
+      </item>
+      <item label="pupygen">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'pupygen -h ; bash'</command>
+          </action>
+      </item>
+      <item label="pupysh">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'pupysh ; bash'</command>
           </action>
       </item>
       <item label="pureblood">
@@ -915,24 +995,14 @@
               <command>urxvt -e sh -c 'recomposer -h ; bash'</command>
           </action>
       </item>
-      <item label="resolve">
+      <item label="reptor">
           <action name="Execute">
-              <command>urxvt -e sh -c 'resolve ; bash'</command>
+              <command>urxvt -e sh -c 'reptor -h ; bash'</command>
           </action>
       </item>
       <item label="rhodiola">
           <action name="Execute">
               <command>urxvt -e sh -c 'rhodiola -h ; bash'</command>
-          </action>
-      </item>
-      <item label="rmid">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'rmid ; bash'</command>
-          </action>
-      </item>
-      <item label="rmiregistry">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'rmiregistry ; bash'</command>
           </action>
       </item>
       <item label="rsmangler">
@@ -970,14 +1040,9 @@
               <command>urxvt -e sh -c 'search1337 ; bash'</command>
           </action>
       </item>
-      <item label="semver">
+      <item label="seccomp-tools">
           <action name="Execute">
-              <command>urxvt -e sh -c 'semver ; bash'</command>
-          </action>
-      </item>
-      <item label="serialver">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'serialver ; bash'</command>
+              <command>urxvt -e sh -c 'seccomp-tools -h ; bash'</command>
           </action>
       </item>
       <item label="sharesniffer">
@@ -1005,11 +1070,6 @@
               <command>urxvt -e sh -c 'shellz -h ; bash'</command>
           </action>
       </item>
-      <item label="shodan">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'shodan ; bash'</command>
-          </action>
-      </item>
       <item label="shodan2">
           <action name="Execute">
               <command>urxvt -e sh -c 'shodan2 ; bash'</command>
@@ -1020,9 +1080,19 @@
               <command>urxvt -e sh -c 'sign ; bash'</command>
           </action>
       </item>
+      <item label="simple-ducky">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'simple-ducky ; bash'</command>
+          </action>
+      </item>
       <item label="sipvicious-svcrack">
           <action name="Execute">
               <command>urxvt -e sh -c 'sipvicious-svcrack -h ; bash'</command>
+          </action>
+      </item>
+      <item label="sipvicious-svcrash">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'sipvicious-svcrash -h ; bash'</command>
           </action>
       </item>
       <item label="sipvicious-svmap">
@@ -1040,6 +1110,16 @@
               <command>urxvt -e sh -c 'sipvicious-svwar -h ; bash'</command>
           </action>
       </item>
+      <item label="sliver-client">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'sliver-client ; bash'</command>
+          </action>
+      </item>
+      <item label="sliver-server">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'sliver-server ; bash'</command>
+          </action>
+      </item>
       <item label="sn00p">
           <action name="Execute">
               <command>urxvt -e sh -c 'sn00p ; bash'</command>
@@ -1048,6 +1128,11 @@
       <item label="sn1per">
           <action name="Execute">
               <command>urxvt -e sh -c 'sn1per ; bash'</command>
+          </action>
+      </item>
+      <item label="sploitctl">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'sploitctl -h ; bash'</command>
           </action>
       </item>
       <item label="spookflare">
@@ -1085,6 +1170,11 @@
               <command>urxvt -e sh -c 'tlssled -h ; bash'</command>
           </action>
       </item>
+      <item label="tomcatwardeployer">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'tomcatwardeployer -h ; bash'</command>
+          </action>
+      </item>
       <item label="torctl">
           <action name="Execute">
               <command>urxvt -e sh -c 'torctl ; bash'</command>
@@ -1095,29 +1185,14 @@
               <command>urxvt -e sh -c 'traxss -h ; bash'</command>
           </action>
       </item>
-      <item label="tsc">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'tsc ; bash'</command>
-          </action>
-      </item>
-      <item label="tsserver">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'tsserver ; bash'</command>
-          </action>
-      </item>
       <item label="ttpassgen">
           <action name="Execute">
               <command>urxvt -e sh -c 'ttpassgen -h ; bash'</command>
           </action>
       </item>
-      <item label="unix-jboss-autopwn">
+      <item label="unix-privesc-check">
           <action name="Execute">
-              <command>urxvt -e sh -c 'unix-jboss-autopwn ; bash'</command>
-          </action>
-      </item>
-      <item label="unix-privsc-check">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'unix-privsc-check ; bash'</command>
+              <command>urxvt -e sh -c 'unix-privesc-check ; bash'</command>
           </action>
       </item>
       <item label="username-anarchy">
@@ -1128,11 +1203,6 @@
       <item label="usernamer">
           <action name="Execute">
               <command>urxvt -e sh -c 'usernamer -h ; bash'</command>
-          </action>
-      </item>
-      <item label="uuid">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'uuid ; bash'</command>
           </action>
       </item>
       <item label="valhalla-cli">
@@ -1155,24 +1225,14 @@
               <command>urxvt -e sh -c 'vlan-hopping ; bash'</command>
           </action>
       </item>
-      <item label="vm2">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'vm2 ; bash'</command>
-          </action>
-      </item>
       <item label="voiphopper">
           <action name="Execute">
               <command>urxvt -e sh -c 'voiphopper -h ; bash'</command>
           </action>
       </item>
-      <item label="warn.ogg">
+      <item label="wdict">
           <action name="Execute">
-              <command>urxvt -e sh -c 'warn.ogg ; bash'</command>
-          </action>
-      </item>
-      <item label="which">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'which ; bash'</command>
+              <command>urxvt -e sh -c 'wdict ; bash'</command>
           </action>
       </item>
       <item label="wifi-autopwner">
@@ -1185,9 +1245,9 @@
               <command>urxvt -e sh -c 'wikigen ; bash'</command>
           </action>
       </item>
-      <item label="win-jboss-autopwn">
+      <item label="wmd">
           <action name="Execute">
-              <command>urxvt -e sh -c 'win-jboss-autopwn ; bash'</command>
+              <command>urxvt -e sh -c 'wmd ; bash'</command>
           </action>
       </item>
       <item label="wnmap">
@@ -1213,16 +1273,6 @@
       <item label="zirikatu">
           <action name="Execute">
               <command>urxvt -e sh -c 'zirikatu ; bash'</command>
-          </action>
-      </item>
-      <item label="zuul-es5.yml">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'zuul-es5.yml ; bash'</command>
-          </action>
-      </item>
-      <item label="zuul-es6.yml">
-          <action name="Execute">
-              <command>urxvt -e sh -c 'zuul-es6.yml ; bash'</command>
           </action>
       </item>
     </menu>
