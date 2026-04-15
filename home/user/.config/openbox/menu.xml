@@ -1308,6 +1308,11 @@
               <command>urxvt -e sh -c 'candump ; bash'</command>
           </action>
       </item>
+            <item label="canerrsim">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'canerrsim ; bash'</command>
+          </action>
+      </item>
       <item label="canfdtest">
           <action name="Execute">
               <command>urxvt -e sh -c 'canfdtest ; bash'</command>
@@ -1326,6 +1331,11 @@
       <item label="canlogserver">
           <action name="Execute">
               <command>urxvt -e sh -c 'canlogserver ; bash'</command>
+          </action>
+      </item>
+      <item label="canplayer">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'canplayer ; bash'</command>
           </action>
       </item>
       <item label="cansend">
@@ -1348,6 +1358,16 @@
               <command>urxvt -e sh -c 'cantoolz -h ; bash'</command>
           </action>
       </item>
+      <item label="isobusfs-cli">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'isobusfs-cli ; bash'</command>
+          </action>
+      </item>
+      <item label="isobusfs-srv">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'isobusfs-srv ; bash'</command>
+          </action>
+      </item>
       <item label="isotpdump">
           <action name="Execute">
               <command>urxvt -e sh -c 'isotpdump ; bash'</command>
@@ -1363,9 +1383,34 @@
               <command>urxvt -e sh -c 'isotprecv ; bash'</command>
           </action>
       </item>
+      <item label="isotpsend">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'isotpsend ; bash'</command>
+          </action>
+      </item>
+      <item label="isotpserver">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'isotpserver ; bash'</command>
+          </action>
+      </item>
+      <item label="isotpsniffer">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'isotpsniffer ; bash'</command>
+          </action>
+      </item>
       <item label="isotptun">
           <action name="Execute">
               <command>urxvt -e sh -c 'isotptun ; bash'</command>
+          </action>
+      </item>
+      <item label="j1939-timedate-cli">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'j1939-timedate-cli ; bash'</command>
+          </action>
+      </item>
+      <item label="j1939-timedate-srv">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'j1939-timedate-srv ; bash'</command>
           </action>
       </item>
       <item label="j1939acd">
@@ -1376,6 +1421,11 @@
       <item label="j1939cat">
           <action name="Execute">
               <command>urxvt -e sh -c 'j1939cat ; bash'</command>
+          </action>
+      </item>
+      <item label="j1939spy">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'j1939spy ; bash'</command>
           </action>
       </item>
       <item label="j1939sr">
@@ -1396,6 +1446,11 @@
       <item label="mcp251xfd-dump">
           <action name="Execute">
               <command>urxvt -e sh -c 'mcp251xfd-dump ; bash'</command>
+          </action>
+      </item>
+      <item label="savvycan">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'savvycan ; bash'</command>
           </action>
       </item>
       <item label="slcan_attach">
