@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 
 <openbox_menu xmlns="http://openbox.org/3.4/menu">
 
@@ -1481,6 +1481,21 @@
     </menu>
 
     <menu id="blackarch-backdoor-menu" label="backdoor">
+            <item label="aesshell-bc">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'aesshell-bc ; bash'</command>
+          </action>
+      </item>
+            <item label="aesshell-listen">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'aesshell-listen ; bash'</command>
+          </action>
+      </item>
+            <item label="aesshell-prepare">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'aesshell-prepare ; bash'</command>
+          </action>
+      </item>
       <item label="arcane">
           <action name="Execute">
               <command>urxvt -e sh -c 'arcane -h ; bash'</command>
@@ -1494,6 +1509,11 @@
       <item label="backcookie">
           <action name="Execute">
               <command>urxvt -e sh -c 'backcookie -h ; bash'</command>
+          </action>
+      </item>
+            <item label="backdoor-apk">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'backdoor-apk ; bash'</command>
           </action>
       </item>
       <item label="backdoor-factory">
@@ -1521,6 +1541,11 @@
               <command>urxvt -e sh -c 'cymothoa-udp_server ; bash'</command>
           </action>
       </item>
+            <item label="debinject">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'debinject ; bash'</command>
+          </action>
+      </item>
       <item label="demiguise">
           <action name="Execute">
               <command>urxvt -e sh -c 'demiguise -h ; bash'</command>
@@ -1536,6 +1561,11 @@
               <command>urxvt -e sh -c 'dr0p1t -h ; bash'</command>
           </action>
       </item>
+            <item label="eggshell">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'eggshell ; bash'</command>
+          </action>
+      </item>
       <item label="evilpdf">
           <action name="Execute">
               <command>urxvt -e sh -c 'evilpdf -h ; bash'</command>
@@ -1546,9 +1576,24 @@
               <command>urxvt -e sh -c 'evil-winrm -h ; bash'</command>
           </action>
       </item>
+            <item label="evil-winrm-py">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'evil-winrm-py ; bash'</command>
+          </action>
+      </item>
+            <item label="ewp">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'ewp ; bash'</command>
+          </action>
+      </item>
       <item label="exe2image">
           <action name="Execute">
               <command>urxvt -e sh -c 'exe2image ; bash'</command>
+          </action>
+      </item>
+            <item label="gen-shellcode">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'gen-shellcode ; bash'</command>
           </action>
       </item>
       <item label="gobd">
@@ -1561,14 +1606,39 @@
               <command>urxvt -e sh -c 'harness ; bash'</command>
           </action>
       </item>
+            <item label="havoc-c2">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'havoc-c2 ; bash'</command>
+          </action>
+      </item>
       <item label="hercules-payload">
           <action name="Execute">
               <command>urxvt -e sh -c 'hercules-payload ; bash'</command>
           </action>
       </item>
+            <item label="hoaxshell">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'hoaxshell ; bash'</command>
+          </action>
+      </item>
       <item label="hotpatcher">
           <action name="Execute">
               <command>urxvt -e sh -c 'hotpatcher -h ; bash'</command>
+          </action>
+      </item>
+            <item label="icmpsh-m">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'icmpsh-m ; bash'</command>
+          </action>
+      </item>
+            <item label="icmpsh-m-pl">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'icmpsh-m-pl ; bash'</command>
+          </action>
+      </item>
+            <item label="icmpsh-m-py">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'icmpsh-m-py ; bash'</command>
           </action>
       </item>
       <item label="iloscan">
@@ -1579,6 +1649,11 @@
       <item label="interpatch">
           <action name="Execute">
               <command>urxvt -e sh -c 'interpatch -h ; bash'</command>
+          </action>
+      </item>
+            <item label="jinjector">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'jinjector ; bash'</command>
           </action>
       </item>
       <item label="k55">
@@ -1596,6 +1671,11 @@
               <command>urxvt -e sh -c 'kwetza --help ; bash'</command>
           </action>
       </item>
+            <item label="ld-shatner">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'ld-shatner ; bash'</command>
+          </action>
+      </item>
       <item label="lfi-image-helper">
           <action name="Execute">
               <command>urxvt -e sh -c 'lfi-image-helper ; bash'</command>
@@ -1609,6 +1689,16 @@
       <item label="linux-inject-32">
           <action name="Execute">
               <command>urxvt -e sh -c 'linux-inject-32 -h ; bash'</command>
+          </action>
+      </item>
+            <item label="meterssh-monitor">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'meterssh-monitor ; bash'</command>
+          </action>
+      </item>
+            <item label="microsploit">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'microsploit ; bash'</command>
           </action>
       </item>
       <item label="msf-mpc">
@@ -1636,6 +1726,16 @@
               <command>urxvt -e sh -c 'patchkit -h ; bash'</command>
           </action>
       </item>
+            <item label="phishery">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'phishery ; bash'</command>
+          </action>
+      </item>
+            <item label="php-findsock-shell">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'php-findsock-shell ; bash'</command>
+          </action>
+      </item>
       <item label="pivotsuite">
           <action name="Execute">
               <command>urxvt -e sh -c 'pivotsuite -h ; bash'</command>
@@ -1656,9 +1756,24 @@
               <command>urxvt -e sh -c 'pixload-jpg ; bash'</command>
           </action>
       </item>
+            <item label="pixload-png">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'pixload-png ; bash'</command>
+          </action>
+      </item>
       <item label="pixload-webp">
           <action name="Execute">
               <command>urxvt -e sh -c 'pixload-webp ; bash'</command>
+          </action>
+      </item>
+            <item label="platypus">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'platypus ; bash'</command>
+          </action>
+      </item>
+            <item label="poly-webshells">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'poly-webshells ; bash'</command>
           </action>
       </item>
       <item label="powerstager">
@@ -1681,9 +1796,29 @@
               <command>urxvt -e sh -c 'pyrasite-memory-viewer ; bash'</command>
           </action>
       </item>
+            <item label="pyrasite-shell">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'pyrasite-shell ; bash'</command>
+          </action>
+      </item>
       <item label="remot3d">
           <action name="Execute">
               <command>urxvt -e sh -c 'remot3d ; bash'</command>
+          </action>
+      </item>
+            <item label="revsh">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'revsh ; bash'</command>
+          </action>
+      </item>
+            <item label="revsh-in_the_key_of_c">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'revsh-in_the_key_of_c ; bash'</command>
+          </action>
+      </item>
+            <item label="riwifshell">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'riwifshell ; bash'</command>
           </action>
       </item>
       <item label="rrs">
@@ -1716,6 +1851,11 @@
               <command>urxvt -e sh -c 'shellinaboxd -h ; bash'</command>
           </action>
       </item>
+            <item label="shellsploit">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'shellsploit ; bash'</command>
+          </action>
+      </item>
       <item label="shellter">
           <action name="Execute">
               <command>urxvt -e sh -c 'shellter ; bash'</command>
@@ -1746,6 +1886,16 @@
               <command>urxvt -e sh -c 'silenttrinity-teamserver -h ; bash'</command>
           </action>
       </item>
+            <item label="sliver-client">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'sliver-client ; bash'</command>
+          </action>
+      </item>
+            <item label="sliver-server">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'sliver-server ; bash'</command>
+          </action>
+      </item>
       <item label="stripx">
           <action name="Execute">
               <command>urxvt -e sh -c 'stripx ; bash'</command>
@@ -1766,6 +1916,16 @@
               <command>urxvt -e sh -c 'u3-pwn ; bash'</command>
           </action>
       </item>
+            <item label="unicorn-powershell">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'unicorn-powershell ; bash'</command>
+          </action>
+      </item>
+            <item label="villain">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'villain ; bash'</command>
+          </action>
+      </item>
       <item label="webacoo">
           <action name="Execute">
               <command>urxvt -e sh -c 'webacoo -h ; bash'</command>
@@ -1779,6 +1939,11 @@
       <item label="weevely">
           <action name="Execute">
               <command>urxvt -e sh -c 'weevely -h ; bash'</command>
+          </action>
+      </item>
+      <item label="zipexec">
+          <action name="Execute">
+              <command>urxvt -e sh -c 'zipexec ; bash'</command>
           </action>
       </item>
     </menu>
