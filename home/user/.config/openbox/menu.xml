@@ -3707,24 +3707,94 @@
 	</menu>
 
 	<menu id="blackarch-config-menu" label="config">
-		<item label="app">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'app ; bash'</command>
-			</action>
-		</item>
 		<item label="bactl">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'bactl ; bash'</command>
 			</action>
 		</item>
-		<item label="binary_file">
+		<item label="blackarch-config-awesome">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'binary_file ; bash'</command>
+				<command>urxvt -e sh -c 'blackarch-config-awesome ; bash'</command>
 			</action>
 		</item>
-		<item label="empty_file">
+		<item label="blackarch-config-bash">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'empty_file ; bash'</command>
+				<command>urxvt -e sh -c 'blackarch-config-bash ; bash'</command>
+			</action>
+		</item>
+		<item label="blackarch-config-calamares">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'blackarch-config-calamares ; bash'</command>
+			</action>
+		</item>
+		<item label="blackarch-config-cursor">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'blackarch-config-cursor ; bash'</command>
+			</action>
+		</item>
+		<item label="blackarch-config-fluxbox">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'blackarch-config-fluxbox ; bash'</command>
+			</action>
+		</item>
+		<item label="blackarch-config-gtk">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'blackarch-config-gtk ; bash'</command>
+			</action>
+		</item>
+		<item label="blackarch-config-i3">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'blackarch-config-i3 ; bash'</command>
+			</action>
+		</item>
+		<item label="blackarch-config-icons">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'blackarch-config-icons ; bash'</command>
+			</action>
+		</item>
+		<item label="blackarch-config-lxdm">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'blackarch-config-lxdm ; bash'</command>
+			</action>
+		</item>
+		<item label="blackarch-config-openbox">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'blackarch-config-openbox ; bash'</command>
+			</action>
+		</item>
+		<item label="blackarch-config-spectrwm">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'blackarch-config-spectrwm ; bash'</command>
+			</action>
+		</item>
+		<item label="blackarch-config-vim">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'blackarch-config-vim ; bash'</command>
+			</action>
+		</item>
+		<item label="blackarch-config-wmii">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'blackarch-config-wmii ; bash'</command>
+			</action>
+		</item>
+		<item label="blackarch-config-x11">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'blackarch-config-x11 ; bash'</command>
+			</action>
+		</item>
+		<item label="blackarch-config-xfce">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'blackarch-config-xfce ; bash'</command>
+			</action>
+		</item>
+		<item label="blackarch-config-zsh">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'blackarch-config-zsh ; bash'</command>
+			</action>
+		</item>
+		<item label="blackarch-menus">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'blackarch-menus ; bash'</command>
 			</action>
 		</item>
 	</menu>
