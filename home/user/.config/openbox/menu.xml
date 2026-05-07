@@ -3131,6 +3131,11 @@
 	</menu>
 
 	<menu id="blackarch-bluetooth-menu" label="bluetooth">
+		<item label="atshell">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'atshell ; bash'</command>
+			</action>
+		</item>
 		<item label="attest">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'attest ; bash'</command>
@@ -3138,22 +3143,22 @@
 		</item>
 		<item label="bleah">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'bleah -h ; bash'</command>
-			</action>
-		</item>
-		<item label="blue_hydra">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'blue_hydra ; bash'</command>
+				<command>urxvt -e sh -c 'bleah ; bash'</command>
 			</action>
 		</item>
 		<item label="bluebugger">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'bluebugger -h ; bash'</command>
+				<command>urxvt -e sh -c 'bluebugger ; bash'</command>
 			</action>
 		</item>
 		<item label="bluediving-bdaddr">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'bluediving-bdaddr ; bash'</command>
+			</action>
+		</item>
+		<item label="bluedivingNG.pl">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'bluedivingNG.pl ; bash'</command>
 			</action>
 		</item>
 		<item label="bluefog">
@@ -3163,12 +3168,12 @@
 		</item>
 		<item label="blue-hydra">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'blue-hydra -h ; bash'</command>
+				<command>urxvt -e sh -c 'blue-hydra ; bash'</command>
 			</action>
 		</item>
 		<item label="bluelog">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'bluelog -h ; bash'</command>
+				<command>urxvt -e sh -c 'bluelog ; bash'</command>
 			</action>
 		</item>
 		<item label="bluepot">
@@ -3178,7 +3183,7 @@
 		</item>
 		<item label="blueprint">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'blueprint -h ; bash'</command>
+				<command>urxvt -e sh -c 'blueprint ; bash'</command>
 			</action>
 		</item>
 		<item label="blueranger">
@@ -3193,17 +3198,27 @@
 		</item>
 		<item label="bluesnarfer">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'bluesnarfer -h ; bash'</command>
+				<command>urxvt -e sh -c 'bluesnarfer ; bash'</command>
+			</action>
+		</item>
+		<item label="bluez_simple_agent_nouser">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'bluez_simple_agent_nouser ; bash'</command>
+			</action>
+		</item>
+		<item label="bluphish">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'bluphish ; bash'</command>
 			</action>
 		</item>
 		<item label="braces">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'braces -h ; bash'</command>
+				<command>urxvt -e sh -c 'braces ; bash'</command>
 			</action>
 		</item>
 		<item label="bss">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'bss -h ; bash'</command>
+				<command>urxvt -e sh -c 'bss ; bash'</command>
 			</action>
 		</item>
 		<item label="btftp">
@@ -3223,17 +3238,17 @@
 		</item>
 		<item label="btproxy-mitm">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'btproxy-mitm -h ; bash'</command>
+				<command>urxvt -e sh -c 'btproxy-mitm ; bash'</command>
 			</action>
 		</item>
 		<item label="btscanner">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'btscanner --help ; bash'</command>
+				<command>urxvt -e sh -c 'btscanner ; bash'</command>
 			</action>
 		</item>
 		<item label="carwhisperer">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'carwhisperer -h ; bash'</command>
+				<command>urxvt -e sh -c 'carwhisperer ; bash'</command>
 			</action>
 		</item>
 		<item label="crackle">
@@ -3243,7 +3258,7 @@
 		</item>
 		<item label="fl0p">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'fl0p -h ; bash'</command>
+				<command>urxvt -e sh -c 'fl0p ; bash'</command>
 			</action>
 		</item>
 		<item label="ghettotooth">
@@ -3251,14 +3266,29 @@
 				<command>urxvt -e sh -c 'ghettotooth ; bash'</command>
 			</action>
 		</item>
+		<item label="greenplaque">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'greenplaque ; bash'</command>
+			</action>
+		</item>
+		<item label="hcidump-crash">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'hcidump-crash ; bash'</command>
+			</action>
+		</item>
 		<item label="hidattack">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'hidattack -h ; bash'</command>
+				<command>urxvt -e sh -c 'hidattack ; bash'</command>
 			</action>
 		</item>
 		<item label="hstest">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'hstest ; bash'</command>
+			</action>
+		</item>
+		<item label="l2cap_headersize_overflow">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'l2cap_headersize_overflow ; bash'</command>
 			</action>
 		</item>
 		<item label="l2cap-packet">
@@ -3268,32 +3298,42 @@
 		</item>
 		<item label="obexstress">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'obexstress -h ; bash'</command>
+				<command>urxvt -e sh -c 'obexstress ; bash'</command>
 			</action>
 		</item>
 		<item label="psm_scan">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'psm_scan -h ; bash'</command>
+				<command>urxvt -e sh -c 'psm_scan ; bash'</command>
 			</action>
 		</item>
 		<item label="redfang">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'redfang --help ; bash'</command>
+				<command>urxvt -e sh -c 'redfang ; bash'</command>
+			</action>
+		</item>
+		<item label="replace_bluetoothd">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'replace_bluetoothd ; bash'</command>
 			</action>
 		</item>
 		<item label="rfcomm_scan">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'rfcomm_scan -h ; bash'</command>
+				<command>urxvt -e sh -c 'rfcomm_scan ; bash'</command>
 			</action>
 		</item>
-		<item label="rfkill-reset">
+		<item label="rfcomm_shell">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'rfkill-reset ; bash'</command>
+				<command>urxvt -e sh -c 'rfcomm_shell ; bash'</command>
+			</action>
+		</item>
+		<item label="sparrow-wifi">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'sparrow-wifi ; bash'</command>
 			</action>
 		</item>
 		<item label="spooftooph">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'spooftooph -h ; bash'</command>
+				<command>urxvt -e sh -c 'spooftooph ; bash'</command>
 			</action>
 		</item>
 		<item label="tanya">
@@ -3303,17 +3343,12 @@
 		</item>
 		<item label="tbear">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'tbear -h ; bash'</command>
+				<command>urxvt -e sh -c 'tbear ; bash'</command>
 			</action>
 		</item>
 		<item label="tbsearch">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'tbsearch ; bash'</command>
-			</action>
-		</item>
-		<item label="test-discovery">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'test-discovery ; bash'</command>
 			</action>
 		</item>
 		<item label="ubertooth-afh">
@@ -3328,7 +3363,7 @@
 		</item>
 		<item label="ubertooth-btle">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'ubertooth-btle -h ; bash'</command>
+				<command>urxvt -e sh -c 'ubertooth-btle ; bash'</command>
 			</action>
 		</item>
 		<item label="ubertooth-debug">
@@ -3348,7 +3383,7 @@
 		</item>
 		<item label="ubertooth-dump">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'ubertooth-dump -h ; bash'</command>
+				<command>urxvt -e sh -c 'ubertooth-dump ; bash'</command>
 			</action>
 		</item>
 		<item label="ubertooth-ego">
@@ -3356,24 +3391,14 @@
 				<command>urxvt -e sh -c 'ubertooth-ego ; bash'</command>
 			</action>
 		</item>
-		<item label="ubertooth-follow">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'ubertooth-follow -h ; bash'</command>
-			</action>
-		</item>
 		<item label="ubertooth-rx">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'ubertooth-rx ; bash'</command>
 			</action>
 		</item>
-		<item label="ubertooth-scan">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'ubertooth-scan ; bash'</command>
-			</action>
-		</item>
 		<item label="ubertooth-specan">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'ubertooth-specan -h ; bash'</command>
+				<command>urxvt -e sh -c 'ubertooth-specan ; bash'</command>
 			</action>
 		</item>
 		<item label="ubertooth-specan-ui">
@@ -3388,7 +3413,7 @@
 		</item>
 		<item label="ubertooth-util">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'ubertooth-util -h ; bash'</command>
+				<command>urxvt -e sh -c 'ubertooth-util ; bash'</command>
 			</action>
 		</item>
 	</menu>
