@@ -3800,16 +3800,6 @@
 	</menu>
 
 	<menu id="blackarch-cracker-menu" label="cracker">
-		<item label="1password2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c '1password2john ; bash'</command>
-			</action>
-		</item>
-		<item label="7z2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c '7z2john ; bash'</command>
-			</action>
-		</item>
 		<item label="acccheck">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'acccheck -h ; bash'</command>
@@ -3820,19 +3810,14 @@
 				<command>urxvt -e sh -c 'adfspray -h ; bash'</command>
 			</action>
 		</item>
-		<item label="adxcsouf2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'adxcsouf2john ; bash'</command>
-			</action>
-		</item>
-		<item label="aem2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'aem2john ; bash'</command>
-			</action>
-		</item>
 		<item label="aesfix">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'aesfix ; bash'</command>
+			</action>
+		</item>
+		<item label="aeskeyfind">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'aeskeyfind ; bash'</command>
 			</action>
 		</item>
 		<item label="against">
@@ -3840,44 +3825,14 @@
 				<command>urxvt -e sh -c 'against ; bash'</command>
 			</action>
 		</item>
-		<item label="aix2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'aix2john ; bash'</command>
-			</action>
-		</item>
-		<item label="andotp2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'andotp2john ; bash'</command>
-			</action>
-		</item>
-		<item label="androidbackup2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'androidbackup2john ; bash'</command>
-			</action>
-		</item>
-		<item label="androidfde2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'androidfde2john ; bash'</command>
-			</action>
-		</item>
 		<item label="androidpincrack">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'androidpincrack -h ; bash'</command>
 			</action>
 		</item>
-		<item label="ansible2john">
+		<item label="ares">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'ansible2john ; bash'</command>
-			</action>
-		</item>
-		<item label="apex2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'apex2john ; bash'</command>
-			</action>
-		</item>
-		<item label="aruba2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'aruba2john ; bash'</command>
+				<command>urxvt -e sh -c 'ares ; bash'</command>
 			</action>
 		</item>
 		<item label="asleap">
@@ -3890,19 +3845,9 @@
 				<command>urxvt -e sh -c 'auto-eap -h ; bash'</command>
 			</action>
 		</item>
-		<item label="axcrypt2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'axcrypt2john ; bash'</command>
-			</action>
-		</item>
 		<item label="balbuzard">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'balbuzard ; bash'</command>
-			</action>
-		</item>
-		<item label="base64conv">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'base64conv ; bash'</command>
 			</action>
 		</item>
 		<item label="bbcrack">
@@ -3925,29 +3870,14 @@
 				<command>urxvt -e sh -c 'beleth -h ; bash'</command>
 			</action>
 		</item>
-		<item label="bestcrypt2john">
+		<item label="bgp-md5crack">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'bestcrypt2john ; bash'</command>
+				<command>urxvt -e sh -c 'bgp-md5crack ; bash'</command>
 			</action>
 		</item>
 		<item label="bin-seeds">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'bin-seeds ; bash'</command>
-			</action>
-		</item>
-		<item label="bitcoin2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'bitcoin2john ; bash'</command>
-			</action>
-		</item>
-		<item label="bitlocker2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'bitlocker2john ; bash'</command>
-			</action>
-		</item>
-		<item label="bitwarden2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'bitwarden2john ; bash'</command>
 			</action>
 		</item>
 		<item label="bkcrack">
@@ -3960,19 +3890,14 @@
 				<command>urxvt -e sh -c 'bkhive -h ; bash'</command>
 			</action>
 		</item>
-		<item label="bks2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'bks2john ; bash'</command>
-			</action>
-		</item>
 		<item label="blackbox-scanner">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'blackbox-scanner -h ; bash'</command>
 			</action>
 		</item>
-		<item label="blockchain2john">
+		<item label="blackhash">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'blockchain2john ; bash'</command>
+				<command>urxvt -e sh -c 'blackhash ; bash'</command>
 			</action>
 		</item>
 		<item label="bob_admin-sse2">
@@ -3988,6 +3913,11 @@
 		<item label="bob_server-sse2">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'bob_server-sse2 -h ; bash'</command>
+			</action>
+		</item>
+		<item label="bopscrk">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'bopscrk ; bash'</command>
 			</action>
 		</item>
 		<item label="brute-force">
@@ -4025,6 +3955,11 @@
 				<command>urxvt -e sh -c 'brutespray -h ; bash'</command>
 			</action>
 		</item>
+		<item label="brutessh">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'brutessh ; bash'</command>
+			</action>
+		</item>
 		<item label="brutex">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'brutex ; bash'</command>
@@ -4033,11 +3968,6 @@
 		<item label="brutex-masscan">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'brutex-masscan ; bash'</command>
-			</action>
-		</item>
-		<item label="bully">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'bully -h ; bash'</command>
 			</action>
 		</item>
 		<item label="byepass">
@@ -4053,11 +3983,6 @@
 		<item label="cachedump">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'cachedump cd /usr/share/windows/cachedump ; ls ; bash'</command>
-			</action>
-		</item>
-		<item label="calc_stat">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'calc_stat ; bash'</command>
 			</action>
 		</item>
 		<item label="CAT">
@@ -4080,19 +4005,14 @@
 				<command>urxvt -e sh -c 'chapcrack -h ; bash'</command>
 			</action>
 		</item>
-		<item label="chntpw">
+		<item label="chapcrack-nthash">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'chntpw ; bash'</command>
+				<command>urxvt -e sh -c 'chapcrack-nthash ; bash'</command>
 			</action>
 		</item>
 		<item label="cintruder">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'cintruder -h ; bash'</command>
-			</action>
-		</item>
-		<item label="cisco2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'cisco2john ; bash'</command>
 			</action>
 		</item>
 		<item label="cisco7crack">
@@ -4125,9 +4045,9 @@
 				<command>urxvt -e sh -c 'cmospwd -h ; bash'</command>
 			</action>
 		</item>
-		<item label="codepage">
+		<item label="complete-cookie">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'codepage ; bash'</command>
+				<command>urxvt -e sh -c 'complete-cookie ; bash'</command>
 			</action>
 		</item>
 		<item label="compp">
@@ -4135,24 +4055,9 @@
 				<command>urxvt -e sh -c 'compp -h ; bash'</command>
 			</action>
 		</item>
-		<item label="cowpatty">
+		<item label="conpass">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'cowpatty -h ; bash'</command>
-			</action>
-		</item>
-		<item label="cpnt">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'cpnt ; bash'</command>
-			</action>
-		</item>
-		<item label="cprepair">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'cprepair ; bash'</command>
-			</action>
-		</item>
-		<item label="cracf2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'cracf2john ; bash'</command>
+				<command>urxvt -e sh -c 'conpass ; bash'</command>
 			</action>
 		</item>
 		<item label="crackclient">
@@ -4168,6 +4073,11 @@
 		<item label="crackle">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'crackle ; bash'</command>
+			</action>
+		</item>
+		<item label="crackpkcs12">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'crackpkcs12 ; bash'</command>
 			</action>
 		</item>
 		<item label="crack-prng">
@@ -4190,6 +4100,11 @@
 				<command>urxvt -e sh -c 'crack-standalone -h ; bash'</command>
 			</action>
 		</item>
+		<item label="credmaster">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'credmaster ; bash'</command>
+			</action>
+		</item>
 		<item label="crowbar">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'crowbar --help ; bash'</command>
@@ -4198,6 +4113,11 @@
 		<item label="cryptohazemultiforcer">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'cryptohazemultiforcer ; bash'</command>
+			</action>
+		</item>
+		<item label="cudahashcat">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'cudahashcat ; bash'</command>
 			</action>
 		</item>
 		<item label="cupp">
@@ -4230,16 +4150,6 @@
 				<command>urxvt -e sh -c 'dictionary-erldp -h ; bash'</command>
 			</action>
 		</item>
-		<item label="diskcryptor2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'diskcryptor2john ; bash'</command>
-			</action>
-		</item>
-		<item label="dmg2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'dmg2john ; bash'</command>
-			</action>
-		</item>
 		<item label="domi-owned">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'domi-owned -h ; bash'</command>
@@ -4260,29 +4170,19 @@
 				<command>urxvt -e sh -c 'doozestop ; bash'</command>
 			</action>
 		</item>
-		<item label="DPAPImk2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'DPAPImk2john ; bash'</command>
-			</action>
-		</item>
 		<item label="dpeparser">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'dpeparser -h ; bash'</command>
 			</action>
 		</item>
-		<item label="ecryptfs2john">
+		<item label="duplicut">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'ecryptfs2john ; bash'</command>
+				<command>urxvt -e sh -c 'duplicut ; bash'</command>
 			</action>
 		</item>
-		<item label="ejabberd2john">
+		<item label="eapmd5pass">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'ejabberd2john ; bash'</command>
-			</action>
-		</item>
-		<item label="electrum2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'electrum2john ; bash'</command>
+				<command>urxvt -e sh -c 'eapmd5pass ; bash'</command>
 			</action>
 		</item>
 		<item label="enabler">
@@ -4290,29 +4190,24 @@
 				<command>urxvt -e sh -c 'enabler ; bash'</command>
 			</action>
 		</item>
-		<item label="encfs2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'encfs2john ; bash'</command>
-			</action>
-		</item>
-		<item label="enpass2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'enpass2john ; bash'</command>
-			</action>
-		</item>
 		<item label="erldp-proxy">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'erldp-proxy -h ; bash'</command>
 			</action>
 		</item>
-		<item label="ethereum2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'ethereum2john ; bash'</command>
-			</action>
-		</item>
 		<item label="evilize">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'evilize -h ; bash'</command>
+			</action>
+		</item>
+		<item label="evilize-md5coll">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'evilize-md5coll ; bash'</command>
+			</action>
+		</item>
+		<item label="facebash">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'facebash ; bash'</command>
 			</action>
 		</item>
 		<item label="facebrute">
@@ -4330,9 +4225,9 @@
 				<command>urxvt -e sh -c 'fern-wifi-cracker ; bash'</command>
 			</action>
 		</item>
-		<item label="filezilla2john">
+		<item label="flask-unsign">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'filezilla2john ; bash'</command>
+				<command>urxvt -e sh -c 'flask-unsign ; bash'</command>
 			</action>
 		</item>
 		<item label="f-scrack">
@@ -4350,29 +4245,9 @@
 				<command>urxvt -e sh -c 'ftp-spider -h ; bash'</command>
 			</action>
 		</item>
-		<item label="fuzz_option">
+		<item label="genkeys">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'fuzz_option ; bash'</command>
-			</action>
-		</item>
-		<item label="geli2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'geli2john ; bash'</command>
-			</action>
-		</item>
-		<item label="genincstats">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'genincstats ; bash'</command>
-			</action>
-		</item>
-		<item label="genmkvpwd">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'genmkvpwd ; bash'</command>
-			</action>
-		</item>
-		<item label="genpmk">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'genpmk -h ; bash'</command>
+				<command>urxvt -e sh -c 'genkeys ; bash'</command>
 			</action>
 		</item>
 		<item label="gomapenum">
@@ -4380,14 +4255,14 @@
 				<command>urxvt -e sh -c 'gomapenum -h ; bash'</command>
 			</action>
 		</item>
-		<item label="gpg2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'gpg2john ; bash'</command>
-			</action>
-		</item>
 		<item label="gpocrack">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'gpocrack -h ; bash'</command>
+			</action>
+		</item>
+		<item label="gpp-decrypt">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'gpp-decrypt ; bash'</command>
 			</action>
 		</item>
 		<item label="habu.arp.ping">
@@ -4420,9 +4295,29 @@
 				<command>urxvt -e sh -c 'habu.cert.clone ; bash'</command>
 			</action>
 		</item>
+		<item label="habu.cert.crtsh">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'habu.cert.crtsh ; bash'</command>
+			</action>
+		</item>
 		<item label="habu.cert.names">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'habu.cert.names ; bash'</command>
+			</action>
+		</item>
+		<item label="habu.config.del">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'habu.config.del ; bash'</command>
+			</action>
+		</item>
+		<item label="habu.config.set">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'habu.config.set ; bash'</command>
+			</action>
+		</item>
+		<item label="habu.config.show">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'habu.config.show ; bash'</command>
 			</action>
 		</item>
 		<item label="habu.crack.luhn">
@@ -4440,9 +4335,19 @@
 				<command>urxvt -e sh -c 'habu.crypto.fernet ; bash'</command>
 			</action>
 		</item>
+		<item label="habu.crypto.fernet.genkey">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'habu.crypto.fernet.genkey ; bash'</command>
+			</action>
+		</item>
 		<item label="habu.crypto.gppref">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'habu.crypto.gppref ; bash'</command>
+			</action>
+		</item>
+		<item label="habu.crypto.hasher">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'habu.crypto.hasher ; bash'</command>
 			</action>
 		</item>
 		<item label="habu.crypto.xor">
@@ -4550,6 +4455,11 @@
 				<command>urxvt -e sh -c 'habu.icmp.ping ; bash'</command>
 			</action>
 		</item>
+		<item label="habu.icmp.ping6">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'habu.icmp.ping6 ; bash'</command>
+			</action>
+		</item>
 		<item label="habu.ip.asn">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'habu.ip.asn ; bash'</command>
@@ -4568,16 +4478,6 @@
 		<item label="habu.ip.public">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'habu.ip.public ; bash'</command>
-			</action>
-		</item>
-		<item label="habu.karma">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'habu.karma ; bash'</command>
-			</action>
-		</item>
-		<item label="habu.karma.bulk">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'habu.karma.bulk ; bash'</command>
 			</action>
 		</item>
 		<item label="habu.land">
@@ -4625,6 +4525,16 @@
 				<command>urxvt -e sh -c 'habu.server.ftp ; bash'</command>
 			</action>
 		</item>
+		<item label="habu.shodan">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'habu.shodan ; bash'</command>
+			</action>
+		</item>
+		<item label="habu.shodan.query">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'habu.shodan.query ; bash'</command>
+			</action>
+		</item>
 		<item label="habu.tcp.flags">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'habu.tcp.flags ; bash'</command>
@@ -4648,11 +4558,6 @@
 		<item label="habu.traceroute">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'habu.traceroute ; bash'</command>
-			</action>
-		</item>
-		<item label="habu.upgrade">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'habu.upgrade ; bash'</command>
 			</action>
 		</item>
 		<item label="habu.usercheck">
@@ -4680,6 +4585,11 @@
 				<command>urxvt -e sh -c 'habu.web.report ; bash'</command>
 			</action>
 		</item>
+		<item label="habu.web.screenshot">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'habu.web.screenshot ; bash'</command>
+			</action>
+		</item>
 		<item label="habu.whois.domain">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'habu.whois.domain ; bash'</command>
@@ -4690,19 +4600,34 @@
 				<command>urxvt -e sh -c 'habu.whois.ip ; bash'</command>
 			</action>
 		</item>
+		<item label="hashcatch">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'hashcatch ; bash'</command>
+			</action>
+		</item>
+		<item label="hashes">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'hashes ; bash'</command>
+			</action>
+		</item>
+		<item label="hashpump">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'hashpump ; bash'</command>
+			</action>
+		</item>
+		<item label="hashtag">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'hashtag ; bash'</command>
+			</action>
+		</item>
 		<item label="hate-crack">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'hate-crack ; bash'</command>
 			</action>
 		</item>
-		<item label="hccap2john">
+		<item label="hdcp-genkey">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'hccap2john ; bash'</command>
-			</action>
-		</item>
-		<item label="hccapx2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'hccapx2john ; bash'</command>
+				<command>urxvt -e sh -c 'hdcp-genkey ; bash'</command>
 			</action>
 		</item>
 		<item label="hdmi-sniff">
@@ -4710,29 +4635,14 @@
 				<command>urxvt -e sh -c 'hdmi-sniff -h ; bash'</command>
 			</action>
 		</item>
-		<item label="hextoraw">
+		<item label="hostbox-ssh">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'hextoraw ; bash'</command>
-			</action>
-		</item>
-		<item label="htdigest2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'htdigest2john ; bash'</command>
+				<command>urxvt -e sh -c 'hostbox-ssh ; bash'</command>
 			</action>
 		</item>
 		<item label="htpwdscan">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'htpwdscan -h ; bash'</command>
-			</action>
-		</item>
-		<item label="http-default-accounts-fingerprints-nndefaccts.lua">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'http-default-accounts-fingerprints-nndefaccts.lua ; bash'</command>
-			</action>
-		</item>
-		<item label="hydra">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'hydra -h ; bash'</command>
 			</action>
 		</item>
 		<item label="iax-scan-hosts">
@@ -4743,11 +4653,6 @@
 		<item label="iax-scan-users">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'iax-scan-users -h ; bash'</command>
-			</action>
-		</item>
-		<item label="ibmiscanner2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'ibmiscanner2john ; bash'</command>
 			</action>
 		</item>
 		<item label="ibrute">
@@ -4780,34 +4685,19 @@
 				<command>urxvt -e sh -c 'ikeforce -h ; bash'</command>
 			</action>
 		</item>
-		<item label="ikescan2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'ikescan2john ; bash'</command>
-			</action>
-		</item>
 		<item label="inguma">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'inguma -h ; bash'</command>
 			</action>
 		</item>
-		<item label="ingumagui">
+		<item label="instashell">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'ingumagui ; bash'</command>
+				<command>urxvt -e sh -c 'instashell ; bash'</command>
 			</action>
 		</item>
 		<item label="interrogate">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'interrogate -h ; bash'</command>
-			</action>
-		</item>
-		<item label="inurlbr.php">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'inurlbr.php ; bash'</command>
-			</action>
-		</item>
-		<item label="ios7tojohn">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'ios7tojohn ; bash'</command>
 			</action>
 		</item>
 		<item label="ipmipwn">
@@ -4825,24 +4715,9 @@
 				<command>urxvt -e sh -c 'iptv-gui ; bash'</command>
 			</action>
 		</item>
-		<item label="itunes_backup2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'itunes_backup2john ; bash'</command>
-			</action>
-		</item>
-		<item label="iwork2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'iwork2john ; bash'</command>
-			</action>
-		</item>
 		<item label="jbrute">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'jbrute --help ; bash'</command>
-			</action>
-		</item>
-		<item label="john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'john ; bash'</command>
 			</action>
 		</item>
 		<item label="johnny">
@@ -4905,24 +4780,19 @@
 				<command>urxvt -e sh -c 'katana-framework-ktfupdate ; bash'</command>
 			</action>
 		</item>
-		<item label="kdcdump2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'kdcdump2john ; bash'</command>
-			</action>
-		</item>
-		<item label="keepass2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'keepass2john ; bash'</command>
-			</action>
-		</item>
 		<item label="keimpx">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'keimpx -h ; bash'</command>
 			</action>
 		</item>
-		<item label="keychain2john">
+		<item label="kerberoast">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'keychain2john ; bash'</command>
+				<command>urxvt -e sh -c 'kerberoast ; bash'</command>
+			</action>
+		</item>
+		<item label="kerbrute">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'kerbrute ; bash'</command>
 			</action>
 		</item>
 		<item label="keyfinder">
@@ -4930,49 +4800,14 @@
 				<command>urxvt -e sh -c 'keyfinder ; bash'</command>
 			</action>
 		</item>
-		<item label="keyring2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'keyring2john ; bash'</command>
-			</action>
-		</item>
-		<item label="keystore2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'keystore2john ; bash'</command>
-			</action>
-		</item>
 		<item label="khc">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'khc ; bash'</command>
 			</action>
 		</item>
-		<item label="known_hosts2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'known_hosts2john ; bash'</command>
-			</action>
-		</item>
-		<item label="kwallet2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'kwallet2john ; bash'</command>
-			</action>
-		</item>
-		<item label="lastpass2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'lastpass2john ; bash'</command>
-			</action>
-		</item>
 		<item label="ldap-brute">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'ldap-brute -h ; bash'</command>
-			</action>
-		</item>
-		<item label="ldif2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'ldif2john ; bash'</command>
-			</action>
-		</item>
-		<item label="leet">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'leet ; bash'</command>
 			</action>
 		</item>
 		<item label="leviathan">
@@ -4985,24 +4820,9 @@
 				<command>urxvt -e sh -c 'levye -h ; bash'</command>
 			</action>
 		</item>
-		<item label="libreoffice2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'libreoffice2john ; bash'</command>
-			</action>
-		</item>
 		<item label="linset">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'linset ; bash'</command>
-			</action>
-		</item>
-		<item label="lion2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'lion2john ; bash'</command>
-			</action>
-		</item>
-		<item label="lion2john-alt">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'lion2john-alt ; bash'</command>
 			</action>
 		</item>
 		<item label="lodowep">
@@ -5010,19 +4830,9 @@
 				<command>urxvt -e sh -c 'lodowep -h ; bash'</command>
 			</action>
 		</item>
-		<item label="lotus2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'lotus2john ; bash'</command>
-			</action>
-		</item>
 		<item label="lsadump">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'lsadump ; bash'</command>
-			</action>
-		</item>
-		<item label="luks2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'luks2john ; bash'</command>
 			</action>
 		</item>
 		<item label="lyricpass">
@@ -5030,24 +4840,9 @@
 				<command>urxvt -e sh -c 'lyricpass -h ; bash'</command>
 			</action>
 		</item>
-		<item label="mac2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'mac2john ; bash'</command>
-			</action>
-		</item>
-		<item label="mac2john-alt">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'mac2john-alt ; bash'</command>
-			</action>
-		</item>
 		<item label="maskgen">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'maskgen -h ; bash'</command>
-			</action>
-		</item>
-		<item label="mcafee_epo2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'mcafee_epo2john ; bash'</command>
 			</action>
 		</item>
 		<item label="mdcrack">
@@ -5055,19 +4850,9 @@
 				<command>urxvt -e sh -c 'mdcrack ; bash'</command>
 			</action>
 		</item>
-		<item label="medusa">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'medusa -h ; bash'</command>
-			</action>
-		</item>
 		<item label="mentalist">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'mentalist ; bash'</command>
-			</action>
-		</item>
-		<item label="mfoc">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'mfoc -h ; bash'</command>
 			</action>
 		</item>
 		<item label="mimipenguin">
@@ -5078,21 +4863,6 @@
 		<item label="mkbrutus">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'mkbrutus -h ; bash'</command>
-			</action>
-		</item>
-		<item label="mkvcalcproba">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'mkvcalcproba ; bash'</command>
-			</action>
-		</item>
-		<item label="monero2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'monero2john ; bash'</command>
-			</action>
-		</item>
-		<item label="money2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'money2john ; bash'</command>
 			</action>
 		</item>
 		<item label="morxbook">
@@ -5120,16 +4890,6 @@
 				<command>urxvt -e sh -c 'morxcrack -h ; bash'</command>
 			</action>
 		</item>
-		<item label="mozilla2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'mozilla2john ; bash'</command>
-			</action>
-		</item>
-		<item label="multibit2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'multibit2john ; bash'</command>
-			</action>
-		</item>
 		<item label="mybff">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'mybff -h ; bash'</command>
@@ -5145,34 +4905,14 @@
 				<command>urxvt -e sh -c 'nbdecode ; bash'</command>
 			</action>
 		</item>
-		<item label="ncrack">
+		<item label="ntlm-to-des">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'ncrack -h ; bash'</command>
+				<command>urxvt -e sh -c 'ntlm-to-des ; bash'</command>
 			</action>
 		</item>
-		<item label="neo2john">
+		<item label="ntlmv1">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'neo2john ; bash'</command>
-			</action>
-		</item>
-		<item label="netntlm">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'netntlm ; bash'</command>
-			</action>
-		</item>
-		<item label="netscreen">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'netscreen ; bash'</command>
-			</action>
-		</item>
-		<item label="network2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'network2john ; bash'</command>
-			</action>
-		</item>
-		<item label="nmap-bootstrap.xsl">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'nmap-bootstrap.xsl ; bash'</command>
+				<command>urxvt -e sh -c 'ntlmv1 ; bash'</command>
 			</action>
 		</item>
 		<item label="o365enum">
@@ -5190,14 +4930,14 @@
 				<command>urxvt -e sh -c 'obevilion --help ; bash'</command>
 			</action>
 		</item>
+		<item label="oclhashcat">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'oclhashcat ; bash'</command>
+			</action>
+		</item>
 		<item label="ocs-cisco">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'ocs-cisco ; bash'</command>
-			</action>
-		</item>
-		<item label="office2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'office2john ; bash'</command>
 			</action>
 		</item>
 		<item label="omen-alphabetcreator">
@@ -5225,19 +4965,14 @@
 				<command>urxvt -e sh -c 'onesixtyone ; bash'</command>
 			</action>
 		</item>
-		<item label="openbsd_softraid2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'openbsd_softraid2john ; bash'</command>
-			</action>
-		</item>
-		<item label="openssl2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'openssl2john ; bash'</command>
-			</action>
-		</item>
 		<item label="ophcrack">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'ophcrack -h ; bash'</command>
+			</action>
+		</item>
+		<item label="outlook-webapp-brute">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'outlook-webapp-brute ; bash'</command>
 			</action>
 		</item>
 		<item label="owabf">
@@ -5245,24 +4980,14 @@
 				<command>urxvt -e sh -c 'owabf -h ; bash'</command>
 			</action>
 		</item>
-		<item label="padlock2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'padlock2john ; bash'</command>
-			</action>
-		</item>
-		<item label="pass_gen">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'pass_gen ; bash'</command>
-			</action>
-		</item>
-		<item label="passcracking">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'passcracking ; bash'</command>
-			</action>
-		</item>
 		<item label="passe-partout">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'passe-partout -h ; bash'</command>
+			</action>
+		</item>
+		<item label="passgan">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'passgan ; bash'</command>
 			</action>
 		</item>
 		<item label="passtime">
@@ -5275,29 +5000,9 @@
 				<command>urxvt -e sh -c 'patator --help ; bash'</command>
 			</action>
 		</item>
-		<item label="pcap2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'pcap2john ; bash'</command>
-			</action>
-		</item>
-		<item label="pdf2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'pdf2john ; bash'</command>
-			</action>
-		</item>
-		<item label="pdfcrack">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'pdfcrack ; bash'</command>
-			</action>
-		</item>
 		<item label="pdgmail">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'pdgmail -h ; bash'</command>
-			</action>
-		</item>
-		<item label="pem2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'pem2john ; bash'</command>
 			</action>
 		</item>
 		<item label="pemcrack">
@@ -5308,21 +5013,6 @@
 		<item label="pemcracker">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'pemcracker ; bash'</command>
-			</action>
-		</item>
-		<item label="pfx2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'pfx2john ; bash'</command>
-			</action>
-		</item>
-		<item label="pgpdisk2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'pgpdisk2john ; bash'</command>
-			</action>
-		</item>
-		<item label="pgpwde2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'pgpwde2john ; bash'</command>
 			</action>
 		</item>
 		<item label="PHoss">
@@ -5360,34 +5050,24 @@
 				<command>urxvt -e sh -c 'pkcrack-extract ; bash'</command>
 			</action>
 		</item>
+		<item label="pkcrack-findkey">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'pkcrack-findkey ; bash'</command>
+			</action>
+		</item>
+		<item label="pkcrack-makekey">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'pkcrack-makekey ; bash'</command>
+			</action>
+		</item>
+		<item label="pkcrack-zipdecrypt">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'pkcrack-zipdecrypt ; bash'</command>
+			</action>
+		</item>
 		<item label="policygen">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'policygen -h ; bash'</command>
-			</action>
-		</item>
-		<item label="potcheck">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'potcheck ; bash'</command>
-			</action>
-		</item>
-		<item label="prosody2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'prosody2john ; bash'</command>
-			</action>
-		</item>
-		<item label="ps_token2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'ps_token2john ; bash'</command>
-			</action>
-		</item>
-		<item label="pse2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'pse2john ; bash'</command>
-			</action>
-		</item>
-		<item label="putty2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'putty2john ; bash'</command>
 			</action>
 		</item>
 		<item label="pwcrack">
@@ -5400,16 +5080,6 @@
 				<command>urxvt -e sh -c 'pwdump cd /usr/share/windows/pwdump ; ls ; bash'</command>
 			</action>
 		</item>
-		<item label="pw-inspector">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'pw-inspector -h ; bash'</command>
-			</action>
-		</item>
-		<item label="pwsafe2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'pwsafe2john ; bash'</command>
-			</action>
-		</item>
 		<item label="pxedump">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'pxedump -h ; bash'</command>
@@ -5420,6 +5090,11 @@
 				<command>urxvt -e sh -c 'pybozocrack -h ; bash'</command>
 			</action>
 		</item>
+		<item label="pybozocrack.py">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'pybozocrack.py ; bash'</command>
+			</action>
+		</item>
 		<item label="pyrit">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'pyrit -h ; bash'</command>
@@ -5428,31 +5103,6 @@
 		<item label="pythem">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'pythem ; bash'</command>
-			</action>
-		</item>
-		<item label="racf2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'racf2john ; bash'</command>
-			</action>
-		</item>
-		<item label="radius2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'radius2john ; bash'</command>
-			</action>
-		</item>
-		<item label="rar2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'rar2john ; bash'</command>
-			</action>
-		</item>
-		<item label="rarcrack">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'rarcrack --help ; bash'</command>
-			</action>
-		</item>
-		<item label="raw2dyna">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'raw2dyna ; bash'</command>
 			</action>
 		</item>
 		<item label="rcrack">
@@ -5475,19 +5125,9 @@
 				<command>urxvt -e sh -c 'rdpassspray -h ; bash'</command>
 			</action>
 		</item>
-		<item label="reaver">
+		<item label="rfcrack">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'reaver ; bash'</command>
-			</action>
-		</item>
-		<item label="reged">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'reged ; bash'</command>
-			</action>
-		</item>
-		<item label="rexgen2rules">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'rexgen2rules ; bash'</command>
+				<command>urxvt -e sh -c 'rfcrack ; bash'</command>
 			</action>
 		</item>
 		<item label="rhodiola">
@@ -5520,6 +5160,11 @@
 				<command>urxvt -e sh -c 'rsactftool -h ; bash'</command>
 			</action>
 		</item>
+		<item label="rsakeyfind">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'rsakeyfind ; bash'</command>
+			</action>
+		</item>
 		<item label="rt2rtc">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'rt2rtc ; bash'</command>
@@ -5550,24 +5195,19 @@
 				<command>urxvt -e sh -c 'rulegen -h ; bash'</command>
 			</action>
 		</item>
-		<item label="rulestack">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'rulestack ; bash'</command>
-			</action>
-		</item>
 		<item label="rustpad">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'rustpad -h ; bash'</command>
 			</action>
 		</item>
+		<item label="samdump2">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'samdump2 ; bash'</command>
+			</action>
+		</item>
 		<item label="samydeluxe">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'samydeluxe -h ; bash'</command>
-			</action>
-		</item>
-		<item label="sap2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'sap2john ; bash'</command>
 			</action>
 		</item>
 		<item label="sb0x">
@@ -5578,16 +5218,6 @@
 		<item label="sc">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'sc ; bash'</command>
-			</action>
-		</item>
-		<item label="sha-dump">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'sha-dump ; bash'</command>
-			</action>
-		</item>
-		<item label="sha-test">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'sha-test ; bash'</command>
 			</action>
 		</item>
 		<item label="shell-erldp">
@@ -5605,11 +5235,6 @@
 				<command>urxvt -e sh -c 'sidguess ; bash'</command>
 			</action>
 		</item>
-		<item label="signal2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'signal2john ; bash'</command>
-			</action>
-		</item>
 		<item label="sipbrute">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'sipbrute -h ; bash'</command>
@@ -5620,19 +5245,9 @@
 				<command>urxvt -e sh -c 'sipcrack -h ; bash'</command>
 			</action>
 		</item>
-		<item label="sipdump">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'sipdump -h ; bash'</command>
-			</action>
-		</item>
 		<item label="SIPdump">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'SIPdump ; bash'</command>
-			</action>
-		</item>
-		<item label="sipdump2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'sipdump2john ; bash'</command>
 			</action>
 		</item>
 		<item label="skul">
@@ -5700,29 +5315,39 @@
 				<command>urxvt -e sh -c 'sqlbf ; bash'</command>
 			</action>
 		</item>
+		<item label="sshatter">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'sshatter ; bash'</command>
+			</action>
+		</item>
+		<item label="sshprank">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'sshprank ; bash'</command>
+			</action>
+		</item>
+		<item label="ssh-privkey-crack">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'ssh-privkey-crack ; bash'</command>
+			</action>
+		</item>
+		<item label="sshscan">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'sshscan ; bash'</command>
+			</action>
+		</item>
+		<item label="sshtrix">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'sshtrix ; bash'</command>
+			</action>
+		</item>
 		<item label="sslnuke">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'sslnuke ; bash'</command>
 			</action>
 		</item>
-		<item label="sspr2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'sspr2john ; bash'</command>
-			</action>
-		</item>
-		<item label="staroffice2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'staroffice2john ; bash'</command>
-			</action>
-		</item>
 		<item label="statsgen">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'statsgen -h ; bash'</command>
-			</action>
-		</item>
-		<item label="strip2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'strip2john ; bash'</command>
 			</action>
 		</item>
 		<item label="sucrack">
@@ -5743,16 +5368,6 @@
 		<item label="talon">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'talon -h ; bash'</command>
-			</action>
-		</item>
-		<item label="telegram2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'telegram2john ; bash'</command>
-			</action>
-		</item>
-		<item label="tezos2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'tezos2john ; bash'</command>
 			</action>
 		</item>
 		<item label="tftpbrute">
@@ -5780,19 +5395,14 @@
 				<command>urxvt -e sh -c 'trevorspray -h ; bash'</command>
 			</action>
 		</item>
-		<item label="truecrypt2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'truecrypt2john ; bash'</command>
-			</action>
-		</item>
 		<item label="ttpassgen">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'ttpassgen -h ; bash'</command>
 			</action>
 		</item>
-		<item label="uaf2john">
+		<item label="tweetshell">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'uaf2john ; bash'</command>
+				<command>urxvt -e sh -c 'tweetshell ; bash'</command>
 			</action>
 		</item>
 		<item label="ufo-wardriving">
@@ -5800,49 +5410,14 @@
 				<command>urxvt -e sh -c 'ufo-wardriving ; bash'</command>
 			</action>
 		</item>
-		<item label="unafs">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'unafs ; bash'</command>
-			</action>
-		</item>
-		<item label="undrop">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'undrop ; bash'</command>
-			</action>
-		</item>
-		<item label="unique">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'unique ; bash'</command>
-			</action>
-		</item>
-		<item label="unrule">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'unrule ; bash'</command>
-			</action>
-		</item>
 		<item label="usbdump">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'usbdump -h ; bash'</command>
 			</action>
 		</item>
-		<item label="vdi2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'vdi2john ; bash'</command>
-			</action>
-		</item>
-		<item label="vmx2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'vmx2john ; bash'</command>
-			</action>
-		</item>
 		<item label="vnc-bypauth">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'vnc-bypauth ; bash'</command>
-			</action>
-		</item>
-		<item label="vncpcap2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'vncpcap2john ; bash'</command>
 			</action>
 		</item>
 		<item label="vncrack">
@@ -5855,9 +5430,9 @@
 				<command>urxvt -e sh -c 'wifibroot -h ; bash'</command>
 			</action>
 		</item>
-		<item label="wifite">
+		<item label="wirouterkeyrec">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'wifite ; bash'</command>
+				<command>urxvt -e sh -c 'wirouterkeyrec ; bash'</command>
 			</action>
 		</item>
 		<item label="wmat">
@@ -5870,9 +5445,9 @@
 				<command>urxvt -e sh -c 'wordbrutepress ; bash'</command>
 			</action>
 		</item>
-		<item label="wpapcap2john">
+		<item label="wpa2-halfhandshake-crack">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'wpapcap2john ; bash'</command>
+				<command>urxvt -e sh -c 'wpa2-halfhandshake-crack ; bash'</command>
 			</action>
 		</item>
 		<item label="wpbf">
@@ -5895,9 +5470,19 @@
 				<command>urxvt -e sh -c 'wpforce-yertle -h ; bash'</command>
 			</action>
 		</item>
+		<item label="wr_iwlist.sh">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'wr_iwlist.sh ; bash'</command>
+			</action>
+		</item>
 		<item label="wyd">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'wyd ; bash'</command>
+			</action>
+		</item>
+		<item label="xorbruteforcer">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'xorbruteforcer ; bash'</command>
 			</action>
 		</item>
 		<item label="zackattack">
@@ -5905,14 +5490,14 @@
 				<command>urxvt -e sh -c 'zackattack -h ; bash'</command>
 			</action>
 		</item>
-		<item label="zip2john">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'zip2john ; bash'</command>
-			</action>
-		</item>
 		<item label="zulu">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'zulu ; bash'</command>
+			</action>
+		</item>
+		<item label="zykeys">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'zykeys ; bash'</command>
 			</action>
 		</item>
 	</menu>
