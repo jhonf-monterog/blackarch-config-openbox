@@ -5508,9 +5508,9 @@
 				<command>urxvt -e sh -c 'aespipe -h ; bash'</command>
 			</action>
 		</item>
-		<item label="argon2">
+		<item label="ares">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'argon2 -h ; bash'</command>
+				<command>urxvt -e sh -c 'ares ; bash'</command>
 			</action>
 		</item>
 		<item label="armor">
@@ -5558,6 +5558,11 @@
 				<command>urxvt -e sh -c 'bletchley-encode ; bash'</command>
 			</action>
 		</item>
+		<item label="bletchley-http2py">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'bletchley-http2py ; bash'</command>
+			</action>
+		</item>
 		<item label="bletchley-nextrand">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'bletchley-nextrand ; bash'</command>
@@ -5580,12 +5585,22 @@
 		</item>
 		<item label="bunnyducky">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'bunnyducky -h ; bash'</command>
+				<command>urxvt -e sh -c 'bunnyducky ; bash'</command>
 			</action>
 		</item>
 		<item label="c5c">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'c5c --help ; bash'</command>
+				<command>urxvt -e sh -c 'c5c ; bash'</command>
+			</action>
+		</item>
+		<item label="c7decrypt">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'c7decrypt ; bash'</command>
+			</action>
+		</item>
+		<item label="check-weak-dh-ssh">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'check-weak-dh-ssh ; bash'</command>
 			</action>
 		</item>
 		<item label="cipherscan">
@@ -5623,6 +5638,16 @@
 				<command>urxvt -e sh -c 'codetective -h ; bash'</command>
 			</action>
 		</item>
+		<item label="crackpkcs12">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'crackpkcs12 ; bash'</command>
+			</action>
+		</item>
+		<item label="create-csr">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'create-csr ; bash'</command>
+			</action>
+		</item>
 		<item label="cribdrag">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'cribdrag -h ; bash'</command>
@@ -5630,7 +5655,7 @@
 		</item>
 		<item label="cribdrag-xorstrings">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'cribdrag-xorstrings -h ; bash'</command>
+				<command>urxvt -e sh -c 'cribdrag-xorstrings ; bash'</command>
 			</action>
 		</item>
 		<item label="cryptohazemultiforcer">
@@ -5700,7 +5725,7 @@
 		</item>
 		<item label="ducktools">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'ducktools -h ; bash'</command>
+				<command>urxvt -e sh -c 'ducktools ; bash'</command>
 			</action>
 		</item>
 		<item label="evilize">
@@ -5708,9 +5733,19 @@
 				<command>urxvt -e sh -c 'evilize -h ; bash'</command>
 			</action>
 		</item>
+		<item label="evilize-md5coll">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'evilize-md5coll ; bash'</command>
+			</action>
+		</item>
 		<item label="factordb">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'factordb -h ; bash'</command>
+				<command>urxvt -e sh -c 'factordb ; bash'</command>
+			</action>
+		</item>
+		<item label="fakekey">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'fakekey ; bash'</command>
 			</action>
 		</item>
 		<item label="featherduster">
@@ -5718,14 +5753,39 @@
 				<command>urxvt -e sh -c 'featherduster -h ; bash'</command>
 			</action>
 		</item>
+		<item label="findmyhash">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'findmyhash ; bash'</command>
+			</action>
+		</item>
 		<item label="foresee">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'foresee -h ; bash'</command>
+				<command>urxvt -e sh -c 'foresee ; bash'</command>
 			</action>
 		</item>
 		<item label="gcrypt">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'gcrypt --help ; bash'</command>
+			</action>
+		</item>
+		<item label="gdir.pl">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'gdir.pl ; bash'</command>
+			</action>
+		</item>
+		<item label="gen-shellcode">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'gen-shellcode ; bash'</command>
+			</action>
+		</item>
+		<item label="getsubdomain">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'getsubdomain ; bash'</command>
+			</action>
+		</item>
+		<item label="gpp-decrypt">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'gpp-decrypt ; bash'</command>
 			</action>
 		</item>
 		<item label="haiti">
@@ -5738,9 +5798,119 @@
 				<command>urxvt -e sh -c 'haiti_console ; bash'</command>
 			</action>
 		</item>
+		<item label="haiti-fzf">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'haiti-fzf ; bash'</command>
+			</action>
+		</item>
+		<item label="haiti-parsable">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'haiti-parsable ; bash'</command>
+			</action>
+		</item>
+		<item label="hash-buster">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'hash-buster ; bash'</command>
+			</action>
+		</item>
+		<item label="hashcat-haiti">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'hashcat-haiti ; bash'</command>
+			</action>
+		</item>
+		<item label="hashcheck">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'hashcheck ; bash'</command>
+			</action>
+		</item>
+		<item label="hashdb">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'hashdb ; bash'</command>
+			</action>
+		</item>
+		<item label="hashdeep">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'hashdeep ; bash'</command>
+			</action>
+		</item>
+		<item label="hashes">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'hashes ; bash'</command>
+			</action>
+		</item>
+		<item label="hash-extender">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'hash-extender ; bash'</command>
+			</action>
+		</item>
+		<item label="hash-extender-test">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'hash-extender-test ; bash'</command>
+			</action>
+		</item>
+		<item label="hashfind">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'hashfind ; bash'</command>
+			</action>
+		</item>
+		<item label="hashid">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'hashid ; bash'</command>
+			</action>
+		</item>
+		<item label="hash-identifier">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'hash-identifier ; bash'</command>
+			</action>
+		</item>
+		<item label="hashpeek">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'hashpeek ; bash'</command>
+			</action>
+		</item>
+		<item label="hashpump">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'hashpump ; bash'</command>
+			</action>
+		</item>
+		<item label="hashrat">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'hashrat ; bash'</command>
+			</action>
+		</item>
+		<item label="hdcp-genkey">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'hdcp-genkey ; bash'</command>
+			</action>
+		</item>
+		<item label="histogram">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'histogram ; bash'</command>
+			</action>
+		</item>
+		<item label="httpsscanner">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'httpsscanner ; bash'</command>
+			</action>
+		</item>
 		<item label="ja3">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'ja3 -h ; bash'</command>
+			</action>
+		</item>
+		<item label="john-haiti">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'john-haiti ; bash'</command>
+			</action>
+		</item>
+		<item label="jwt-key-recovery">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'jwt-key-recovery ; bash'</command>
+			</action>
+		</item>
+		<item label="kh2hc">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'kh2hc ; bash'</command>
 			</action>
 		</item>
 		<item label="kraken">
@@ -5763,9 +5933,14 @@
 				<command>urxvt -e sh -c 'luksipc -h ; bash'</command>
 			</action>
 		</item>
+		<item label="matchcertkey">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'matchcertkey ; bash'</command>
+			</action>
+		</item>
 		<item label="md5deep">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'md5deep -h ; bash'</command>
+				<command>urxvt -e sh -c 'md5deep ; bash'</command>
 			</action>
 		</item>
 		<item label="morxcrack">
@@ -5773,29 +5948,54 @@
 				<command>urxvt -e sh -c 'morxcrack -h ; bash'</command>
 			</action>
 		</item>
+		<item label="morxkeyfmt">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'morxkeyfmt ; bash'</command>
+			</action>
+		</item>
 		<item label="nomorexor">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'nomorexor ; bash'</command>
 			</action>
 		</item>
+		<item label="ntlm-to-des">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'ntlm-to-des ; bash'</command>
+			</action>
+		</item>
+		<item label="ntlmv1">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'ntlmv1 ; bash'</command>
+			</action>
+		</item>
+		<item label="ocspverify">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'ocspverify ; bash'</command>
+			</action>
+		</item>
 		<item label="omen-alphabetcreator">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'omen-alphabetcreator -h ; bash'</command>
+				<command>urxvt -e sh -c 'omen-alphabetcreator ; bash'</command>
 			</action>
 		</item>
 		<item label="omen-createng">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'omen-createng -h ; bash'</command>
+				<command>urxvt -e sh -c 'omen-createng ; bash'</command>
 			</action>
 		</item>
 		<item label="omen-enumng">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'omen-enumng -h ; bash'</command>
+				<command>urxvt -e sh -c 'omen-enumng ; bash'</command>
 			</action>
 		</item>
 		<item label="omen-evalpw">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'omen-evalpw -h ; bash'</command>
+				<command>urxvt -e sh -c 'omen-evalpw ; bash'</command>
+			</action>
+		</item>
+		<item label="omnihash">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'omnihash ; bash'</command>
 			</action>
 		</item>
 		<item label="openstego">
@@ -5808,14 +6008,64 @@
 				<command>urxvt -e sh -c 'outguess ; bash'</command>
 			</action>
 		</item>
+		<item label="pacumen_classify_pcap.py">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'pacumen_classify_pcap.py ; bash'</command>
+			</action>
+		</item>
+		<item label="pacumen_timeseries.py">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'pacumen_timeseries.py ; bash'</command>
+			</action>
+		</item>
+		<item label="pacumen_train.py">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'pacumen_train.py ; bash'</command>
+			</action>
+		</item>
+		<item label="pacumen_visualize.py">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'pacumen_visualize.py ; bash'</command>
+			</action>
+		</item>
+		<item label="padbuster">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'padbuster ; bash'</command>
+			</action>
+		</item>
+		<item label="padoracle">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'padoracle ; bash'</command>
+			</action>
+		</item>
+		<item label="padre">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'padre ; bash'</command>
+			</action>
+		</item>
+		<item label="pax-oracle">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'pax-oracle ; bash'</command>
+			</action>
+		</item>
 		<item label="pip3line">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'pip3line ; bash'</command>
 			</action>
 		</item>
+		<item label="pip3linecmd">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'pip3linecmd ; bash'</command>
+			</action>
+		</item>
 		<item label="posttester">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'posttester -h ; bash'</command>
+			</action>
+		</item>
+		<item label="pwd-hash">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'pwd-hash ; bash'</command>
 			</action>
 		</item>
 		<item label="pwdlyser">
@@ -5826,6 +6076,11 @@
 		<item label="pybozocrack">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'pybozocrack -h ; bash'</command>
+			</action>
+		</item>
+		<item label="pybozocrack.py">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'pybozocrack.py ; bash'</command>
 			</action>
 		</item>
 		<item label="pyssltest">
@@ -5848,6 +6103,11 @@
 				<command>urxvt -e sh -c 'rsatool -h ; bash'</command>
 			</action>
 		</item>
+		<item label="rshack">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'rshack ; bash'</command>
+			</action>
+		</item>
 		<item label="rupture">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'rupture -h ; bash'</command>
@@ -5868,6 +6128,16 @@
 				<command>urxvt -e sh -c 'sbd -h ; bash'</command>
 			</action>
 		</item>
+		<item label="seccomp-tools">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'seccomp-tools ; bash'</command>
+			</action>
+		</item>
+		<item label="seek_script">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'seek_script ; bash'</command>
+			</action>
+		</item>
 		<item label="sha1dcsum">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'sha1dcsum ; bash'</command>
@@ -5880,12 +6150,12 @@
 		</item>
 		<item label="sha1deep">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'sha1deep -h ; bash'</command>
+				<command>urxvt -e sh -c 'sha1deep ; bash'</command>
 			</action>
 		</item>
 		<item label="sha256deep">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'sha256deep -h ; bash'</command>
+				<command>urxvt -e sh -c 'sha256deep ; bash'</command>
 			</action>
 		</item>
 		<item label="sherlocked">
@@ -5908,21 +6178,6 @@
 				<command>urxvt -e sh -c 'snow -h ; bash'</command>
 			</action>
 		</item>
-		<item label="spipe">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'spipe ; bash'</command>
-			</action>
-		</item>
-		<item label="spiped">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'spiped ; bash'</command>
-			</action>
-		</item>
-		<item label="ssdeep">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'ssdeep ; bash'</command>
-			</action>
-		</item>
 		<item label="sslcaudit">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'sslcaudit -h ; bash'</command>
@@ -5936,11 +6191,6 @@
 		<item label="sslmap">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'sslmap -h ; bash'</command>
-			</action>
-		</item>
-		<item label="sslscan">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'sslscan ; bash'</command>
 			</action>
 		</item>
 		<item label="sslyze">
@@ -5963,14 +6213,9 @@
 				<command>urxvt -e sh -c 'tchunt-ng -h ; bash'</command>
 			</action>
 		</item>
-		<item label="testssl">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'testssl ; bash'</command>
-			</action>
-		</item>
 		<item label="tigerdeep">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'tigerdeep -h ; bash'</command>
+				<command>urxvt -e sh -c 'tigerdeep ; bash'</command>
 			</action>
 		</item>
 		<item label="tls-attacker-Attacks">
@@ -6013,6 +6258,11 @@
 				<command>urxvt -e sh -c 'tls-map -h ; bash'</command>
 			</action>
 		</item>
+		<item label="tls-map_console">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'tls-map_console ; bash'</command>
+			</action>
+		</item>
 		<item label="tlspretense">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'tlspretense ; bash'</command>
@@ -6023,14 +6273,14 @@
 				<command>urxvt -e sh -c 'tls-prober -h ; bash'</command>
 			</action>
 		</item>
+		<item label="train_all.py">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'train_all.py ; bash'</command>
+			</action>
+		</item>
 		<item label="untwister">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'untwister -h ; bash'</command>
-			</action>
-		</item>
-		<item label="veracrypt">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'veracrypt ; bash'</command>
 			</action>
 		</item>
 		<item label="webfixy">
@@ -6040,17 +6290,12 @@
 		</item>
 		<item label="whirlpooldeep">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'whirlpooldeep -h ; bash'</command>
+				<command>urxvt -e sh -c 'whirlpooldeep ; bash'</command>
 			</action>
 		</item>
-		<item label="wlangenpmk">
+		<item label="xorbruteforcer">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'wlangenpmk -h ; bash'</command>
-			</action>
-		</item>
-		<item label="wlangenpmkocl">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'wlangenpmkocl -h ; bash'</command>
+				<command>urxvt -e sh -c 'xorbruteforcer ; bash'</command>
 			</action>
 		</item>
 		<item label="xorsearch">
@@ -6058,24 +6303,24 @@
 				<command>urxvt -e sh -c 'xorsearch ; bash'</command>
 			</action>
 		</item>
-		<item label="xortool">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'xortool -h ; bash'</command>
-			</action>
-		</item>
-		<item label="xortool-xor">
-			<action name="Execute">
-				<command>urxvt -e sh -c 'xortool-xor ; bash'</command>
-			</action>
-		</item>
 		<item label="x-rsa">
 			<action name="Execute">
 				<command>urxvt -e sh -c 'x-rsa -h ; bash'</command>
 			</action>
 		</item>
+		<item label="xval.py">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'xval.py ; bash'</command>
+			</action>
+		</item>
+		<item label="zipexec">
+			<action name="Execute">
+				<command>urxvt -e sh -c 'zipexec ; bash'</command>
+			</action>
+		</item>
 		<item label="zuluCrypt-cli">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'zuluCrypt-cli -h ; bash'</command>
+				<command>urxvt -e sh -c 'zuluCrypt-cli ; bash'</command>
 			</action>
 		</item>
 		<item label="zuluCrypt-gui">
@@ -6085,7 +6330,7 @@
 		</item>
 		<item label="zuluMount-cli">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'zuluMount-cli -h ; bash'</command>
+				<command>urxvt -e sh -c 'zuluMount-cli ; bash'</command>
 			</action>
 		</item>
 		<item label="zuluMount-gui">
@@ -6095,12 +6340,12 @@
 		</item>
 		<item label="zuluPolkit">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'zuluPolkit -h ; bash'</command>
+				<command>urxvt -e sh -c 'zuluPolkit ; bash'</command>
 			</action>
 		</item>
 		<item label="zuluSafe-cli">
 			<action name="Execute">
-				<command>urxvt -e sh -c 'zuluSafe-cli -h ; bash'</command>
+				<command>urxvt -e sh -c 'zuluSafe-cli ; bash'</command>
 			</action>
 		</item>
 	</menu>
